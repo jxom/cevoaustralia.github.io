@@ -1,19 +1,18 @@
-- text: "Cevo provided an invaluable service augmenting our existing
-    capabilities with little training allowing us to meet our tight deadlines"
-  author: Grant Tibbey
-  position: Project Lead, MYOB Australia
+- text: "Cevo were great. They listened to the goals of our project, what the team needed and they provided great engineers who were exactly what we required. We've been running iterative development for years and needed seasoned agile developers who could blend into the team and immediately contribute in the next sprint. That's who we got. Full-stack experience, and capable from the front end end UI down to automation of AWS infrastructure commissioning. They were a perfect addition to our team and meant we could get the project delivered much more quickly."
+  author: Julian Boot
+  position: CTO, Urbanise
 - text: "Cevo engineers did a great job integrating their services into our IT team recently and help us manage our AWS costs more efficiently.  Cevo helped us introduce more efficient tagging and reporting capabilities that have unlocked internal back charges, termination of unclaimed resources via an elegant event driven implementation, and the foundations for saving recommendations. Our target is to achieve at least 15% savings through this implementation in this financial year."
   author: Javier Turégano
   position: Global Infrastructure and Architecture Manager, Realestate.com.au
-- text: "We've engaged Cevo several times to complete discreet, challenging pieces of work and helped us when we needed it. Each member of the team has been, professional, knowledgeable, collaborative and a pleasure to work with."
-  author: Mike Deck
-  position: Production Operations Manager, Aconex
 - text: "Our developers could have gone through self-training to learn the AWS framework which would have taken a few weeks, however the methodology that David took us through in the 3 days allowed our solution to be deployed to AWS’s infrastructure in time for client testing. During the 3 days with David our team also gained enough knowledge to maintain and further solidify the solution through Continuous Integration ... Without Cevo’s and in particular David’s assistance we would have spent almost 3 weeks getting up to speed with AWS."
   author: Ravi Nath
   position: Director - Solution Design and Delivery, Voice Interface Design
 - text: "We needed a lot of help to start the move into devops and the Cevo team have delivered over and above our expectations. They have 'jumpstarted' us on the devops journey and we now have a proven process for CD."
   author: Janet Brennen
   position: Manager, Enterprise Applications - eSolutions - Monash University
-- text: "Cevo were great. They listened to the goals of our project, what the team needed and they provided great engineers who were exactly what we required. We've been running iterative development for years and needed seasoned agile developers who could blend into the team and immediately contribute in the next sprint. That's who we got. Full-stack experience, and capable from the front end end UI down to automation of AWS infrastructure commissioning. They were a perfect addition to our team and meant we could get the project delivered much more quickly."
-  author: Julian Boot
-  position: CTO, Urbanise
+- text: "We've engaged Cevo several times to complete discreet, challenging pieces of work and helped us when we needed it. Each member of the team has been, professional, knowledgeable, collaborative and a pleasure to work with."
+  author: Mike Deck
+  position: Production Operations Manager, Aconex
+- text: "Cevo provided an invaluable service augmenting our existing capabilities with little training allowing us to meet our tight deadlines"
+  author: Grant Tibbey
+  position: Project Lead, MYOB Australia
