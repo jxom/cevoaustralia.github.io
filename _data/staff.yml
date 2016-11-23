@@ -226,3 +226,13 @@
   #     url:
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
+
+- name: Jamie Potter
+  sort: 0
+  position: Executive Director
+  desc: Jamie works behind the scenes at Cevo ensuring the business is ready for the predicted growth.
+        <br/><br/>He’s been involved in numerous technology start-ups, expansions and exits. He uses his experience to help Cevo build scale into its delivery and operations.
+  avatar: images/staff/jamie_potter.jpg
+#  socials:
+#    - icon_class: fa fa-linkedin
+#      url: https://au.linkedin.com/in/geoffrohrsheim
