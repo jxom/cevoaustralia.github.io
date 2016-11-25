@@ -150,6 +150,8 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/trenthornibrook
+    - icon_class: fa fa-twitter
+      url: https://www.twitter.com/mysqldbahelp
 
 - name: Owen Chung
   sort: 10
