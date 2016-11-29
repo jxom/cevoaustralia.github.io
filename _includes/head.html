@@ -11,6 +11,32 @@
   <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
 
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@cevoaustralia">
+  {% if page.twittercreator %}
+  <meta name="twitter:creator" content="@{{ page.twittercreator }}">
+  {% endif %}
+  {% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+  {% endif %}
+  {% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.thumbnail %}
+  <meta name="twitter:image" content="{{ site.url }}/images/{{ page.thumbnail }}">
+  <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.thumbnail }}">
+  {% else %}
+  <meta name="twitter:image" content="https://cevo.com.au/images/cevo-swoosh.png">
+  <meta name="twitter:image:src" content="https://cevo.com.au/images/cevo-swoosh.png">
+  {% endif %}
+
   <script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>
   <script src="{{ "/javascripts/ga.js" | prepend: site.baseurl }}" type="text/javascript"></script>
   <script>
