@@ -829,6 +829,7 @@ jQuery(document).foundation();
         autoplay: true,
         dots: show_dots,
         speed: 1500,
+        autoplaySpeed: 20000,
         pauseOnHover: true,
         pauseOnFocus: true,
         arrows: false
