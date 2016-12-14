@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Enterprise AWS adoption
+description: The challenges of AWS adoption to organisational structures, staffing, skills, processes & practices
 date:   2016-11-24
 categories:
   - Enterprise
@@ -14,7 +15,7 @@ excerpt:
 
 As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing. Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.
 
-Over time, these organisations have responded to their environments by creating structure focussed on satisfying the inherent constraints and requirements of running their own infrastructure.
+Over time, these organisations have responded to their environments by creating structure focused on satisfying the inherent constraints and requirements of running their own infrastructure.
 
 Within traditional environments, the lifecycle for infrastructure is measured in years. There is a constant need to manage risk across all aspects of designing, provisioning, building and running systems. This management requires teams of people who need to be trained, organised and motivated to keep those systems running, often 24hrs a day, against increasing demand from customers both internal and external.
 
@@ -29,7 +30,7 @@ For savvy organisations, a cloud can be considerably more.  The challenge is to 
 
 There are many aspects to cloud computing, and many words have already been written about how to unlock infrastructure for development or application teams to deliver value faster or easier.
 
-In many enterprises, significant investment is made in specialist teams with sophisticated skills to ensure a consistent approach to managing infrastructure that cuts across many different departments.  Teams are formed to manage complex networking requirements, ensure security risks are minimised and combined with teams focussed on server and storage.
+In many enterprises, significant investment is made in specialist teams with sophisticated skills to ensure a consistent approach to managing infrastructure that cuts across many different departments.  Teams are formed to manage complex networking requirements, ensure security risks are minimised and combined with teams focused on server and storage.
 
 Successful delivery of a transition from large scale, on premise infrastructure to a cloud computing approach, requires a fundamental review and refactor of the way in which both these teams and their infrastructure are constructed, delivered, guided and retired.
 

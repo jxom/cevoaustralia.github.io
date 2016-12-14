@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  The Consul of Elders
+description: An overview of how Consul software makes it easy to identify and find docker containers in large scale deployments
 date:   2015-10-22 07:20:05
 categories:
   - DevOps
