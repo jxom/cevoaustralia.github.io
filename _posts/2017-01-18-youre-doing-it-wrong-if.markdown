@@ -34,8 +34,7 @@ But in this case it's more like
 
 > "When you have eliminated **whats wrong**, whatever remains, however improbable, **must be right**".
 
-
-It's can be really liberating to take this approach, by defining what not to do you _don't have to be right_, you __only don't have to be not wrong__.  It might sound counter intuiative, but I think you'll find that it's much easier to exclude the things that have caused pain, while still allows room for innovation and iteration.
+It's can be really liberating to take this approach, by defining what not to do you _don't have to be right_, you __only don't have to be not wrong__.  It might sound counter intuitive, but I think you'll find that it's much easier to exclude the things that have caused pain and still maintain flexibility to foster innovation.
 
 So here is my list, these are some of the core rules that I use to help differentiate between what we should and shouldn't be doing.
 
