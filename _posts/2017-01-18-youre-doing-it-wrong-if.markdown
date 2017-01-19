@@ -34,7 +34,9 @@ But in this case it's more like
 
 > "When you have eliminated **what's wrong**, whatever remains, however improbable, **must be right**".
 
-It's can be really liberating to take this approach, by defining what not to do you _don't have to be right_, you __only don't have to not be wrong__.  It might sound counter intuitive, but I think you'll find that it's much easier to exclude the things that have caused pain and still maintain flexibility to foster innovation.
+It's can be really liberating to take this approach, by defining what not to do you _don't have to be right_, you __only have to not be wrong__.  It might sound counter intuitive, but I think you'll find that it's much easier to exclude the things that have caused pain than it is to try and encode how to do it write.
+
+By not saying what to do, you can guide your teams away from bad habits, while still enabling them space to own their own destiny and foster innovation.
 
 So here is my list, these are some of the core rules that I use to help differentiate between what we should and shouldn't be doing.
 
