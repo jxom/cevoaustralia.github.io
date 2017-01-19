@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "You're doing it wrong if..."
-description: When you have eliminated whats wrong, whatever remains, however improbable, must be right.
+description: When you have eliminated what's wrong, whatever remains, however improbable, must be right.
 twittercreator: stevemac
 date:   2017-01-18
 categories:
@@ -14,7 +14,7 @@ images:
 excerpt:
     We are all looking to learn from our failures and make things better, but sometimes it better to communicate what is right by eliminating what is wrong.<br/>
     <br/>
-    <i>"When you have eliminated whats wrong, whatever remains, however improbable, must be right".</i>
+    <i>"When you have eliminated what's wrong, whatever remains, however improbable, must be right".</i>
 ---
 
 I've been around for a while, worked through different teams, across different industries and companies.  
@@ -32,15 +32,15 @@ Like [Sherlock Holmes](https://en.wikipedia.org/wiki/Sherlock_Holmes) said
 
 But in this case it's more like
 
-> "When you have eliminated **whats wrong**, whatever remains, however improbable, **must be right**".
+> "When you have eliminated **what's wrong**, whatever remains, however improbable, **must be right**".
 
-It's can be really liberating to take this approach, by defining what not to do you _don't have to be right_, you __only don't have to be not wrong__.  It might sound counter intuitive, but I think you'll find that it's much easier to exclude the things that have caused pain and still maintain flexibility to foster innovation.
+It's can be really liberating to take this approach, by defining what not to do you _don't have to be right_, you __only don't have to not be wrong__.  It might sound counter intuitive, but I think you'll find that it's much easier to exclude the things that have caused pain and still maintain flexibility to foster innovation.
 
 So here is my list, these are some of the core rules that I use to help differentiate between what we should and shouldn't be doing.
 
 ## You're doing it wrong if...
 
-1. the first time you are something is in production
+1. the first time you are doing it is in production
 1. your code is not in version control
 1. there are no tests for the code you just wrote
 1. there is no documentation that explains what you're doing and why
