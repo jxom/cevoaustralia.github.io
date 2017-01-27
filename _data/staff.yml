@@ -11,8 +11,9 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/geoffrohrsheim
+
 - name: Hannah Browne
-  sort: 2015-03-01
+  sort: 2015-05-19
   position: General Manager
   desc:
     Hannah Browne is a passionate, opinionated deal maker, and the General Manager of Cevo.
@@ -25,11 +26,10 @@
       url: https://au.linkedin.com/in/hannahbrowne
 
 - name: Veronica Finarelli
-  sort: 2015-08-01
+  sort: 2015-12-02
   position: People and Culture
   desc:
     Veronica is HR qualified and passionate about finding curious, clever people to join the ever growing Cevo team. Veronica has worked in many different organisations and industries however loves working in forward thinking, agile companies.
-
     She truly believes that finding the right people, at the right time, for the right role is paramount to any organisation's success.
   avatar: images/staff/veronica_finarelli.jpg
   socials:
@@ -37,7 +37,7 @@
       url: https://au.linkedin.com/in/veronicafinarelli
 
 - name: Richard Busso
-  sort: 2016-10-01
+  sort: 2016-10-18
   position: Client Solutions Executive
   desc:
     Richard Busso is a connector within the industry who builds strong long lasting relationships and is the Client Solutions Executive at Cevo.
@@ -47,10 +47,10 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/richard-busso-914306a
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: http://twitter.com
 
 - name: Orlando Erazo
-  sort: 2015-05-01
+  sort: 2015-08-10
   position: Continuous Delivery Advocate
   desc:
     Orlando spent 13 years working in software development, he then decided to focus on continuous delivery
@@ -63,14 +63,13 @@
       url: https://au.linkedin.com/in/orlando-erazo-68a11026
 
 - name: Steve Mactaggart
-  sort: 2016-07-01
+  sort: 2016-07-07
   position: Application Delivery Evangineer
   desc:
     Steve loves helping businesses deliver the best solution for their customers in a way that fits both their timelines and their customer needs.
     <br/><br/>
     A passionate technologist, he takes great pleasure in keeping abreast of current trends in technology always looking for opportunities to improve current practice with some innovative thinking.
     # Using Lean and Agile principals, Steve is constantly working with teams to help them realise the goal of delivering value in discrete units, measuring the results and then learning and adapting in rapid succession.
-
   avatar: images/staff/steve_mactaggart.jpg
   socials:
     - icon_class: fa fa-linkedin
@@ -78,22 +77,8 @@
     - icon_class: fa fa-twitter
       url: https://www.twitter.com/stevemac
 
-- name: David Walters
-  sort: 2016-09-16
-  position: Reliability Consultant
-  desc:
-    David has been a passionate technologist for several years and has extensive experience in building software for a wide range of businesses.
-    An advocate for Test Driven Development, and an agent for Quality-oriented delivery through automation of All The Things,
-    C# is his favourite language with Groovy a close second.
-  avatar: images/staff/david_walters.jpg
-  socials:
-    - icon_class: fa fa-linkedin
-      url: https://www.linkedin.com/in/dw-linkedin
-    - icon_class: fa fa-twitter
-      url: https://www.twitter.com/whatbirdisthat
-
 - name: Adam Nowotny
-  sort: 2015-05-10
+  sort: 2015-08-31
   position: Software consultant and open-source advocate
   desc:
     Adam started programming after getting his first 8-bit computer Atari 800XL at the age of seven. He has worked in software delivery teams as a developer, agile coach and technical lead for over 20 clients in Australia, Ireland, Poland, China, Brazil and India.
@@ -105,7 +90,7 @@
       url: https://www.twitter.com/adam_nowotny
 
 - name: Robert Rocco
-  sort: 2015-07-01
+  sort: 2015-11-11
   position: Infrastructure Automation and Reliability Engineer
   desc:
     Robert Rocco is highly motivated and goal driven member of the team at Cevo.  He is continuously seeking knowledge and thrives on challenges.  Finding the best solution for a problem is one of his main focuses, believing you should always be looking to improve.
@@ -117,7 +102,7 @@
 #       url: http://facebook.com
 
 - name: Andy Shaw
-  sort: 2015-06-01
+  sort: 2015-11-02
   position: Automation Artificer
   desc:
     Andy was once a developer before he became fascinated with devops and being able to automate All The Things. Since then, he's been enjoying using some of the new technologies emerging in the devops space alongside proven technologies to solve a diverse range of problems.
@@ -129,7 +114,7 @@
   #     url: http://facebook.com
 
 - name: Karel Malbroukou Moendzenahou
-  sort: 2015-09-01
+  sort: 2016-04-12
   position: Delivery and Continuous Improvement Consultant
   desc:
     Karel is a consultant who provides leadership and delivery of operations best practices, cloud automation solutions and devops transformation.
@@ -142,7 +127,7 @@
       url: https://twitter.com/labrute974
 
 - name: Trent Hornibrook
-  sort: 2016-06-05
+  sort: 2016-05-31
   position: Infrastructure Coder
   desc:
     Trent Hornibrook is a passionate engineer that wants to reduce the cycle from ‘idea’ to ‘cash’. Having a history of Infrastructure Operations, MySQL DBA and Agile Delivery, Trent loves simplifying complex problems and identifying ways to deliver value sooner.
@@ -154,7 +139,7 @@
       url: https://www.twitter.com/mysqldbahelp
 
 - name: Owen Chung
-  sort: 2016-06-12
+  sort: 2016-06-14
   position: Automation Engineer
   desc:
     Owen Chung is a passionate technologist in the game since the turn of the century. He believes tech is an expression of culture. Quality tech reflects a quality culture. His mission is to help tech builders, makers and creators be their best wielding his devops superpowers to drive this cultural change.
@@ -164,7 +149,7 @@
       url: https://au.linkedin.com/in/owen-chung-27b2bb11
 
 - name: Colin Panisset
-  sort: 2016-06-30
+  sort: 2016-07-07
   position: Director, Transformation and Delivery
   desc:
     Colin brings his history of operational excellence together with a desire to improve delivery practices to drive business value through improving culture, empathy, automation and technical excellence. He has a knack for understanding and explaining complex systems, and has presented at events like AWS Summits, Devops Days, and many meetups.
@@ -176,7 +161,7 @@
       url: https://www.twitter.com/nonspecialist
 
 - name: Melissa Ngau
-  sort: 2016-08-01
+  sort: 2016-09-29
   position: Quality Analysis Consultant
   desc:
     Melissa began her career in testing and quickly discovered the value of building quality in from inception.
@@ -186,11 +171,11 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/melissangau
-    # - icon_class: fa fa-twitter
-    #   url:
+    - icon_class: fa fa-twitter
+      url: https://twitter.com/MsNgau
 
 - name: Nikita Gandhi
-  sort: 2016-09-01
+  sort: 2016-10-04
   position: Infrastructure Automation And Continuous Delivery Consultant
   desc:
     Nikita is a passionate technologist looking to assist organisations in their journey of agile software adoption.
@@ -200,10 +185,10 @@
    - icon_class: fa fa-linkedin
      url: https://au.linkedin.com/in/nikita-gandhi-6416b24b
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: https://twitter.com/
 
 - name: Simon Bond
-  sort: 2016-09-30
+  sort: 2016-10-11
   position: Business Designer
   desc: Simon can be found playing Product Owner, Business Analysis, IM/PM or Agile Coaching roles. He is on a perpetual journey to drag IT closer to "the business" and EVERYONE closer to their customers. Simon is an efficiency addict who loves helping teams shift the dial from a focus on outputs to a focus on measurable business outcomes.
   avatar: images/staff/simon_bond.jpg
@@ -211,12 +196,12 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/sjbond
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: https://twitter.com/
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
 
 - name: Henrik Axelsson
-  sort: 2016-11-01
+  sort: 2016-11-04
   position: Business Solutions Consultant
   desc: Henrik has worked across a large variety of technology roles before landing at Business Analysis. With a solid background in software development, Henrik has acquired a rich understanding for both the technical and operational aspects of project delivery. This experience has given him a keen eye for striking the delicate balance between technical and operational trade offs.
   avatar: images/staff/henrik_axelsson.jpg
@@ -224,12 +209,12 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/henrik-axelsson-7083b23
   #   - icon_class: fa fa-twitter
-  #     url:
+  #     url: https://twitter.com/
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
 
 - name: Jamie Potter
-  sort: 2015-01-01
+  sort: 2015-02-01
   position: Executive Director
   desc: Jamie works behind the scenes at Cevo ensuring the business is ready for the predicted growth.
         <br/><br/>He’s been involved in numerous technology start-ups, expansions and exits. He uses his experience to help Cevo build scale into its delivery and operations.
