@@ -36,19 +36,6 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/veronicafinarelli
 
-- name: Richard Busso
-  sort: 2016-10-18
-  position: Client Solutions Executive
-  desc:
-    Richard Busso is a connector within the industry who builds strong long lasting relationships and is the Client Solutions Executive at Cevo.
-    Richard is a strategic leader who loves collaborating with businesses and people to solve complex problems. His business acumen and enterprise knowledge, along with his passion for connecting people makes him smile every day.
-  avatar: images/staff/richard_busso.jpg
-  socials:
-    - icon_class: fa fa-linkedin
-      url: https://au.linkedin.com/in/richard-busso-914306a
-  #   - icon_class: fa fa-twitter
-  #     url: http://twitter.com
-
 - name: Orlando Erazo
   sort: 2015-08-10
   position: Continuous Delivery Advocate
