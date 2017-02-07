@@ -25,17 +25,6 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/hannahbrowne
 
-- name: Veronica Finarelli
-  sort: 2015-12-02
-  position: People and Culture
-  desc:
-    Veronica is HR qualified and passionate about finding curious, clever people to join the ever growing Cevo team. Veronica has worked in many different organisations and industries however loves working in forward thinking, agile companies.
-    She truly believes that finding the right people, at the right time, for the right role is paramount to any organisation's success.
-  avatar: images/staff/veronica_finarelli.jpg
-  socials:
-    - icon_class: fa fa-linkedin
-      url: https://au.linkedin.com/in/veronicafinarelli
-
 - name: Orlando Erazo
   sort: 2015-08-10
   position: Continuous Delivery Advocate
