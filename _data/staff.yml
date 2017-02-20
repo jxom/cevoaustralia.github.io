@@ -148,10 +148,9 @@
   sort: 2017-02-10
   position: Quality Craftsman
   desc:
-    Jagannath loves technology & the value it creates.
+    Jagannath loves technology and the value it creates.
     <br><br>
-    Currently he is working on improving his expertise on Test Automation, Devops practices, Machine Learning & NodeJs; and figuring out 
-    how these multiple disciplines can be amalgamated.
+    Currently he is working on improving his expertise on Test Automation, Devops (Docker, AWS), Machine Learning and NodeJs; and figuring out how these multiple disciplines can be amalgamated.
   avatar: images/staff/jagannath_vaikuntham.jpg
   socials:
     - icon_class: fa fa-linkedin
