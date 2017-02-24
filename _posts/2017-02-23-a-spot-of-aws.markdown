@@ -17,7 +17,7 @@ excerpt:
     Andy and I took journey down a pricing rabbit hole...
 ---
 
-As more enterprises start transitioning over to using AWS, cost optimisation has become a hot topic. Andy and myself were recently given the opportunity to explore the potential savings of running on spot instances.
+As more enterprises start transitioning over to using AWS, cost optimisation has become a hot topic. Andy and I were recently given the opportunity to explore the potential savings of running on spot instances.
 
 ## What are spot instances?
 Spare compute capacity that Amazon Web Services (AWS) sells at a discounted price. When a user requests a spot instance, they must also provide a ‘bid price’.  As long as the market price remains below the bid price, you will retain control of the instance. If the market price rises higher than the bid price, you have three minutes to clean up your work before the instance is destroyed (you must check for this yourself).
@@ -39,7 +39,7 @@ There were also conflicting business priorities; where one stakeholder group wan
 
 
 ## First steps
-The first question was, “can we save money by running on spot?” The obvious answer is “yes”. I mean after all, if you check the pricing for instances on amazon the spot instances are much, much cheaper.
+The first question was, “can we save money by running on spot?” The obvious answer is “yes”. I mean after all, if you check the pricing for instances on AWS the spot instances are much, much cheaper.
 
 But… we wanted to provide some data and actually prove it would be cheaper.
 
@@ -104,7 +104,7 @@ With this in mind, we looked at the spot price history of all the instances we w
 We found that the pricing of some spot instances fluctuated much more than others and, with careful selection of instances types, that the spot price did not exceed the on-demand price over the three month history of spot pricing information.
 
 ## Obtaining pricing data
-Despite the amazing ecosystem Amazon has built, obtaining pricing data is still quite primitive. On-demand pricing must be downloaded in one big chunk which equates to over 70MB of data. Then you need to figure out how to filter out all the data you don’t want. We ended up writing an R script to do this for us quickly and easily, but that’s the topic of another post!
+Despite the amazing AWS ecosystem, obtaining pricing data is still quite primitive. On-demand pricing must be downloaded in one big chunk which equates to over 70MB of data. Then you need to figure out how to filter out all the data you don’t want. We ended up writing an R script to do this for us quickly and easily, but that’s the topic of another post!
 
 Spot pricing is a little more sophisticated. You can actually specify filtering conditions on a service call to get a subset of data, which is necessary unless you want to deal with gigabytes of text data! The returned data lists the date and time of every change in spot price.
 
@@ -133,7 +133,7 @@ m3.large |	windows|0.312           |0.142
 
 
 ## Run time per month
-As spot instances cannot be paused and restarted (only destroyed) our initial cut of the numbers would look at how much running the environment on spot instances 24*7 would cost.
+As spot instances cannot be paused and restarted (only destroyed) our initial cut of the numbers would look at how much running the environment on spot instances 24x7 would cost.
 
 ```
 27/4  = number of days in a month * hours per day
@@ -148,14 +148,13 @@ Business hours  = number of work days per month * work hours per day
                 = 240 hours per month
 ```
 
-
 ## Results
 Surprisingly, the results came out looking like this:
 
 |On-demand business hours|$1367.04|
-|Spot 24*7|$1602.72|
+|Spot 24x7|$1602.72|
 
-Due to the instance type substitution, and the fact the spot instances would be running much longer each month, they would end up costing more!
+Due to the instance type substitution, and the fact the spot instances would be running much longer each month, they would end up costing more! This finding also ruled out reserved instances as an option. If the cost of spot running 24x7 wasn't favourable, reserved instances would be even worse as the price per hour for reserved is higher.
 
 Naturally, next we looked at the price comparison with the spot instances running only during business hours.
 
@@ -164,7 +163,7 @@ Naturally, next we looked at the price comparison with the spot instances runnin
 
 That’s more like it. However due to the constraints of the apps running on the instances, it would require a lot of work to make them tolerant to being destroyed and brought back each night while preserving necessary state.
 
-Finally, we decided to consider what a mixed environment might look like. This would include running some on-demand instances during business hours and running some spot instances 24*7 where it was cheaper to do so.
+Finally, we decided to consider what a mixed environment might look like. This would include running some on-demand instances during business hours and running some spot instances 24x7 where it was cheaper to do so.
 
 This would potentially give us the cheapest of both worlds and require no changes to application behaviour.
 
@@ -172,6 +171,7 @@ This would potentially give us the cheapest of both worlds and require no change
 |Mixed|$1070.88|
 
 It seems like there are potentially some savings to be had!
+
 
 ## Conclusion
 This was a great process to go through, and showed us that initial assumptions (of course spot will be cheaper!) can turn out to be wrong when all factors are taken into consideration.
