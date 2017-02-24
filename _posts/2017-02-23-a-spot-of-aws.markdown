@@ -136,7 +136,7 @@ m3.large |	windows|0.312           |0.142
 As spot instances cannot be paused and restarted (only destroyed) our initial cut of the numbers would look at how much running the environment on spot instances 24x7 would cost.
 
 ```
-27/4  = number of days in a month * hours per day
+24x7  = number of days in a month * hours per day
       = 30 * 24
       = 720 hours per month
 ```
