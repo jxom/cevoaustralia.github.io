@@ -14,41 +14,41 @@ images:
 excerpt:
     Have you considered using spot instances to save on AWS costs? It may pay to investigate the details of your operating environment first!
 
-    Andy and myself took journey down a pricing rabbit hole...
+    Andy and I took journey down a pricing rabbit hole...
 ---
 
 As more enterprises start transitioning over to using AWS, cost optimisation has become a hot topic. Andy and myself were recently given the opportunity to explore the potential savings of running on spot instances.
 
 ## What are spot instances?
-Spare compute capacity that amazon sells at a discounted price. When a user requests a spot instance, they must also provide a ‘bid price’.  As long as the market price remains below the bid price, you will retain control of the instance. If the market price rises higher than the bid price, you are given a three minute warning before the instance is destroyed.
+Spare compute capacity that Amazon Web Services (AWS) sells at a discounted price. When a user requests a spot instance, they must also provide a ‘bid price’.  As long as the market price remains below the bid price, you will retain control of the instance. If the market price rises higher than the bid price, you have three minutes to clean up your work before the instance is destroyed (you must check for this yourself).
 
-The spot price of an instance can be up to ten times cheaper than the on demand price, so there are potentially massive savings to be realised through the use of spot!
+The spot price of an instance can be up to ten times cheaper than the on-demand price, so there are potentially massive savings to be realised through the use of spot!
 
 ## The situation at hand
 We were dealing with development environments that had been subject to a lift and shift from local infrastructure to AWS.  This lead to several challenges:
 
 - There were lots of load time and run time dependencies between apps. In fact to show just how bad the dependency tree was Andy made a graph:
 
-<img src="/images/depend-map.png" alt="dependency map" style="width: 200px">
+<a href="/images/depend-map.png"><img src="/images/depend-map.png" alt="dependency map" style="width: 200px"></a>
 
 - It took in the region of three hours to stand up a complete dev environment.
 - Apps needed to maintain state.
 - Apps frequently required manual poking to bring online.
 
-There were also conflicting business priorities; where as one stakeholder group wanted to save as much as possible, another didn’t want to compromise on environment stability.
+There were also conflicting business priorities; where one stakeholder group wanted to save as much as possible, another didn’t want to compromise on environment stability.
 
 
 ## First steps
-The first question was “can we save money by running on spot”. The obvious answer is “yes”. I mean after all, if you check the pricing for instances on amazon the spot instances are much much cheaper.
+The first question was, “can we save money by running on spot?” The obvious answer is “yes”. I mean after all, if you check the pricing for instances on amazon the spot instances are much, much cheaper.
 
 But… we wanted to provide some data and actually prove it would be cheaper.
 
-So on a basic level, we wanted to calculate the cost of running a dev environment using spot and on demand.
+So on a basic level, we wanted to calculate the cost of running a dev environment using both spot and on-demand.
 
 ## Building an environment profile
 The first step was building a catalogue of all the instances currently used for a dev environment. The list looked like this:
 
-*On demand profile*
+*On-demand profile*
 
 |Size	    | OS     | Quantity |
 |---------|:------:|---------:|
@@ -68,7 +68,7 @@ The first step was building a catalogue of all the instances currently used for 
 |TOTAL		|        |  65      |
 
 
-When it came to building a spot profile, there was bit of a problem; not all on demand instances had an equivalent spot instance type. When this occurred, we used the following rule for substitution:
+When it came to building a spot profile, there was bit of a problem; not all on-demand instances had an equivalent spot instance type. When this occurred, we used the following rule for substitution:
 
 1.	At least as much RAM.
 1.	At least as many CPUs.
@@ -97,21 +97,21 @@ This is what our spot profile ended up looking like:
 
 
 ## Spot instance stability
-As explained earlier, spot instance price fluctuates based on demand and when provisioning a spot instance a bid price must be set. As the main goal of our investigation was providing cost reduction across an environment it didn’t make sense to pay for a spot instance that it would cost for an on demand.
+As explained earlier, spot instance price fluctuates based on demand, and when provisioning a spot instance a bid price must be set. As the main goal of our investigation was providing cost reduction across an environment it didn’t make sense to pay more for a spot instance than an on-demand instance.
 
-With this in mind, we looked at the spot price history of all the instances we were interested in provisioning an compared that to the on demand price of that instance. If the spot price exceeded the on demand price during business hours that was classified as an interruption.
+With this in mind, we looked at the spot price history of all the instances we were interested in provisioning and compared that to the on-demand price of that instance. If the spot price exceeded the on-demand price during business hours, that was classified as an interruption.
 
-We found that the pricing of some spot instances fluctuated much more than others, and with careful selection of instances types that the spot price did not exceed the on demand price over the 3 month history of spot pricing information.
+We found that the pricing of some spot instances fluctuated much more than others and, with careful selection of instances types, that the spot price did not exceed the on-demand price over the three month history of spot pricing information.
 
 ## Obtaining pricing data
-Despite the amazing eco system Amazon has built, obtaining pricing data is still quite primitive. On demand pricing must be downloaded in one big chunk which equates to over 70mb of data. Then you need to figure out how to filter out all the data you don’t want. We ended up writing an R script to do this for us quickly and easily, but that’s the topic of another post!
+Despite the amazing ecosystem Amazon has built, obtaining pricing data is still quite primitive. On-demand pricing must be downloaded in one big chunk which equates to over 70MB of data. Then you need to figure out how to filter out all the data you don’t want. We ended up writing an R script to do this for us quickly and easily, but that’s the topic of another post!
 
-Spot pricing is a little more sophisticated. You can actually specify filtering conditions on a service call to get a subset of data. Which is necessary unless you want to deal with gigabytes of text data! The returned data lists the date and time of every change in spot price.
+Spot pricing is a little more sophisticated. You can actually specify filtering conditions on a service call to get a subset of data, which is necessary unless you want to deal with gigabytes of text data! The returned data lists the date and time of every change in spot price.
 
 ## Spot price per hour
-The spot price data isn’t formatted in the way time series data typically is (constant interval), instead it records the time that the price of an instance changed. As data analysis isn’t typically our day jobs, and we were not after precise results, we ignored this and just averaged the price across the 3month history treating each price as a similar time interval.
+The spot price data isn’t formatted in the way time series data typically is (constant interval), instead it records the time that the price of an instance changed. As data analysis isn’t typically our day jobs, and we were not after precise results, we ignored this and just averaged the price across the three month history, treating each price change as if it occurred at a similar time interval.
 
-Prices that were above the on demand price were also ignored; we would not bid above the on demand price.
+Prices that were above the on-demand price were also ignored; we would not bid above the on-demand price.
 
 The prices per instance across spot and on-demand looked like this:
 
@@ -133,7 +133,7 @@ m3.large |	windows|0.312           |0.142
 
 
 ## Run time per month
-As spot instances cannot be paused and restarted, only destroyed our initial cut of the numbers would look at how much running the environment on spot instances 24/7 would cost.
+As spot instances cannot be paused and restarted (only destroyed) our initial cut of the numbers would look at how much running the environment on spot instances 24*7 would cost.
 
 ```
 27/4  = number of days in a month * hours per day
@@ -141,7 +141,7 @@ As spot instances cannot be paused and restarted, only destroyed our initial cut
       = 720 hours per month
 ```
 
-As the current on demand instances were only running during business hours, the hours per month was calculated as:
+As the current on-demand instances were only running during business hours, the hours per month was calculated as:
 ```
 Business hours  = number of work days per month * work hours per day
                 = 20 * 12
@@ -152,23 +152,23 @@ Business hours  = number of work days per month * work hours per day
 ## Results
 Surprisingly, the results came out looking like this:
 
-|On demand business hours|$1367.04|
-|Spot 24/7|$1602.72|
+|On-demand business hours|$1367.04|
+|Spot 24*7|$1602.72|
 
 Due to the instance type substitution, and the fact the spot instances would be running much longer each month, they would end up costing more!
 
 Naturally, next we looked at the price comparison with the spot instances running only during business hours.
 
-|On demand business hours|$1367.04|
+|On-demand business hours|$1367.04|
 |Spot business hours|$534.24|
 
 That’s more like it. However due to the constraints of the apps running on the instances, it would require a lot of work to make them tolerant to being destroyed and brought back each night while preserving necessary state.
 
-Finally, we decided to consider what a mixed environment might look like. This would include running some on demand instances during business hours and running some spot instances 24/7 where it was cheaper to do so.
+Finally, we decided to consider what a mixed environment might look like. This would include running some on-demand instances during business hours and running some spot instances 24*7 where it was cheaper to do so.
 
 This would potentially give us the cheapest of both worlds and require no changes to application behaviour.
 
-|On demand business hours|$1367.04|
+|On-demand business hours|$1367.04|
 |Mixed|$1070.88|
 
 It seems like there are potentially some savings to be had!
