@@ -10,6 +10,9 @@
 - name: Careers
   path: careers.html
   section_id: careers
+- name: Partners
+  path: partners.html
+  section_id: partners
 - name: Community
   path: community.html
   section_id: community
