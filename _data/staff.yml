@@ -83,9 +83,9 @@
   desc:
     Andy was once a developer before he became fascinated with devops and being able to automate All The Things. Since then, he's been enjoying using some of the new technologies emerging in the devops space alongside proven technologies to solve a diverse range of problems.
   avatar: images/staff/andy_shaw.jpg
-  # socials:
-  #   - icon_class: fa fa-twitter
-  #     url: http://twitter.com
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/andy-shaw-35095920/
   #   - icon_class: fa fa-facebook
   #     url: http://facebook.com
 
@@ -233,3 +233,33 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/jamiewpotter
+
+- name: David Sanza
+  sort: 2017-03-06
+  position: Client Executive
+  desc: David has worked in the tech scene in a sales capacity for the last 7+ years and in that time, has grown to understand the close relationship between team dynamic and successful client outcomes.
+        <br/><br/>His aim is to help successfully grow Cevo by sticking to its focus of hiring the best technologists to engage in challenging and interesting work for awesome clients.
+  avatar: images/staff/david_sanza.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/davidsanza/
+
+- name: Shazia Haider
+  sort: 2017-03-06
+  position: Talent Acquisition Consultant
+  desc: Shazia has worked across a large variety of recruitment roles for Technology Companies. She is a highly versatile and motivated individual with a focus on exceeding expectations of her people working with.
+        <br/><br/>With a solid background in IT Consulting and Recruitment, she has achieved hiring right people for the business. This experience has given her keen eye of hunting highly skilled people with right attitude. She is passionate about solving problems and coaching employees to achieve organizational goals.
+  avatar: images/staff/shazia_haider.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/shaziahaider/
+
+- name: Ebony Worth
+  sort: 2017-03-06
+  position: Talent/HR
+  desc: Ebony is a self-starter, results-driven talent acquisition specialist, with strong communication and collaboration skills. She is a commercial, customer-focused individual that takes a progressive approach to talent attraction, which has seen her build and develop strategic business relationships within a range of matrix environments.
+        <br/><br/>Leveraging her broad experience, Ebony has joint Cevo to assist shape our HR processes to support us through our growth plans. Ebony will be diligently networking across the market to ensure a pipeline of top talent is nurtured & consistent growing.
+  avatar: images/staff/ebony_worth.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/ebonyw/
