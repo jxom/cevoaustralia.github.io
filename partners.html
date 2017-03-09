@@ -1,0 +1,54 @@
+---
+layout: default
+section_id: sisters
+---
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='small-12 columns'>
+      <h2 class="margin-bottom">Our Sister Companies</h2>
+    </div>
+  </div>
+
+  {% assign sisters = site.data.sisters %}
+  {% for sister in sisters %}
+    <div class='row'>
+      <div class='medium-3 medium-offset-1 columns'>
+       <a href={{sister.url}}> <img class="fadeinleft" style="display:block; margin: 0 auto" src="/images/sisters/{{sister.image}}" /></a>
+      </div>
+      <div class='medium-6 columns end'>
+        <!-- <div class='spacing'></div> -->
+        <a href={{sister.url}}><h4>{{sister.name}}</h4></a>
+        <!-- <div class='spacing'></div> -->
+          <p style="font-size: 12px">
+          {{sister.description}}
+          </p>
+      </div>
+    </div>
+    </br>
+  {% endfor %}
+  <hr>
+  <div class='row'>
+    <div class='small-12 columns'>
+      <h2>Our Partners</h2>
+    </div>
+  </div>
+  {% assign partners = site.data.partners %}
+  {% for partner in partners %}
+    <div class='row'>
+      <div class='medium-3 medium-offset-1 columns'>
+        <a href={{partner.url}}><img class="fadeinleft" style="display:block; margin: 0 auto" src="/images/partners/{{partner.image}}" /></a>
+      </div>
+      <div class='medium-6 columns end'>
+        <!-- <div class='spacing'></div> -->
+        <a href={{partner.url}}><h4>{{partner.name}}</h4></a>
+        <!-- <div class='spacing'></div> -->
+          <p style="font-size: 12px">
+          {{partner.description}}
+          </p>
+      </div>
+    </div>
+    </br>
+  {% endfor %}
+</div>
