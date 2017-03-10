@@ -25,19 +25,6 @@
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/hannahbrowne
 
-- name: Orlando Erazo
-  sort: 2015-08-10
-  position: Continuous Delivery Advocate
-  desc:
-    Orlando spent 13 years working in software development, he then decided to focus on continuous delivery
-    transformation projects (since about 5 years ago)
-    <br/><br/>He really enjoys helping companies to succeed in their move to become more agile and deliver beautiful software
-    to their customers whenever they need.
-  avatar: images/staff/orlando_erazo.jpg
-  socials:
-    - icon_class: fa fa-linkedin
-      url: https://au.linkedin.com/in/orlando-erazo-68a11026
-
 - name: Steve Mactaggart
   sort: 2016-07-07
   position: Application Delivery Evangineer
