@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The Four values of a devops transformation
-description: From DevOpsDays 2016 our own Hannah Browne and Steve Mactaggart explore why we do what we do.
+description: A look into the four values that support a successful devops transformation.
 date:   2017-03-12
 categories:
     - culture
@@ -11,8 +11,10 @@ author: Steve Mactaggart
 images:
 
 excerpt:
-    Just like the agile transformations of the past, there was a difference between ‘Doing Agile’, and ‘Being Agile’.  ‘We do standups’ - therefore we are Agile. Are we 'Doing devops' or are we 'Being devops'?
-
+    Just like the agile transformations of the past, there is a difference between ‘Doing Agile’, and ‘Being Agile’.  ‘We do standups’ - therefore we are Agile. With the increase in adoption of devops practices, are we 'Doing devops' or are we 'Being devops'?
+    <br/>
+    <br/>
+    In this post we look into the four values that support a successful devops transformation.
 
 ---
 
