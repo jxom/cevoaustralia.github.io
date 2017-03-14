@@ -105,4 +105,4 @@ Change that is delivered with as little delay as possible, in small chunks that 
 Change that is constantly automating away the common activities, while also identifying ways to improve the process as a whole.
 
 
-If you are looking to start a devops transformation, or at a point of review of your current approach, don’t start with the tools or the teams, start with the Why, and identify the problem you are really trying to solve.
+If you are looking to start a devops transformation, or at a point of review of your current approach, don’t start with the tools or the teams, <a href="/culture/2017/02/28/DevOpsDays2016.html">start with the Why</a>, and identify the problem you are really trying to solve.
