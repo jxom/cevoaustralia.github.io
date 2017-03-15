@@ -20,7 +20,7 @@ excerpt:
 
 A successful devops transformation sees a change in organisational culture. These changes often come in the way of adoption of specific tools or practices.
 
-To change culture, you need something more fundamental than just the introduction of new tools, or pushing everyone into Scrum teams.
+However, to change culture, you need something more fundamental than just the introduction of new tools, or pushing everyone into Scrum teams.
 
 Just like the agile transformations of the past, there was a difference between ‘Doing Agile’, and ‘Being Agile’.  ‘We do standups’ - therefore we are Agile. Are we 'Doing devops' or are we 'Being devops'?
 
@@ -42,7 +42,7 @@ Are we going to fall into the same trap? Are we going to define a set of best pr
 
 How do we learn from the failures of the past, especially when learning from failure is one of the key values?
 
-We do this through understanding why these values are good for us, and we create a culture where things are regularly and vigorously challenged.  While we are constantly striving to deliver value we also need to also stay focused on ‘Why we are doing it.’
+We do this through understanding why these values are good for us, and we create a culture where things are regularly and vigorously challenged. While we are constantly striving to deliver value we also need to also stay focused on ‘Why we are doing it.’
 
 We can start by looking at the four key values and see how they have support for ‘why’ at the heart of each of them.
 
@@ -55,7 +55,7 @@ Devops embraces the values of a lean approach as they are focused on doing enoug
 
 Forming small cross-functional teams with a lean approach is often one of the first steps on a devops adoption path.  These teams are empowered to deliver change in the way they see provides value to their customers, while still being accountable to they meets the goals of the broader organisation.
 
-Ensuring these teams are supported to make changes to reduce waste within the team, and provided a context where they have everything they need to succeed within the team will allow them to challenge the current blockers to delivering value.
+Ensuring these teams are supported to make changes to reduce waste within the team, and provided a context where they have everything they need to succeed will allow them to challenge the current blockers to delivering value.
 
 ## Embrace failure
 Nothing is perfect, and failure is always just around the corner.  The only way to guarantee that nothing can fail is to do nothing at all.
@@ -66,11 +66,11 @@ In a world where competition is increasing and the needs of customers are only b
 
 **“Why embrace failure”** - Core to a devops culture is one where we recognize that things will fail. What we need to recognise is it is not the failure by which we will be measured but by how quickly and effectively we respond to the failure
 
-By creating an environment that acknowledges failure will occur, we can set ourselves to reduce the impact, and more importantly manage the splash zone of the failure.
+By creating an environment that acknowledges failures will occur, we can prepare ourselves to not only reduce the impact, but more importantly manage the splash zone of the failure.
 
-We aim to fail before the customer sees it.  We peer-review our changes, are constantly integrating and testing our systems and deliver change through automation to increase our confidence.
+We aim to fail before the customer sees it.  We peer-review our changes, are constantly integrating and testing our systems, and deliver change through automation to increase our confidence.
 
-If things do slip through and our failures become more public, we work with a small, focused team that have all the knowledge, skills and access to manage the incident and we constantly ask ‘why did this happen?’.  What could have we done to catch this issue earlier? What are we going to do to make sure this failure does not happen again?
+If things do slip through and our failures become more public, we work in a small, focused team that has the knowledge, skills and access to resolve the issue. We empower, support and challenge them to ask ‘why did this happen?’ in the first place.  What could have we done to catch this issue earlier? What are we going to do to make sure this failure does not happen again?
 
 ## Automate everything
 Automation is often seen as the goal, by having things automated we reduce the demands on the people and so we can do more things.  But seeing automation as the goal is an anti-pattern.  It should be seen as the journey.
@@ -96,7 +96,7 @@ Ensuring there is a voice for all aspects of the system involved during the plan
 
 ## Driving a culture change
 
-You can see from these four values you can see that there is a depth to each, but combined together they form a strong force for change.  
+You can see from these four values that there is a depth to each, but combined together they form a strong force for change.  
 
 Change that is focused on delivering value to customers by ensuring we build the right thing, can support it and willing to learn from the bumps from along the road.  
 
@@ -106,3 +106,6 @@ Change that is constantly automating away the common activities, while also iden
 
 
 If you are looking to start a devops transformation, or at a point of review of your current approach, don’t start with the tools or the teams, <a href="/culture/2017/02/28/DevOpsDays2016.html">start with the Why</a>, and identify the problem you are really trying to solve.
+
+
+**Related post:** <a href="/culture/2017/02/28/DevOpsDays2016.html">See Hannah and Steve's presentation from DevOpsDays 2016 - 'Why?: the forgotten word of devops'</a>
