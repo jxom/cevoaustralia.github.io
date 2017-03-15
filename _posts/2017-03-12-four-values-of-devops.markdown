@@ -42,7 +42,7 @@ Are we going to fall into the same trap? Are we going to define a set of best pr
 
 How do we learn from the failures of the past, especially when learning from failure is one of the key values?
 
-We do this through understanding why these values are good for us, and we create a culture where things are regularly and vigorously challenged. While we are constantly striving to deliver value we also need to also stay focused on ‘Why we are doing it.’
+We do this through understanding why these values are good for us, and we create a culture where things are regularly and vigorously challenged. While we are constantly striving to deliver value we need stay focused on ‘Why we are doing it.’
 
 We can start by looking at the four key values and see how they have support for ‘why’ at the heart of each of them.
 
