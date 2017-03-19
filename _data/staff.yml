@@ -249,3 +249,14 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/ebonyw/
+
+- name: Rob Lugton
+  sort: 2017-03-17
+  position: Quality Architect 
+  desc: Rob is a QA with a strong technical background. In his career he has done everything from Business Analyst to data analytics to delivery engineering alongside his QA role, and is comfortable talking to a variety of different stakeholders. He is interested in providing solutions and processes that deliver measurable, maintainable benefit to clients. 
+  avatar: images/staff/rob_lugton.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/rob-lugton-a2498719
+    - icon_class: fa fa-twitter
+      url: https://twitter.com/spirited_tester
