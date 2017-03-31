@@ -1,7 +1,10 @@
 # Cevo Website
 Jekyll website for cevo.com.au
 
-* The theme used here is http://elbe.blahlab.com/
+# Jekyll?
+Jekyll is a simple way to build a static website. You can view more details at http://jekyllrb.com/
+
+* The theme used here is from http://elbe.blahlab.com/
 
 [ ![Codeship Status for cevoaustralia/cevoaustralia.github.io](https://codeship.com/projects/8fa2b1e0-44d0-0134-47ad-02154be91b77/status?branch=master)](https://codeship.com/projects/168509)
 
@@ -23,7 +26,13 @@ The site is developed as a set of static resources, and assembled into the resul
 
 ## How to install dependencies
 
-The depenencies of the build have been included in a `Gemfile`, use `bundler` to
+`bundler` is needed for all dependencies, including jekyll. If you are running `ruby` without it, it can be installed with
+
+```
+$ gem install bundler
+```
+
+The dependencies of the build have been included in a `Gemfile`, use `bundler` to
 
 ```
 $ bundle install
@@ -39,15 +48,15 @@ $ rbenv rehash
 To run the server with the correct URL's and base paths, you will need to serve the content from
 
 ```
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 ## How to build the site
 ```
-$ jekyll build
+$ bundle exec jekyll build
 # => The current folder will be generated into ./_site
 
-$ jekyll build --watch
+$ bundle exec jekyll build --watch
 # => The current folder will be generated into ./_site,
 #    watched for changes, and regenerated automatically.
 ```
