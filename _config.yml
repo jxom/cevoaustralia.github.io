@@ -19,6 +19,10 @@ sales:
   phone: 1300 518 265
   email: sales@cevo.com.au
 
+careers:
+  phone: 1300 518 265
+  email: careers@cevo.com.au
+
 # Build settings
 exclude: [Gemfile, Gemfile.lock, README.md, TODO.md]
 markdown: kramdown
