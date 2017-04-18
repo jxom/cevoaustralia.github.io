@@ -143,22 +143,37 @@ Since I'm not in accounts with default VPCs, almost none of the examples in the 
 The documentation is also missing other crucial attributes, they are [easy pickings if you want to contribute](https://github.com/hashicorp/terraform/pull/13312).
 
 Because of these issues, I've legitimately struggled to get terraform to be reproducible.
-There's another issue which really harmed how reproducible terraform was, which is the `.tfstate` files.
+There's another issue which really harmed how reproducible terraform was, which is the `terraform.tfstate` files.
 
 ### Automation Friendly
-`.tfstate` files pose a real risk to reliable automation.
+`terraform.tfstate` files pose a real risk to reliable automation.
 Can you be 100% confident that your changes will work from a fresh start?
-Since `.tfstate` are a crucial part of how Terraform defines your Infrastructure, and we believe in Infrastructure as Code, it should be stored in source control.
-However, most guides recommend that you separate the state file and store it remotely.
-This isn't great. Look deeper into this and you'll find a lot of problems.
-What happens if your `.tfstate` file has problems?
-I haven't talked to someone yet about Terraform who hasn't had to destroy their entire Terraform-managed infrastructure repeatedly thanks to an invalid state in the `.tfstate` file.
+Since `terraform.tfstate` are a crucial part of how Terraform defines your Infrastructure, and we believe in Infrastructure as Code, it should be stored in source control.
 
-Why are they necessary? Because Terraform doesn't use CloudFormation.
+However, most guides recommend that you separate the state file and store it remotely.
+This isn't great. You no longer have an individual place that describes the infrastructure.
+Look deeper into this and you'll find a lot of problems.
+
+What happens if your `terraform.tfstate` file has problems?
+I haven't talked to someone yet about Terraform who hasn't had to destroy their entire Terraform-managed infrastructure repeatedly thanks to invalid state in the `terraform.tfstate` file.
+
+Why are they necessary? Because Terraform doesn't use CloudFormation (effectively).
 Which gets to my next point.
 
 ### One Safe Workflow across cloud providers
+Terraform, at this current point of time, is not a safe workflow.
+
+If terraform is interrupted in any way, you're into a lot of pain.
+
+Since you're at the mercy of AWS API calls, everything in the [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) applies.
+
+I've also hit some different ways not mentioned there
+ - Credentials expiring during the middle of a `terraform apply`
+ - Locking my computer when Terraform is running
+
+Others, far more experienced than myself, have had [plenty to say](https://charity.wtf/tag/terraform/) about Terraform.
 
 ### Important things to know
 
 #### Secret management
+[Storing sensitive values in state files](https://github.com/hashicorp/terraform/issues/516).
