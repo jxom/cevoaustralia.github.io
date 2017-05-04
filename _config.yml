@@ -39,3 +39,4 @@ assets:
     js: true
   sources:
     - _assets/css
+    - _assets/javascripts
