@@ -24,10 +24,18 @@ careers:
   email: careers@cevo.com.au
 
 # Build settings
-exclude: [Gemfile, Gemfile.lock, README.md, TODO.md]
+exclude: [Gemfile, Gemfile.lock, README.md, TODO.md, .dockerignore]
 markdown: kramdown
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-assets]
 paginate: 4
 paginate_path: "blog/page:num"
 future: true
 host: 0.0.0.0
+
+assets:
+  digest: true
+  compress:
+    css: true
+    js: true
+  sources:
+    - _assets/css
