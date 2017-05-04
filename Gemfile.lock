@@ -1,10 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
     domain_name (0.5.20160826)
       unf (>= 0.0.5, < 1.0.0)
+    execjs (2.7.0)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
     fastimage (2.1.0)
@@ -68,10 +73,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coffee-script
   jekyll
   jekyll-assets
   jekyll-paginate
   rest-client
+  sass
 
 BUNDLED WITH
    1.14.6
