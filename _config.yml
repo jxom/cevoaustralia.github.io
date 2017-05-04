@@ -40,3 +40,4 @@ assets:
   sources:
     - _assets/css
     - _assets/javascripts
+    - _assets/images

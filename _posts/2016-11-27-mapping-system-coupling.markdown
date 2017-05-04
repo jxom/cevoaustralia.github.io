@@ -159,7 +159,7 @@ that this application relies on to do authentication of users.
 
 Perhaps it looks like this:
 
-<img src="/images/basic-system-with-humans.png">
+{% image basic-system-with-humans.png %}
 
 Uh-oh. A quick glance shows us that:
 
@@ -208,7 +208,7 @@ However, some key things to note:
   different teams and departments, implying human chains of communication
   about custodianship and negotiation for fixes and when versions change.
 
-<img src="/images/complex-example.png">
+{% image complex-example.png %}
 
 ## You're in charge
 
