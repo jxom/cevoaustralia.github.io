@@ -1,5 +1,7 @@
 FROM ruby:alpine
 
+RUN apk update && apk upgrade && apk add ruby-dev build-base
+
 VOLUME [ "/data"]
 
 ADD . /data
@@ -8,7 +10,6 @@ EXPOSE 4000
 
 WORKDIR "/data"
 
-RUN apk update && apk upgrade && apk add ruby-dev build-base && \
-    bundle install
+RUN bundle install
 
 CMD [ "jekyll", "serve" ]
