@@ -1,6 +1,6 @@
 FROM ruby:alpine
 
-RUN apk update && apk upgrade && apk add ruby-dev build-base
+RUN apk update && apk upgrade && apk add ruby-dev build-base nodejs
 
 ADD install_image_optim.sh /tmp/install_image_optim.sh
 
