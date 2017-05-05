@@ -9,6 +9,6 @@
     {% endif %}
   </div>
   <div class='medium-6 columns'>
-    <img class="fadeinright" width="500" height="400" alt="" src="{% asset_path {{strength.image}} %}" />
+    <img class="fadeinright" width="500" height="400" alt="" src="{% image_path {{strength.image}} magick:resize:500x400 magick:quality:80%}" />
   </div>
 </div>

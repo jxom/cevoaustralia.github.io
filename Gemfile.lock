@@ -58,6 +58,7 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
+    mini_magick (4.7.0)
     netrc (0.11.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -91,6 +92,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-paginate
+  mini_magick
   rest-client
   sass
   uglifier
