@@ -3,7 +3,7 @@
 require "jekyll-assets"
 require "image_optim"
 
-image_optim = ImageOptim.new
+image_optim = ImageOptim.new(pngcrush: false, pngout: false, svgo: false)
 processor   = proc do |_, data|
   image_optim.optimize_image_data(data) || data
 end

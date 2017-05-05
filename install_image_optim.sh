@@ -1,4 +1,5 @@
 #/bin/sh
+# modified from https://hub.docker.com/r/abemedia/jekyll-ci/~/dockerfile/
 export DON_PAGES_VERSION=0.0.6
 
 # image_optim dependencies
