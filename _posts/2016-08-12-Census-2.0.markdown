@@ -9,7 +9,7 @@ tags:
   - Cloud
   - System Architecture
 author: Steve Mactaggart
-images:
+images: blog/census-2.0.png
 excerpt:
   In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, I thought I'd put a blog post where my mouth is and suggest an architecture I feel would have delivered had Cevo been involved in the creation of this years' Census application.
 ---
@@ -83,7 +83,7 @@ Over the past few year AWS have demonstrated multiple times that they fit this b
 
 By using a "serverless" architecture, the application sits on a platform that is built for scale, and requires the application developers to bear in mind the management and impact of state.
 
-{% image census-sa.png %}
+<img src="/census-sa.png">
 
 ### Front End
 

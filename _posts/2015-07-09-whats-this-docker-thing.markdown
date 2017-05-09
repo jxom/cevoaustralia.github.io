@@ -9,7 +9,7 @@ tags:
   - Docker
   - Cloud
 author: Peter Viertel
-images:
+images: blog/whats-this-docker-thing.png
 excerpt:
   If there’s one thing industry news sources have been mentioning to you recently it would almost certainly be Docker. But is there too much hype? Should one wait before looking into it?. There’s certainly a large amount of hype out there in the industry of the likes we have not seen since for about 6 years, when you could not move for “Cloud Experts” crowding your doorstep offering cloud this and cloud that. We can see with the benefit of hindsight that “The Cloud” did not turn out to be complete fakery, in fact it’s turned out a lot of the promises came true, it’s even better than expected in that “The Cloud” is now a whole industry that enhances and supports your operations, and you really can run your IT operations more efficiently.
 ---

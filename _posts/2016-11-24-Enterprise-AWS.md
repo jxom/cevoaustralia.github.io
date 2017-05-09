@@ -6,7 +6,7 @@ date:   2016-11-24
 categories:
   - Enterprise
 author: Steve Mactaggart
-images:
+images: blog/enterprise-aws.png
 excerpt:
     As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing.
 

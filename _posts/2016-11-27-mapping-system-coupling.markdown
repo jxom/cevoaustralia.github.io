@@ -12,7 +12,7 @@ tags:
     - graphviz
     - discovery
 author: Colin Panisset
-images:
+images: blog/mapping-systems-blog.png
 excerpt:
     Have you ever wondered just what would break if _that system_ (you know the one) went down?  Do you actually _know_ what systems depend on it? How do the reports get from it to Marketing? In this post, I'll describe a simple technique I've developed to surface and share all this juicy, interesting information.
 ---
@@ -159,7 +159,7 @@ that this application relies on to do authentication of users.
 
 Perhaps it looks like this:
 
-{% image basic-system-with-humans.png %}
+<img src="/basic-system-with-humans.png">
 
 Uh-oh. A quick glance shows us that:
 
@@ -208,7 +208,7 @@ However, some key things to note:
   different teams and departments, implying human chains of communication
   about custodianship and negotiation for fixes and when versions change.
 
-{% image complex-example.png %}
+<img src="/complex-example.png">
 
 ## You're in charge
 

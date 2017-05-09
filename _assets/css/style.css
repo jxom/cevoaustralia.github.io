@@ -890,7 +890,7 @@ body.screenshot {
   font-style: italic;
 }
 .modBlogPost img {
-  width: 100%;
+  width: 50%;
 }
 .modBlogPost a:hover img {
   -moz-transition-duration: 0.5s;

@@ -9,7 +9,7 @@ tags:
   - docker
   - automation
 author: Eloise Skella
-images:
+images: blog/automated-provisioning-with-docker.png
 ---
 
 #### Customer Overview

@@ -8,7 +8,7 @@ categories:
 tags:
     - devops
 author: Steve Mactaggart
-images:
+images: blog/the-four-values-of-a-devops-transformation.png
 
 excerpt:
     Just like the agile transformations of the past, there is a difference between ‘Doing Agile’, and ‘Being Agile’.  ‘We do standups’ - therefore we are Agile. With the increase in adoption of devops practices, are we 'Doing devops' or are we 'Being devops'?
