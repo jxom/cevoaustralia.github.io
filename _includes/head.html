@@ -6,10 +6,10 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
+  {% css foundation %}
+  {% css style %}
+  {% css fontello %}
+  {% css font-awesome %}
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@cevoaustralia">
@@ -37,8 +37,9 @@
   <meta name="twitter:image:src" content="https://cevo.com.au/images/cevo-swoosh.png">
   {% endif %}
 
-  <script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/ga.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+  {% javascript libs %}
+  {% javascript ga %}
+ 
   <script>
     // terrificjs bootstrap
     (function($) {
@@ -56,9 +57,7 @@
     })(Tc.$);
   </script>
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
-  <script src="{{ "/javascripts/masonry.pkgd.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-  <script src="{{ "/javascripts/slick.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+  {% javascript head %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
