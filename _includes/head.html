@@ -18,23 +18,30 @@
   {% endif %}
   {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}">
+  <meta property='og:title' content="{{ page.title }}"/>
   {% else %}
   <meta name="twitter:title" content="{{ site.title }}">
+  <meta property='og:title' content="{{ site.title }}"/>
   {% endif %}
   {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta property='og:url' content=" {{ site.url }}{{ page.url }}" />
   {% endif %}
   {% if page.description %}
   <meta name="twitter:description" content="{{ page.description }}">
+  <meta property='og:description' content="{{ page.description }}"/>
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
+  <meta property='og:description' content="{{ site.description }}"/>
   {% endif %}
   {% if page.thumbnail %}
   <meta name="twitter:image" content="{{ site.url }}/images/{{ page.thumbnail }}">
   <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.thumbnail }}">
+  <meta property='og:image' content="{{ site.url }}/images/{{ page.thumbnail }}"/>
   {% else %}
   <meta name="twitter:image" content="https://cevo.com.au/images/cevo-swoosh.png">
   <meta name="twitter:image:src" content="https://cevo.com.au/images/cevo-swoosh.png">
+  <meta property='og:image' content="{{ site.url }}/images/cevo-swoosh.png"/>
   {% endif %}
 
   <script src="{{ "/javascripts/libs.js" | prepend: site.baseurl }}" type="text/javascript"></script>
