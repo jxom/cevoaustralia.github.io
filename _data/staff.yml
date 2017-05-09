@@ -7,7 +7,7 @@
     <br/><br/>Geoff is passionate about the IT industry and how IT can improve
     business performance and society in general. He has been solving business
     problems with the pragmatic use of IT for over 2 decades.
-  avatar: images/staff/geoff_rohrsheim.jpg
+  avatar: staff/geoff_rohrsheim.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/geoffrohrsheim
@@ -20,7 +20,7 @@
     <br/><br/>A non-technical technologist who is strongly focused on the people component
     of teams and organisations, because frankly, the technology challenges are almost
     always easier to solve.
-  avatar: images/staff/hannah_browne.jpg
+  avatar: staff/hannah_browne.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/hannahbrowne
@@ -33,7 +33,7 @@
     <br/><br/>
     A passionate technologist, he takes great pleasure in keeping abreast of current trends in technology always looking for opportunities to improve current practice with some innovative thinking.
     # Using Lean and Agile principals, Steve is constantly working with teams to help them realise the goal of delivering value in discrete units, measuring the results and then learning and adapting in rapid succession.
-  avatar: images/staff/steve_mactaggart.jpg
+  avatar: staff/steve_mactaggart.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/steve-mactaggart
@@ -45,7 +45,7 @@
   position: Software consultant and open-source advocate
   desc:
     Adam started programming after getting his first 8-bit computer Atari 800XL at the age of seven. He has worked in software delivery teams as a developer, agile coach and technical lead for over 20 clients in Australia, Ireland, Poland, China, Brazil and India.
-  avatar: images/staff/adam_nowotny.jpg
+  avatar: staff/adam_nowotny.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/adamnowotny
@@ -57,7 +57,7 @@
   position: Infrastructure Automation and Reliability Engineer
   desc:
     Robert Rocco is highly motivated and goal driven member of the team at Cevo.  He is continuously seeking knowledge and thrives on challenges.  Finding the best solution for a problem is one of his main focuses, believing you should always be looking to improve.
-  avatar: images/staff/robert_rocco.jpg
+  avatar: staff/robert_rocco.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/robert-rocco
@@ -69,7 +69,7 @@
   position: Automation Artificer
   desc:
     Andy was once a developer before he became fascinated with devops and being able to automate All The Things. Since then, he's been enjoying using some of the new technologies emerging in the devops space alongside proven technologies to solve a diverse range of problems.
-  avatar: images/staff/andy_shaw.jpg
+  avatar: staff/andy_shaw.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/andy-shaw-35095920/
@@ -82,7 +82,7 @@
   desc:
     Karel is a consultant who provides leadership and delivery of operations best practices, cloud automation solutions and devops transformation.
     He is an enthusiastic and outgoing engineer who’s been active in the devops & agile space in the last few years. Boom!
-  avatar: images/staff/karel_malbroukou.jpg
+  avatar: staff/karel_malbroukou.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/karelmalbroukou
@@ -94,7 +94,7 @@
   position: Infrastructure Coder
   desc:
     Trent Hornibrook is a passionate engineer that wants to reduce the cycle from ‘idea’ to ‘cash’. Having a history of Infrastructure Operations, MySQL DBA and Agile Delivery, Trent loves simplifying complex problems and identifying ways to deliver value sooner.
-  avatar: images/staff/trent_hornibrook.jpg
+  avatar: staff/trent_hornibrook.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/trenthornibrook
@@ -106,7 +106,7 @@
   position: Automation Engineer
   desc:
     Owen Chung is a passionate technologist in the game since the turn of the century. He believes tech is an expression of culture. Quality tech reflects a quality culture. His mission is to help tech builders, makers and creators be their best wielding his devops superpowers to drive this cultural change.
-  avatar: images/staff/owen_chung.jpg
+  avatar: staff/owen_chung.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/owen-chung-27b2bb11
@@ -116,7 +116,7 @@
   position: Software Developer
   desc:
     Elliott has always had  a passion for technology knowing from an early age he would one day be working in the tech field. He has a love for crafting quality code and the agile lifecycle. His move to Cevo allows him to assist organisations in their evolution into becoming more dynamic and efficient through the use of agile practices.
-  avatar: images/staff/elliott_gorrell.jpg
+  avatar: staff/elliott_gorrell.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/elliott-gorrell
@@ -126,7 +126,7 @@
   position: Automation Engineer
   desc:
     James appreciates that his passion and enjoyment comes from helping businesses to deliver better experiences to their customers, more rapidly and frequently. He has a broad range of experience in software delivery, and has a particular focus on test and infrastructure automation.
-  avatar: images/staff/james_strain.jpg
+  avatar: staff/james_strain.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/jamesstrain1
@@ -138,7 +138,7 @@
     Jagannath loves technology and the value it creates.
     <br><br>
     Currently he is working on improving his expertise on Test Automation, Devops (Docker, AWS), Machine Learning and NodeJs; and figuring out how these multiple disciplines can be amalgamated.
-  avatar: images/staff/jagannath_vaikuntham.jpg
+  avatar: staff/jagannath_vaikuntham.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/vjags
@@ -151,7 +151,7 @@
   position: Director, Transformation and Delivery
   desc:
     Colin brings his history of operational excellence together with a desire to improve delivery practices to drive business value through improving culture, empathy, automation and technical excellence. He has a knack for understanding and explaining complex systems, and has presented at events like AWS Summits, Devops Days, and many meetups.
-  avatar: images/staff/colin_panisset.jpg
+  avatar: staff/colin_panisset.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/colinpanisset
@@ -165,7 +165,7 @@
     Melissa began her career in testing and quickly discovered the value of building quality in from inception.
     Now with over a decade of experience working in teams, she champions cross competency collaboration to achieve this.
     She is an avid girl geek and draws inspiration from people with the willingness and openness to learn.
-  avatar: images/staff/melissa_ngau.jpg
+  avatar: staff/melissa_ngau.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/melissangau
@@ -178,7 +178,7 @@
   desc:
     Nikita is a passionate technologist looking to assist organisations in their journey of agile software adoption.
     Her aim is to establish a culture and environment where software releases can happen rapidly, frequently, and more reliably with the use of automation.
-  avatar: images/staff/nikita_gandhi.jpg
+  avatar: staff/nikita_gandhi.jpg
   socials:
    - icon_class: fa fa-linkedin
      url: https://au.linkedin.com/in/nikita-gandhi-6416b24b
@@ -189,7 +189,7 @@
   sort: 2016-10-11
   position: Business Designer
   desc: Simon can be found playing Product Owner, Business Analysis, IM/PM or Agile Coaching roles. He is on a perpetual journey to drag IT closer to "the business" and EVERYONE closer to their customers. Simon is an efficiency addict who loves helping teams shift the dial from a focus on outputs to a focus on measurable business outcomes.
-  avatar: images/staff/simon_bond.jpg
+  avatar: staff/simon_bond.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/sjbond
@@ -202,7 +202,7 @@
   sort: 2016-11-04
   position: Business Solutions Consultant
   desc: Henrik has worked across a large variety of technology roles before landing at Business Analysis. With a solid background in software development, Henrik has acquired a rich understanding for both the technical and operational aspects of project delivery. This experience has given him a keen eye for striking the delicate balance between technical and operational trade offs.
-  avatar: images/staff/henrik_axelsson.jpg
+  avatar: staff/henrik_axelsson.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/henrik-axelsson-7083b23
@@ -216,7 +216,7 @@
   position: Executive Director
   desc: Jamie works behind the scenes at Cevo ensuring the business is ready for the predicted growth.
         <br/><br/>He’s been involved in numerous technology start-ups, expansions and exits. He uses his experience to help Cevo build scale into its delivery and operations.
-  avatar: images/staff/jamie_potter.jpg
+  avatar: staff/jamie_potter.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/jamiewpotter
@@ -226,7 +226,7 @@
   position: Client Executive
   desc: David has worked in the tech scene in a sales capacity for the last 7+ years and in that time, has grown to understand the close relationship between team dynamic and successful client outcomes.
         <br/><br/>His aim is to help successfully grow Cevo by sticking to its focus of hiring the best technologists to engage in challenging and interesting work for awesome clients.
-  avatar: images/staff/david_sanza.jpg
+  avatar: staff/david_sanza.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/davidsanza/
@@ -236,7 +236,7 @@
   position: Talent Acquisition Consultant
   desc: Shazia has worked across a large variety of recruitment roles for Technology Companies. She is a highly versatile and motivated individual with a focus on exceeding expectations of her people working with.
         <br/><br/>She has achieved hiring right people for the business. This experience has given her keen eye of hunting highly skilled people with right attitude.
-  avatar: images/staff/shazia_haider.jpg
+  avatar: staff/shazia_haider.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/shaziahaider/
@@ -245,7 +245,7 @@
   sort: 2017-03-06
   position: Talent/HR
   desc: Ebony is a self-starter, results-driven talent acquisition specialist, with strong communication and collaboration skills. She is a commercial, customer-focused individual that takes a progressive approach to talent attraction, which has seen her build and develop strategic business relationships within a range of matrix environments.
-  avatar: images/staff/ebony_worth.jpg
+  avatar: staff/ebony_worth.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/ebonyw/
@@ -254,7 +254,7 @@
   sort: 2017-03-17
   position: Quality Architect
   desc: Rob is a QA with a strong technical background. In his career he has done everything from Business Analyst to data analytics to delivery engineering alongside his QA role, and is comfortable talking to a variety of different stakeholders. He is interested in providing solutions and processes that deliver measurable, maintainable benefit to clients.
-  avatar: images/staff/rob_lugton.jpg
+  avatar: staff/rob_lugton.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/rob-lugton-a2498719
@@ -266,7 +266,7 @@
   position: Systems Performance Engineer
   desc: Tom is a systems performance engineer with a passion for building fast, resilient, and scalable systems. He believes the best way to do this is through collaboration,  automation, and effective instrumentation.
         <br /><br />He is continuously learning, and is always excited by opportunities to share this knowledge.
-  avatar: images/staff/tom_partington.jpg
+  avatar: staff/tom_partington.jpg
   socials:
     - icon_class: fa fa-twitter
       url: https://twitter.com/parmigiana
@@ -275,9 +275,18 @@
   sort: 2017-03-31
   position: Technical Craftsman
   desc: Casey has a passion for improving software development processes and helping companies deliver software faster through iterative releases and adapting agile concepts to match their needs.
-  avatar: images/staff/casey_leask.jpg
+  avatar: staff/casey_leask.jpg
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/casey-leask-099aa922
     - icon_class: fa fa-twitter
       url: https://twitter.com/caseyleask
+
+- name: Jason Keane
+  sort: 2017-05-08
+  position: Automation Engineer
+  desc: Jason is an experienced agile technologist, with a passion to continually learn and further develop his skill set. He understands the need to constantly adapt to new environments and is experienced at working with broad stakeholder groups to produce the best outcomes.
+  avatar: images/staff/jason_keane.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/jason-keane-03742512/
