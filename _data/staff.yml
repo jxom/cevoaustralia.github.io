@@ -281,3 +281,12 @@
       url: https://www.linkedin.com/in/casey-leask-099aa922
     - icon_class: fa fa-twitter
       url: https://twitter.com/caseyleask
+
+- name: Jason Keane
+  sort: 2017-05-08
+  position: Automation Engineer
+  desc: Jason is an experienced agile technologist, with a passion to continually learn and further develop his skill set. He understands the need to constantly adapt to new environments and is experienced at working with broad stakeholder groups to produce the best outcomes.
+  avatar: images/staff/jason_keane.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/jason-keane-03742512/
