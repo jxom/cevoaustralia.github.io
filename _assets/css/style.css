@@ -891,7 +891,7 @@ body.screenshot {
   font-style: italic;
 }
 .modBlogPost img {
-  width: 50%;
+  width: 100%;
 }
 .modBlogPost a:hover img {
   -moz-transition-duration: 0.5s;
@@ -962,6 +962,16 @@ body.screenshot {
 
 .modBlogPost.no_bg.no-media .content {
   padding: 0 0 10px;
+}
+
+.blogImages {
+ width: 50%;
+}
+
+@media (max-width: 480px) {
+  .modBlogPost img {
+    display: none;
+  }
 }
 
 /* Slider */

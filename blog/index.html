@@ -5,7 +5,7 @@ section_id: blog
 
 {% for post in paginator.posts %}
   <div class='big mod modBlogPost no_bg'>
-    <div class='images'>
+    <div class='blogImages images'>
       {% for image in post.images %}
       {% img {{image}} magick:resize:786x398 %}
       {% endfor %}
