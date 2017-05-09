@@ -28,6 +28,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: #4E9925;
 }
 
 h1.margin-bottom, h2.margin-bottom, h3.margin-bottom, h4.margin-bottom,
