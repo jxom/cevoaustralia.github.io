@@ -5,7 +5,7 @@ date:   2016-10-27
 categories:
   - Community
 author: Team Cevo
-images:
+images: blog/what-is-devops.png
 excerpt:
     DevOpsDays founder Patrick Debois explains his thoughts on what DevOps has become since defining the term in 2009.
 ---

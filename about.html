@@ -117,7 +117,7 @@ section_id: about
         <div class='mod modTeamMember style-2'>
           <div class='member'>
             {% if member.avatar %}
-            <img class="avatar" alt="Photo of {{member.name}}" src="{{site.url}}/{{member.avatar}}" />
+            <img class="avatar" alt="Photo of {{member.name}}" src="{% asset_path {{member.avatar}} %}" />
             {% else %}
             <div class="avatar" style="height:150px"></div>
             {% endif %}

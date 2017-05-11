@@ -16,7 +16,7 @@ section_id: sisters
     <hr class="hide-for-medium-up">
     <div class='row'>
       <div class='medium-3 medium-offset-1 columns'>
-       <a href={{sister.url}}> <img class="fadeinleft" style="display:block; margin: 0 auto; padding-bottom: 20px;" src="/images/sisters/{{sister.image}}" /></a>
+       <a href={{sister.url}}> <img class="fadeinleft" style="display:block; margin: 0 auto; padding-bottom: 20px;" src="{% asset_path sisters/{{sister.image}} %}" /></a>
       </div>
       <div class='medium-6 columns end'>
         <!-- <div class='spacing'></div> -->
@@ -39,7 +39,7 @@ section_id: sisters
   {% for partner in partners %}
     <div class='row'>
       <div class='medium-3 medium-offset-1 columns'>
-        <a href={{partner.url}}><img class="fadeinleft" style="display:block; margin: 0 auto; padding-bottom: 20px;" src="/images/partners/{{partner.image}}" /></a>
+        <a href={{partner.url}}><img class="fadeinleft" style="display:block; margin: 0 auto; padding-bottom: 20px;" src="{% asset_path partners/{{partner.image}} %}" /></a>
       </div>
       <div class='medium-6 columns end'>
         <!-- <div class='spacing'></div> -->

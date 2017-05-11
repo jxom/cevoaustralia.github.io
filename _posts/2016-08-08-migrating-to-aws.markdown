@@ -8,7 +8,7 @@ categories:
 tags:
   - aws
 author: Hannah Browne
-images:
+images: blog/migrating-to-aws.png
 ---
 
 #### Customer Overview

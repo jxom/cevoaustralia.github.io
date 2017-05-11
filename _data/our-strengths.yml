@@ -1,6 +1,6 @@
 - sudoTitle: We are
   title: Amazing People
-  image: images/team.jpg
+  image: team.jpg
   link: about.html
   details:
     <p>
@@ -19,7 +19,7 @@
     </p>
 - sudoTitle: Solving
   title: Interesting Problems
-  image: images/problems.jpg
+  image: problems.jpg
   link: services.html
   details: 
     <p>
@@ -40,7 +40,7 @@
     </p>
 - sudoTitle: With
   title: Awesome Clients
-  image: images/clients.jpg
+  image: clients.jpg
   details: 
     <p>
     Our clients are leaders who understand that the most effective approach to solving

@@ -20,11 +20,21 @@ This should build the docker image and run the server at http://localhost:4000/.
 
 You need to have:
 * a working Ruby environment
+* ImageOptim and friends (jhead, jpegarchive, jpegoptim, jpegtran, and mozjpeg)
 * this repository checked out
 
 The site is developed as a set of static resources, and assembled into the resultant website through the use of [Jekyll][f0caf124]
 
 ## How to install dependencies
+
+To install the image_optim dependancies (used to optimise the images for serving on the web)
+on MacOS run  
+```
+brew install jhead jpegoptim jpeg
+```
+
+For linux see the requirements for your distribution [here](https://github.com/toy/image_optim)  
+
 
 `bundler` is needed for all dependencies, including jekyll. If you are running `ruby` without it, it can be installed with
 
