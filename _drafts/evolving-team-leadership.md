@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evolving team leadership
-description: There is much written about the changing roles of Development and Operations staff when organisations undergo agile transformations and start to work with a devops approach.  But what about the role of the Team Leader?
+description: There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?
 twittercreator: stevemac
 categories:
   - devops
@@ -9,17 +9,24 @@ tags:
   - agile
   - transformation
 author: Steve Mactaggart
+
+excerpt:
+    There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?<br/>
+    <br/>
+    In <i>pre-agile environments</i>, as a Team Lead, your role is one of structure and co-ordination, it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.<br/>
+    <br/>
+    You might find yourself asking "Do we need Team Lead's in an agile/devops culture?" and If so "What value can they provide?"
 ---
 
-There is much written about the changing roles of Development and Operations staff when organisations undergo agile transformations and start to work with a devops approach.  But what about the role of the Team Leader?
+There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?
 
-In *pre-agile environments*, as a Team Lead your role is one of structure and co-ordination, it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.
+In *pre-agile environments*, as a Team Lead, your role is one of structure and co-ordination, it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.
 
 But as your team starts to work in agile teams, the need for you to keep them busy is reduced, as this is now a responsibility of the product owner and agile team itself.
 
 You may find yourself with increased responsibility during this transition, as you may be asked to initially take on the role of the product owner.  This is often the first step fits in well with the current structure,  But over time, that may change.  As the business matures and identifies more appropriate product owners the responsibilities will shift.
 
-**You might find yourself asking "Do we need Team Lead's in an agile/devops culture?" and If so "What value can they provide?""**
+**You might find yourself asking "Do we need Team Lead's in an agile/devops culture?", and if so "What value can I provide?**
 
 You don't get to be a Team Lead unless you have great people skills, the ability to think broader than others and a drive to get things done.  So lets not waste that skill, but repurpose it to lead these new agile teams to deliver value faster and more confidently.
 
@@ -59,16 +66,17 @@ As a Team Lead, whether you are playing the role of product owner or not, you ha
 
 With a joint Development and Operations responsibility, your new team has an increasing reliance on good prioritisation.
 
-One way to evolve Agile for Projects to an Agile DevOps approach is to create some prioritisation guidelines.  Assess each of the tasks against this list first to see where we should start the prioritisation discussion.
+One way to evolve *Agile for Projects* into **DevOps** is to create some prioritisation guidelines.  Engage the product owner to assess each of the new demands on the team against this list first to see where they should start the prioritisation discussion.
 
 A starter list might look like:
 
 1. Activities that restore a production service that is failing
-2. Tasks that enable us to learn from a recent incident
-3. New business functionality that has been appropriately groomed and estimated
+2. Tasks that enable us to learn from a recent failures
+3. New business functionality that has been appropriately groomed and estimated *(up to 80% of our capacity)*
 4. Team generated items that will have a direct reduction in regular effort
+5. Refactoring work to reduce our technical debt
 
-With an agreed starting point for **how important** new demands on the team are, you should be able to measure and assess if the list is working, and if not alter it until the desired outcome is achieved.
+With an agreed starting point with respect to **how important** new demands on the team are, you should be able to measure and assess if the list is working, and if not alter it until the desired outcome is achieved.
 
 ## Most importantly - treat them like one team
 
