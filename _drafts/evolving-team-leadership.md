@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evolving team leadership
-description: There is much written about the changing roles of Development and Operations staff when organisations undergo agile transformations and start to work with a devops approach.  But what about the role of the Team Lead?
+description: There is much written about the changing roles of Development and Operations staff when organisations undergo agile transformations and start to work with a devops approach.  But what about the role of the Team Leader?
 twittercreator: stevemac
 categories:
   - devops
@@ -11,15 +11,15 @@ tags:
 author: Steve Mactaggart
 ---
 
-There is much written about the changing roles of Development and Operations staff when organisations undergo agile transformations and start to work with a devops approach.  But what about the role of the Team Lead?
+There is much written about the changing roles of Development and Operations staff when organisations undergo agile transformations and start to work with a devops approach.  But what about the role of the Team Leader?
 
-In pre-agile environments, a Team Lead is a key role of structure and co-ordination, they are often the path with which work routes, they know the skills and capacity of their team members and are regularly making decisions about what can and can't be done.
+In *pre-agile environments*, a Team Lead is a key role of structure and co-ordination, they are often the path by which work routes. They know the skills and capacity of their team members and are regularly making decisions about what can and can't be done.
 
-As their team members start to work in agile teams, the need for them to perform the function of keeping the team members busy is reduced, as this is now a responsibility of the product owner and agile team.
+As their team members start to work in agile teams, the need for the Team Lead to perform the function of keeping team members busy is reduced, as this is now a responsibility of the product owner and agile team itself.
 
-Some team leads may find themselves with increased responsibility by effectively taking on the role of the product owner by default because they had always been performing that function.  But over time, that may change.  As the business matures and identified the appropriate product owners the need for the team lead to perform this function will decrease.
+Some team leads may find themselves with increased responsibility, during this transition, as they initially take on the role of the product owner.  They are often the first natural step as they have always been performing that function.  But over time, that may change.  As the business matures and identifies more appropriate product owners the need for the responsibilities of the Team Lead will decrease.
 
-So do we not need Team Lead's in an agile/devops culture?  If we do, what value do they provide to the system?
+**So do we need Team Lead's in an agile/devops culture?  If so, what value can they provide?**
 
 You don't get to a Team Lead role unless you already have great people skills, the ability to think broader than others and a drive to get things done.  So lets not waste that skill, but repurpose it to help drive these new agile teams to deliver value faster and more confidently.
 
@@ -87,6 +87,6 @@ These activities can be:
 
 
 
-**Remember** you can be a member of the team to, and your experience from leading a team will be invaluable, as long as you are close to the team and have the ability to impart your experience.  By [understanding the values of devops](/culture/2017/03/12/four-values-of-devops.html) you can help lead your team through this transition to a place of    
+**Remember** you can be a member of the team too, and your experience from leading a team will be invaluable, as long as you are close to the team and have the ability to impart your experience.  By [understanding the values of devops](/culture/2017/03/12/four-values-of-devops.html) you can help lead your team through this transition to a place where they feel ownership of their future, trusted to make the right decision and empowered to make things better.
 
 **Your changing role is to enable the team to get the work done, not to tell them what to do.**
