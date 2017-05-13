@@ -51,7 +51,7 @@ By uniting the Development and Operations capabilities, your team members will h
 
 Use the skills you have developed as a Team Leader to help your team understand the amazing opportunity this transformation has gifted them.  They now have the chance to extend their skills beyond a single role.  For some this will be a challenge, but for others it will energise them as they now have the ability to influence areas previously out of reach.
 
-## Champion the priority responsibility
+## Educate on the responsibility of priority
 
 [From great power comes great responsibility](http://quoteinvestigator.com/2015/07/23/great-power/) - this is no more true than the role of the product owner in an agile team.  The power of the product owner to set priority is one of the critical elements to a successful team.  A weak product owner that is constantly being pushed around to change priority causes interruption to the flow of the team, while an overly dominant product owner that sets priority without taking feedback is destined to build the wrong thing.
 
