@@ -15,18 +15,18 @@ excerpt:
     <br/>
     In <i>pre-agile environments</i>, as a Team Lead, your role is one of structure and co-ordination, it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.<br/>
     <br/>
-    You might find yourself asking "Do we need Team Lead's in an agile/devops culture?" and If so "What value can they provide?"
+    You might find yourself asking "Do we need Team Lead's in an agile/devops culture?" and If so "What value can I provide?"
 ---
 
 There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?
 
-In *pre-agile environments*, as a Team Lead, your role is one of structure and co-ordination, it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.
+In *pre-agile environments*, as a Team Lead, your role is one of structure and co-ordination; it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.
 
-But as your team starts to work in agile teams, the need for you to keep them busy is reduced, as this is now a responsibility of the product owner and agile team itself.
+But as your team starts to work in an agile way, the need for you to keep them busy is reduced, as this is now a responsibility of the product owner and agile team itself.
 
-You may find yourself with increased responsibility during this transition, as you may be asked to initially take on the role of the product owner.  This is often the first step fits in well with the current structure,  But over time, that may change.  As the business matures and identifies more appropriate product owners the responsibilities will shift.
+You may find yourself with increased responsibility during this transition, as you may be asked to initially take on the role of the product owner.  This first step fits in well with the current structure,  But over time, that may change.  As the business matures and identifies more appropriate product owners the responsibilities will shift.
 
-**You might find yourself asking "Do we need Team Lead's in an agile/devops culture?", and if so "What value can I provide?**
+**You might find yourself asking "Do we need Team Lead's in an agile/devops culture?", and if so "What value can I provide?**""
 
 You don't get to be a Team Lead unless you have great people skills, the ability to think broader than others and a drive to get things done.  So lets not waste that skill, but repurpose it to lead these new agile teams to deliver value faster and more confidently.
 
