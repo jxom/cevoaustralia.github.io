@@ -7,6 +7,7 @@ categories:
   - Community
 author: Hannah Browne
 images: blog/girls-in-tech.png
+thumbnail: blog/girls-in-tech.png
 excerpt:
   On August 10th Cevo's Hannah Browne joined Miguel Wood, Nicola Hazell and Geoff Gourley at daring discussion hosted by Girls in Tech Australia about diversity in technology.
 ---

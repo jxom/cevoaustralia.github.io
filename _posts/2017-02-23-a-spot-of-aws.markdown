@@ -10,6 +10,7 @@ tags:
     - cost
 author: Henrik Axelsson
 images: blog/a-spot-of-aws.png
+thumbnail: blog/a-spot-of-aws.png
 
 excerpt:
     Have you considered using spot instances to save on AWS costs? It may pay to investigate the details of your operating environment first!

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automated provisioning with Docker"
-description: How Media Links deployed Docker clusters to easily provision & scale their infrastructure 
+description: How Media Links deployed Docker clusters to easily provision & scale their infrastructure
 date:   2015-12-09
 categories:
   - devops
@@ -10,6 +10,7 @@ tags:
   - automation
 author: Eloise Skella
 images: blog/automated-provisioning-with-docker.png
+thumbnail: blog/automated-provisioning-with-docker.png
 ---
 
 #### Customer Overview

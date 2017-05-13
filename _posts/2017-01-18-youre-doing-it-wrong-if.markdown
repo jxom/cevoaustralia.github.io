@@ -10,6 +10,7 @@ tags:
     - best-practice
 author: Steve Mactaggart
 images: blog/youre-doing-it-wrong-if.png
+thumbnail: blog/youre-doing-it-wrong-if.png
 
 excerpt:
     We are all looking to learn from our failures and make things better, but sometimes it better to communicate what is right by eliminating what is wrong.<br/>
