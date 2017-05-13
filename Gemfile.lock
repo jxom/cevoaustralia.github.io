@@ -44,6 +44,8 @@ GEM
       pathutil (>= 0.8)
       rack (> 1, < 2)
       sprockets (~> 3.3, < 3.7)
+    jekyll-compose (0.5.0)
+      jekyll (>= 3.0.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
@@ -91,6 +93,7 @@ DEPENDENCIES
   image_optim
   jekyll
   jekyll-assets
+  jekyll-compose
   jekyll-paginate
   mini_magick
   rest-client
