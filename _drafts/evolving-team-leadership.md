@@ -9,6 +9,7 @@ tags:
   - agile
   - transformation
 author: Steve Mactaggart
+images: blog/evolving-team-leadership.png
 
 excerpt:
     There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?<br/>
