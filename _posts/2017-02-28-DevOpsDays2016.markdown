@@ -10,6 +10,7 @@ tags:
     - video
 author: Team Cevo
 images: blog/why-the-forgotten-word.png
+thumbnail: blog/why-the-forgotten-word.png
 
 excerpt:
     From DevOpsDays 2016 our own Hannah Browne and Steve Mactaggart explore why we do what we do.<br/>

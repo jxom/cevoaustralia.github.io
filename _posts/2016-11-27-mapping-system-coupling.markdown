@@ -13,6 +13,8 @@ tags:
     - discovery
 author: Colin Panisset
 images: blog/mapping-systems-blog.png
+thumbnail: blog/mapping-systems-blog.png
+
 excerpt:
     Have you ever wondered just what would break if _that system_ (you know the one) went down?  Do you actually _know_ what systems depend on it? How do the reports get from it to Marketing? In this post, I'll describe a simple technique I've developed to surface and share all this juicy, interesting information.
 ---
@@ -97,7 +99,7 @@ There are 4 stages:
 
 1. Using Your Favourite Directed Graph Mapping Software (I like
    [GraphViz](http://graphviz.org) and my examples will use it),
-   turn the whiteboard scrawl into a directed graph of nodes and edges. 
+   turn the whiteboard scrawl into a directed graph of nodes and edges.
 1. Apply colours and annotations to the nodes and edges to distinguish
    types of nodes (databases, humans, etc) and types of edges (HTTP,
    SQL, email, USB stick, etc)
@@ -117,7 +119,7 @@ There are 4 stages:
    how you capture the "oh, I just remembered" and the "I was too
    ashamed to say it before" details. A measure of both anonymity and
    time-dependent opportunity is at work here.
-1. Before the map becomes illegible from updates, take it off the wall 
+1. Before the map becomes illegible from updates, take it off the wall
    and capture the changes in the map source code (version-controlled,
    of course, so you can illustrate changes over time)
 1. Print it out again, stick it up, and repeat until the rate of change
@@ -217,4 +219,3 @@ perhaps you simply don't have time or capacity to do the mapping yourself;
 or perhaps you've mapped your system thoroughly, and want some help
 untangling it. In any of these cases, if you're looking for a team who've
 Been There and Seen That, and made it better, please give us a call!
-

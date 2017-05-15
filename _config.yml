@@ -8,7 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Automation
   Infrastructure
 baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# URL configuration is managed at build time through the use of _config_<ENV>.yml files
+# url: "https://www.cevo.com.au" # the base hostname & protocol for your site
 twitter_url: https://twitter.com/cevoaustralia
 linkedin_url: https://www.linkedin.com/company/cevoaustralia
 youtube_url: https://www.youtube.com/channel/UCeWwnMuG8a93Y5jf3ak2HIw

@@ -11,7 +11,6 @@
   {% css fontello %}
   {% css font-awesome %}
 
-  <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@cevoaustralia">
   {% if page.twittercreator %}
   <meta name="twitter:creator" content="@{{ page.twittercreator }}">
@@ -25,7 +24,7 @@
   {% endif %}
   {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-  <meta property='og:url' content=" {{ site.url }}{{ page.url }}" />
+  <meta property='og:url' content="{{ site.url }}{{ page.url }}" />
   {% endif %}
   {% if page.description %}
   <meta name="twitter:description" content="{{ page.description }}">
@@ -35,10 +34,12 @@
   <meta property='og:description' content="{{ site.description }}"/>
   {% endif %}
   {% if page.thumbnail %}
-  <meta name="twitter:image" content="{{ site.url }}/images/{{ page.thumbnail }}">
-  <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.thumbnail }}">
-  <meta property='og:image' content="{{ site.url }}/images/{{ page.thumbnail }}"/>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{% asset_path {{page.thumbnail}} %}">
+  <meta name="twitter:image:src" content="{{ site.url }}{% asset_path {{page.thumbnail}} %}">
+  <meta property='og:image' content="{{ site.url }}{% asset_path {{page.thumbnail}} %}"/>
   {% else %}
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="https://cevo.com.au/images/cevo-swoosh.png">
   <meta name="twitter:image:src" content="https://cevo.com.au/images/cevo-swoosh.png">
   <meta property='og:image' content="{{ site.url }}/images/cevo-swoosh.png"/>
@@ -46,7 +47,7 @@
 
   {% javascript libs %}
   {% javascript ga %}
- 
+
   <script>
     // terrificjs bootstrap
     (function($) {

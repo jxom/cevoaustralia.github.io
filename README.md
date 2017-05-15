@@ -71,5 +71,22 @@ $ bundle exec jekyll build --watch
 #    watched for changes, and regenerated automatically.
 ```
 
+### How to build the beta site
+
+To ensure that the correct absolute URL's are generated for the `beta.cevo.com.au` site, you need
+to specify an override file at build time to include the additional beta configuration.
+
+```
+# bundle exec jekyll build --config _config.yml,_config_beta.yml
+```
+
+### How to build the production site
+
+To ensure that the correct absolute URL's are generated for the `www.cevo.com.au` site, you need
+to specify an override file at build time to include the additional production configuration.
+
+```
+# bundle exec jekyll build --config _config.yml,_config_production.yml
+```
 
 [f0caf124]: https://jekyllrb.com/ "Jekyll"

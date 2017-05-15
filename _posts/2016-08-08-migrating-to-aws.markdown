@@ -9,6 +9,7 @@ tags:
   - aws
 author: Hannah Browne
 images: blog/migrating-to-aws.png
+thumbnail: blog/migrating-to-aws.png
 ---
 
 #### Customer Overview
@@ -16,14 +17,14 @@ MYOB is a leading provider of business management solutions in Australia and New
 
 #### Business Situation
 MYOB had a contract with its traditional Australian data centre due for renewal in early 2016. This provided the organisations with an opportunity to innovate and seek out infrastructure improvements to provide delivery teams more control of their environments. The vision was to reduce the cycle time of “concepts to production” through gaining configuration traceability, repeatability through automation and self service to reduce dependency on third parties. This vision ultimately tied into one of MYOB’s core business values to help businesses (their customers) be successful. “We needed a solution that would enable greater flexibility and visibility in terms of infrastructure configuration, automation and performance” says Grant Tibbey, Infrastructure Lead.   
-In its current state, MYOB Essentials was running in a third-party data center, utilising SQL Server and a Java front end. The company decided to move its infrastructure to AWS. 
+In its current state, MYOB Essentials was running in a third-party data center, utilising SQL Server and a Java front end. The company decided to move its infrastructure to AWS.
 
 
 #### Solution
 
 From the time MYOB decided it wanted more flexibility and more customer benefits from the Essentials infrastructure (until the existing contract expired), it had only approximately three months to complete the cutover.  
 
-MYOB formed a team using existing in house DevOps skills but didn’t have enough capacity to meet the aggressive deadlines. MYOB utilises a wide range of technologies, and Cevo were able to offer skills and availability with minimal onboarding requirements. MYOB was looking for experience without having to bring additional people up to speed on tools and techniques that were being applied to automation. 
+MYOB formed a team using existing in house DevOps skills but didn’t have enough capacity to meet the aggressive deadlines. MYOB utilises a wide range of technologies, and Cevo were able to offer skills and availability with minimal onboarding requirements. MYOB was looking for experience without having to bring additional people up to speed on tools and techniques that were being applied to automation.
 
 The existing application had some automation around building and deploying to the application servers using Ansible and Gradle. There was however no automation around building MS SQL Server and no automation around building the network infrastructure. Given the time constraints, existing automation was re-used and augmented with additional tools. Chef was chosen because of its ability to configure Windows and Linux servers securely using Secure WinRM and SSH protocols. It also gave the team the ability to unit and integration test components of the server automation as isolated modules and provided rapid feedback to the development processes using KitchenCI (test-kitchen). Unlike other automation technologies code could be developed and tested with the physical server being stubbed. This reduced server development wait-times. CloudFormation was used for network automation and enhanced with complex logic for alarm calculations using ruby code. CloudFormation templates were generated using a ruby gem “cfndsl” to enhance its static nature.   
 
@@ -36,7 +37,7 @@ Moving forward, the company plans to re-engineer the application from statically
 
 #### Benefits
 
-Benefits of the solution include providing MYOB with: 
+Benefits of the solution include providing MYOB with:
 
 * A safe, repeatable and easy means to release features to their customers as soon as they are capable of providing benefit.
 * The ability to rebuild servers at will or when they fail.
