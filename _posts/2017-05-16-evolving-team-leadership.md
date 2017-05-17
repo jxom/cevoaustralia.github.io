@@ -44,9 +44,9 @@ Champion the learnings and improvements identified in this process be prioritise
 
 Just because we have merged our Development and Operations teams doesn't mean that the rate of change expected from us is going to decrease.  Initially you will probably end up with bigger teams, and so the business expectation is that you can do more.
 
-Reality is that this type of transformation actually slows down output for a while, as team members settle into new responsibilities, get to know team members and technologies they have not been used to.
+Reality is that this type of transformation actually slows down output for a while, as team members settle into new responsibilities, get to know team members, and technologies they have not been used to.
 
-After the initial [Forming and Storming stages](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development), of team development these new teams will be expected to deliver much more value than any of them have expected.  
+After the initial [Forming and Storming stages](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development) of team development, these new teams will be expected to deliver much more value than any of them have expected.  
 
 Make sure from day one, that there is a strong focus on identifying what repetitive actions the team is tasked with doing, and put a plan in place to automate these away.  By validating where effort is being spent, you will be in a strong position to negotiate with the teams product owner on why the investment in this automation benefits everyone.
 
@@ -73,10 +73,10 @@ One way to evolve *Agile for Projects* into **DevOps** is to create some priorit
 A starter list might look like:
 
 1. Activities that restore a production service that is failing
-2. Tasks that enable us to learn from a recent failures
+2. Tasks that enable us to learn from recent failures
 3. New business functionality that has been appropriately groomed and estimated *(up to 80% of our capacity)*
 4. Team generated items that will have a direct reduction in regular effort
-5. Refactoring work to reduce our technical debt
+5. Refactoring work to reduce our [technical debt](https://en.wikipedia.org/wiki/Technical_debt)
 
 With an agreed starting point with respect to **how important** new demands on the team are, you should be able to measure and assess if the list is working, and if not alter it until the desired outcome is achieved.
 
