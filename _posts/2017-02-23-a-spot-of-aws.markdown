@@ -30,7 +30,8 @@ We were dealing with development environments that had been subject to a lift an
 
 - There were lots of load time and run time dependencies between apps. In fact to show just how bad the dependency tree was Andy made a graph:
 
-<a href="/depend-map.png"><img src="/depend-map.png" alt="dependency map" style="width: 200px"></a>
+
+<a href="{% asset_path depend-map.png %}"><img src="{% asset_path depend-map.png %}" alt="dependency map" style="width: 200px"></a>
 
 - It took in the region of three hours to stand up a complete dev environment.
 - Apps needed to maintain state.
