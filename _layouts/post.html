@@ -4,7 +4,7 @@ layout: blog
 
 <div class='mod modBlogPost big no_bg'>
     {% for image in page.images %}
-    {% img {{image}} magick:resize:786x398 %}
+    {% image {{image}} magick:resize:786x398 image_optim:optimize:1 %}
     {% endfor %}
   <div class='content'>
     <p class='info'>

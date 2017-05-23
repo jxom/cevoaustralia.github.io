@@ -7,7 +7,7 @@ section_id: blog
   <div class='big mod modBlogPost no_bg'>
     <div class='blogImages images'>
       {% for image in post.images %}
-      {% img {{image}} magick:resize:786x398 %}
+      {% image {{image}} magick:resize:786x398 image_optim:optimize:1 %}
       {% endfor %}
     </div>
     <div class='content'>

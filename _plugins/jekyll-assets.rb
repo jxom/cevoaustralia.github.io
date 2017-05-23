@@ -3,13 +3,14 @@
 require "jekyll-assets"
 require "image_optim"
 
-image_optim = ImageOptim.new(pngcrush: false, pngout: false, svgo: false, advpng: false, optipng: false, pngquant: false, gifsicle: false)
-processor   = proc do |_, data|
-  image_optim.optimize_image_data(data) || data
-end
+Jekyll::Assets::Env.liquid_proxies.add :image_optim, :img, 'optimize' do
 
-%w(image/jpeg).each do |type|
-  Sprockets.register_preprocessor(
-    type, :image_optim, &processor
-  )
+  def initialize(asset, opts, args)
+    @path = asset.filename
+    @image_optim = ::ImageOptim.new(pngcrush: false, pngout: false, svgo: false, advpng: false, optipng: false, pngquant: false, gifsicle: false);
+  end
+
+    def process
+    @image_optim.optimize_image!(@path)
+  end
 end

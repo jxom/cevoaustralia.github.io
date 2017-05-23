@@ -80,9 +80,6 @@ section_id: about
                 <div class='item'>
                   <p class='quote'>{{t.text}}</p>
                   <div class='author'>
-                    <p class='author-avatar'>
-                      <img alt="" src="{{t.avatar}}" />
-                    </p>
                     <p class='author-name'>
                       -
                       <strong>
@@ -117,7 +114,7 @@ section_id: about
         <div class='mod modTeamMember style-2'>
           <div class='member'>
             {% if member.avatar %}
-            <img class="avatar" alt="Photo of {{member.name}}" src="{% asset_path {{member.avatar}} %}" />
+            <img class="avatar" alt="Photo of {{member.name}}" src="{% image_path {{member.avatar}} magick:quality:80 magick:resize:354x354 image_optim:optimize:1 %}" />
             {% else %}
             <div class="avatar" style="height:150px"></div>
             {% endif %}

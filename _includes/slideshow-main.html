@@ -10,7 +10,7 @@
         {% endif %}
 
         <li class='frame {{class}}'>
-          <div class='bg' style='background-image: url({% image_path {{slide.bg}} magick:quality:80 %});'></div>
+          <div class='bg' style='background-image: url({% image_path {{slide.bg}} magick:quality:80 image_optim:optimize:1 %});'></div>
           {% if slide.infos %}
             {% for info in slide.infos %}
               <div class='info{{forloop.index}} {{info.animation}}' style=''>
