@@ -231,16 +231,6 @@
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/davidsanza/
 
-- name: Shazia Haider
-  sort: 2017-03-06
-  position: Talent Acquisition Consultant
-  desc: Shazia has worked across a large variety of recruitment roles for Technology Companies. She is a highly versatile and motivated individual with a focus on exceeding expectations of her people working with.
-        <br/><br/>She has achieved hiring right people for the business. This experience has given her keen eye of hunting highly skilled people with right attitude.
-  avatar: staff/shazia_haider.jpg
-  socials:
-    - icon_class: fa fa-linkedin
-      url: https://www.linkedin.com/in/shaziahaider/
-
 - name: Ebony Worth
   sort: 2017-03-06
   position: Talent/HR
