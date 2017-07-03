@@ -217,8 +217,6 @@ The Consul Documentation is extensive and easy to follow. There is great [Intro 
 
 At the time of writing, Docker Swarm is still in beta so it’s docs aren’t finished, but the [Swarm homepage](https://docs.docker.com/swarm/) provides a good introduction.
 
-It’s worth noting that Cevo offers a two-day Docker Training course that shows you how to build a Swarm of your very own. There's a course coming up in <a href="http://www.cevo.com.au/event/docker-administration-operations-training-melbourne/" target="_blank">Melbourne</a> and <a href="http://www.cevo.com.au/event/docker-administration-operations-training-sydney/" target="_blank">Sydney</a> right now. Be sure to check out our <a href="http://www.cevo.com.au/events-trainings/" target="_blank">Events &amp; Training</a> page to see if any training is scheduled near you._
-
 The Registrator [Quick Start](http://gliderlabs.com/registrator/latest/user/quickstart/) guide is very helpful and worth looking at after you you have Swarm and Consul running together.
 
 Finally, if you’re in the mood for a big technical walk-through, I recommend Mark van Holsteijn’s post on [Docker, Consul, CoreOS, and Registrator](http://blog.xebia.com/2015/03/24/a-high-available-docker-container-platform-using-coreos-and-consul/) over on xebia.com.
