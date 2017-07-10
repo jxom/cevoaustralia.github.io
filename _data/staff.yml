@@ -280,3 +280,12 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/jason-keane-03742512/
+
+- name: Stan Yudin
+  sort: 2017-06-23
+  position: Cloud Automation Consultant
+  desc: Stan is a passionate, highly motivated and result driven technologist who is quite forward thinking in his approach to solving problems. He is continuously seeking knowledge and thrives on challenges. With a global perspective due to his previous experience Stan is a great cultural fit for organisation who need someone who can hit the ground running.
+  avatar: staff/stan_yudin.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://au.linkedin.com/in/stanly
