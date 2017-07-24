@@ -185,30 +185,31 @@ The terminology can be a bit confusing to newcomers, which is why I hope this mo
 One of my favourite things about Consul is that it uses a gossip protocol so that any member of the cluster can be queried. There is no ‘master’.
 
 We can easily see which clusters hosts are online with the `consul members` command:
-
-    Node        Address             Status  Type    Build  Protocol  DC
-    i-bae58774  10.10.12.144:8301  alive   server  0.5.2  2         dc1
-    i-ace73562  10.10.11.149:8301  alive   server  0.5.2  2         dc1
-    i-12e4866c  10.10.10.138:8301  alive   server  0.5.2  2         dc1
-
+```bash
+Node        Address             Status  Type    Build  Protocol  DC
+i-bae58774  10.10.12.144:8301  alive   server  0.5.2  2         dc1
+i-ace73562  10.10.11.149:8301  alive   server  0.5.2  2         dc1
+i-12e4866c  10.10.10.138:8301  alive   server  0.5.2  2         dc1
+```
 Consul exposes a Rest API service to aid discovery. In our blockbuster movie, we use _The Temple of Curl_ to find Lord Redis. We can make this query against any member of the cluster.
 
-    $ curl 127.0.0.1:8500/v1/catalog/service/lord-redis
-      {
-        "Node": "swarm-republic-824hfah392",
-        "Address": "10.10.12.144",
-        "ServiceID": "swarm-empire-3abu89a4h2:sad_ptolemy:6379",
-        "ServiceName": "lord-redis",
-        "ServiceTags": null,
-        "ServiceAddress": "10.10.97.225",
-        "ServicePort": 6379
-      },
-
+```bash
+$ curl 127.0.0.1:8500/v1/catalog/service/lord-redis
+  {
+    "Node": "swarm-republic-824hfah392",
+    "Address": "10.10.12.144",
+    "ServiceID": "swarm-empire-3abu89a4h2:sad_ptolemy:6379",
+    "ServiceName": "lord-redis",
+    "ServiceTags": null,
+    "ServiceAddress": "10.10.97.225",
+    "ServicePort": 6379
+  },
+```
 Consul also exposes a simple DNS service, which can be more useful in certain deployments.
-
-    $ dig @localhost -p 8600 lord-redis.service.consul ANY +short
-    10.10.97.225
-
+```bash
+$ dig @localhost -p 8600 lord-redis.service.consul ANY +short
+10.10.97.225
+```
 ## Where to next?
 
 If you’d like to learn more about Docker Swarm, Consul, or Registrator then please read on.

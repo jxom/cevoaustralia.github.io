@@ -95,10 +95,12 @@ DEPENDENCIES
   jekyll-assets
   jekyll-compose
   jekyll-paginate
+  kramdown
   mini_magick
   rest-client
+  rouge
   sass
   uglifier
 
 BUNDLED WITH
-   1.14.6
+   1.15.1
