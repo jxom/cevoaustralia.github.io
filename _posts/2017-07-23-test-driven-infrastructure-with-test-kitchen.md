@@ -55,7 +55,7 @@ One awesome feature of InSpec is the ability to create re-usable test suites (ca
 
 A great starting point for your [InSpec Profiles](https://www.inspec.io/docs/reference/profiles/) is to look at the existing [dev-sec profiles](http://dev-sec.io/) [available on github](https://github.com/dev-sec/linux-baseline). The dev-sec team have put together a number of generic profiles that look for common server hardening and patching issues.
 
-### Simple AWS EC2, Kitchen and InSpec example
+## A working Kitchen and InSpec example
 
 Using the example scripts below you will be able to run Kitchen against any AWS AMI.
 
@@ -142,7 +142,7 @@ Test Summary: 112 successful, 110 failures, 1 skipped
 
 What this is telling you is that your image has failed tests, and you can now work to resolve them.
 
-### Kitchen stages
+### Kitchen workflow
 
 When you run the `test` mode of Kitchen, it actually runs multiple steps.
 
@@ -164,17 +164,17 @@ A simple workflow is to run:
 
 This article is focused on validating server images, but the approach works just as well to help you develop your infrastructure provisioning code, be it puppet, chef, ansible, etc.
 
-### Integration with your Continuous Integration process
+## Using in a Continuous Integration process
 
 While it's great that tools like Kitchen make development and manual validation tasks easier to do, you don't get the full benefit of these tools until they are integrated with your Continuous Integration server.
 
-**Don't forget to clean up**
+### Don't forget to clean up
 
 Kitchen in its default configuration will leave servers running when tests fail.  This may be a useful feature for you when you are running the tool yourself, as you have a running server that you can poke around on to see what happened.  But this is a really bad pattern when run by CI.  Every time a test failure occurred from your CI server, you will have test servers sitting around, costing money with no process to clean them up.
 
 Kitchen supports altering from the default behaviours by appending `--destroy=always` to your test run.  In this mode Kitchen will destroy all instances it creates on every test run.
 
-**Test visibility**
+### Test visibility
 
 Another benefit of integrating with CI for your infrastructure testing allows a central place people can review to see what tests are passing or failing.  Again, Kitchen in it's default configuration will output the status of the tests to the console, meaning users need to scroll through console logs to find the test status.
 
@@ -187,9 +187,9 @@ verifier:
   output: ./results/%{platform}_%{suite}_inspec.xml
 ```
 
-**Testing as a step in the pipeline**
+### Testing a freshly built image
 
-Now that you have the ability to execute as set of [InSpec](https://www.inspec.io/) tests on a stock AWS image, you need to update your configuration so that it tests your candidate AMI's.
+Now that you have the ability to execute as set of InSpec tests on a stock AWS image, you need to update your configuration so that it tests your candidate AMI's.
 
 Kitchen supports injection of environment variables into the yaml files, this allows you to create a common kitchen file, but alter the AMI that is under test.
 
