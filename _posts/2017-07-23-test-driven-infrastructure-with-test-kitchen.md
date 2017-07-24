@@ -12,46 +12,48 @@ tags:
 excerpt:
     As the cycle times for providing new servers and services decrease, the demands on infrastructure developers is increasing. To cope with this increased demand, we need new ways to think about building and validating servers.<br />
     <br />
-    A really powerful combination is to couple <a href="http://kitchen.ci/">Kitchen</a> with <a href="https://www.inspec.io/">InSpec</a>, to provide a modern development approach to both the provisioning of servers and validating their configuration is correct.
+    A powerful combination is to couple <a href="http://kitchen.ci/">Kitchen</a> with <a href="https://www.inspec.io/">InSpec</a>, to provide a modern development approach to both the provisioning of servers and validating their configuration is correct.
 
 ---
 
 For a long time infrastructure was the sort of thing you pulled out of a box, plugged in and then set about configuring and testing.  The cycle between needing new equipment and having it ready was measured in weeks, if not months.
 
-With the recent enablements in cloud computing and infrastructure as code approaches becoming the norm, cycle times on needing new infrastructure and having it ready is now measured in seconds.
+Modern cloud computing and infrastructure as code approaches are becoming the norm, with this cycle times on delivering new infrastructure is now measured in seconds. We can no longer afford lengthy validation and compliance testing cycles.  We need a rapid, repeatable and scalable approach to testing the new infrastructure configuration.
 
-By elevating the constraints on hardware being available, we can no longer afford lengthy validation and compliance testing cycles.  We need a rapid, repeatable and scalable approach to testing the new hardware configuration.
+While we can launch new hardware rapidly, there is still a lot of work to be done to complete the installation and configuration of server software and applications.  The great news is that there are a number of different tools already in wide adoption to make this task much easier
 
-One key element of this new infrastructure as code approach is the installation and configuration of server software and applications.  The great news is that there are a number of different tools already in wide adoption to make this task much easier.
+We have seen an evolution of organisations through three phases when adopting an infrastructure as code approach.
 
-What we have seen are three phases to truly adopting an infrastructure as code approach.
+**Phase 1 - pre-automation** - This is the phase most, if not all, businesses start in. Even those starting cloud native will most probably launch hardware, and then login to the machine and manually configure the software. You can actually get pretty far in this phase, you can still even use a stateless infrastructure approach by manually taking server images and scaling out your solution.
 
-**Step 1** - pre-automation - This is the phase most, if not all, businesses start in. Even those starting cloud native will most probably launch hardware, and then login to the machine and manually configure the software. You can actually get pretty far in this phase, you can still even use a stateless infrastructure approach by manually taking server images and scaling out your solution.
+But this soon becomes tedious, error prone and a constraint on innovation of your solution. You'll bite the bullet (hopefully sooner rather than later) and invest in adopting a server provisioning tool.
 
-But this soon becomes tedious, error prone and a constraint on innovation of your solution. So you'll bite the bullet and invest in some sort of server provisioning tool.
+**Phase 2 - server automation** - Once you have a non-trivial number of servers, manually creating, patching and operating the systems becomes a complex and expensive task, by this stage you will be looking for a server automation tool - Chef, Ansible, Puppet, SaltStack, etc.
 
-**Step 2** - server automation - Once you have a non-trivial number of servers, manually creating, patching and operating the systems becomes a complex and expensive task, in step 2 you will be looking for a server automation tool - Chef, Ansible, Puppet, SaltStack, etc.
+By the time you've automated your first half dozen server images, you'll be looking for a way to ensure that your servers not only work the way you want them, but that they stay working as intended.
 
-By the time you've automated your first half dozen server images, you'll be looking for a way to ensure that things not only work the way you want them, but that they stay working as intended.
+While it might seem obvious, we now need a way to test what has been developed.
 
-While it might seem obvious, we now need a way to test what we have just developed.
+**Phase 3 - validated server configuration** - It's at this phase that you start to accelerate the confidence of your system.  Not only now do you have a solid approach to provisioning servers, but you have extended your automated quality process to cover your infrastructure provisioning process.
 
-**Step 3** - validated server configuration - It's at step 3 that you really start to accelerate the confidence of your system.  Not only now do you have a solid approach to provisioning servers, but you have extended your automated quality process to cover your infrastructure provisioning process.
+## But how do we do it?
 
-Enter [Kitchen](http://kitchen.ci/) as a test harness to execute infrastructure code on one or more platforms in isolation.
+It's all good to say that we want to create repeatable, reliable and consistent server images, but how do we do it?
+
+Enter [Kitchen](http://kitchen.ci/) as a test harness to validate the results of your infrastructure code on one or more platforms in isolation.
 
 By introducing Kitchen to your tool chain you get benefits in two ways:
 
 1. speed up the development of the infrastructure code, and
 2. ensure validity of any server image.
 
-Kitchen itself does not actually perform any tests, it is the test harness which ensures the tests have access to the server, are executed and report back on status.
+Kitchen itself does not actually perform any tests, it is the test harness which ensures the tests have access to the server, are able to be run and reports back on the status of the test cases.
 
-A really powerful combination is to couple [Kitchen](http://kitchen.ci/) with [InSpec](https://www.inspec.io/), while both of these tool find there genesis from the chef provisioning tool chain, there is nothing restricting the use alongside other tools.
+A powerful combination is to couple Kitchen with [InSpec](https://www.inspec.io/), while both of these tools find there genesis from the Chef provisioning tool chain, there is nothing restricting the use alongside other tools.
 
-One really awesome feature of [InSpec](https://www.inspec.io/) is the ability to create re-usable test suites (called [Profiles](https://www.inspec.io/docs/reference/profiles/)), this allows you to adopt the DRY principal by collecting multiple test suites into your project.
+One awesome feature of InSpec is the ability to create re-usable test suites (called [Profiles](https://www.inspec.io/docs/reference/profiles/)), this allows you to adopt the DRY principal by re-using existing test profiles across your fleet of servers.
 
-A great starting point for your [InSpec Profiles](https://www.inspec.io/docs/reference/profiles/) are to look at the existing [dev-sec profiles](http://dev-sec.io/) [available on github](https://github.com/dev-sec/linux-baseline). The dev-sec team have put together a number of profiles that look for common server hardening and patching issues.
+A great starting point for your [InSpec Profiles](https://www.inspec.io/docs/reference/profiles/) is to look at the existing [dev-sec profiles](http://dev-sec.io/) [available on github](https://github.com/dev-sec/linux-baseline). The dev-sec team have put together a number of generic profiles that look for common server hardening and patching issues.
 
 ### Simple AWS EC2, Kitchen and InSpec example
 
@@ -64,7 +66,7 @@ If you have issues getting this example working, you may need to review your net
 1. Create a `Gemfile` (content below)
 2. Execute `bundle install`
 3. Create the `.kitchen.yml` file (content below)
-4. Install the dependancies with `bundle install`
+4. Install the dependencies with `bundle install`
 5. Setup your environment
     * `KITCHEN_SSH_KEY_NAME` should point to a valid EC2 SSH key
     * `KITCHEN_SSH_KEY_PEM` should be the path to your local SSH private key for the above
@@ -138,7 +140,7 @@ Test Summary: 112 successful, 110 failures, 1 skipped
 >>>>>> Also try running `kitchen diagnose --all` for configuration
 ```
 
-What this is telling you is that your image has failed a number of tests, and you can now work to resolve them.
+What this is telling you is that your image has failed tests, and you can now work to resolve them.
 
 ### Kitchen stages
 
@@ -150,7 +152,7 @@ When you run the `test` mode of Kitchen, it actually runs multiple steps.
 * verify
 * destroy
 
-These multiple steps really help you with the development phase of your server provisioning and validation code.
+These multiple steps help you with the development phase of your server provisioning and validation code.
 
 A simple workflow is to run:
 
@@ -168,9 +170,9 @@ While it's great that tools like Kitchen make development and manual validation 
 
 **Don't forget to clean up**
 
-Kitchen in its default configuration will leave servers running when tests fail.  This may be a useful feature for you when you are running the tool yourself, as you have a running server that you can poke around on to see what happened.  But this is a really bad pattern when run by CI.  Every time a test failure occurred from your CI server, you would have test servers just sitting around.
+Kitchen in its default configuration will leave servers running when tests fail.  This may be a useful feature for you when you are running the tool yourself, as you have a running server that you can poke around on to see what happened.  But this is a really bad pattern when run by CI.  Every time a test failure occurred from your CI server, you will have test servers sitting around, costing money with no process to clean them up.
 
-Luckily Kitchen supports altering from the default behaviour by appending `--destroy=always` to your test run.  In this mode Kitchen will destroy all instances it creates on every test run.
+Kitchen supports altering from the default behaviours by appending `--destroy=always` to your test run.  In this mode Kitchen will destroy all instances it creates on every test run.
 
 **Test visibility**
 
@@ -202,6 +204,6 @@ platforms:
 
 ## Conclusion
 
-As demands on teams to deliver more things faster increases, and our systems only grow in size and complexity, ensuring we have a way to scale out our approach to quality and validation is critical.  
+As demands the on teams to deliver increase, and systems grow in size and complexity, ensuring we have a way to scale out our approach to quality and validation is critical.  
 
-Through introducing [Kitchen](http://kitchen.ci/) and [InSpec](https://www.inspec.io/) to your toolkit you will be well positioned to retain confidence that the systems you build work to specification, and continue to align with these requirements as time goes by.
+Through introducing [Kitchen](http://kitchen.ci/) and [InSpec](https://www.inspec.io/) to your toolkit you will be well positioned to have confidence that the systems you build work to specification, and continue to align with these requirements as time goes by.
