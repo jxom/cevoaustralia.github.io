@@ -2,12 +2,15 @@
 layout: post
 title: Test driven infrastructure with Kitchen and InSpec
 author: Steve Mactaggart
+twittercreator: stevemac
 description: Using Kitchen and InSpec can allow you to develop infrastructure faster, more reliably and greater confidence.
 categories:
     - testing
 tags:
     - infrastructure-testing
     - kitchen
+images: blog/test-driven-infrastructure.png
+thumbnail: blog/test-driven-infrastructure.png
 
 excerpt:
     As the cycle times for providing new servers and services decrease, the demands on infrastructure developers is increasing. To cope with this increased demand, we need new ways to think about building and validating servers.<br />
@@ -44,8 +47,8 @@ Enter [Kitchen](http://kitchen.ci/) as a test harness to validate the results of
 
 By introducing Kitchen to your tool chain you get benefits in two ways:
 
-1. speed up the development of the infrastructure code, and
-2. ensure validity of any server image.
+1. **ensure the validity of any server image and**
+2. **speed up the development of the infrastructure code** - *this will be expanded in a future article*
 
 Kitchen itself does not actually perform any tests, it is the test harness which ensures the tests have access to the server, are able to be run and reports back on the status of the test cases.
 
@@ -168,12 +171,6 @@ This article is focused on validating server images, but the approach works just
 
 While it's great that tools like Kitchen make development and manual validation tasks easier to do, you don't get the full benefit of these tools until they are integrated with your Continuous Integration server.
 
-### Don't forget to clean up
-
-Kitchen in its default configuration will leave servers running when tests fail.  This may be a useful feature for you when you are running the tool yourself, as you have a running server that you can poke around on to see what happened.  But this is a really bad pattern when run by CI.  Every time a test failure occurred from your CI server, you will have test servers sitting around, costing money with no process to clean them up.
-
-Kitchen supports altering from the default behaviours by appending `--destroy=always` to your test run.  In this mode Kitchen will destroy all instances it creates on every test run.
-
 ### Test visibility
 
 Another benefit of integrating with CI for your infrastructure testing allows a central place people can review to see what tests are passing or failing.  Again, Kitchen in it's default configuration will output the status of the tests to the console, meaning users need to scroll through console logs to find the test status.
@@ -201,6 +198,12 @@ platforms:
     driver:
         image_id: <%= ENV['SERVER_IMAGE_ID'] || "ami-abcd1234" %>
 ```
+
+### Don't forget to clean up
+
+Kitchen in its default configuration will leave servers running when tests fail.  This may be a useful feature for you when you are running the tool yourself, as you have a running server that you can poke around on to see what happened.  But this is a really bad pattern when run by CI.  Every time a test failure occurred from your CI server, you will have test servers sitting around, costing money with no process to clean them up.
+
+Kitchen supports altering from the default behaviours by appending `--destroy=always` to your test run.  In this mode Kitchen will destroy all instances it creates on every test run.
 
 ## Conclusion
 
