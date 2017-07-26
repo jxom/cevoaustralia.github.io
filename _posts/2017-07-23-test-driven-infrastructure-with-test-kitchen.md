@@ -23,7 +23,7 @@ For a long time infrastructure was the sort of thing you pulled out of a box, pl
 
 Modern cloud computing and infrastructure as code approaches are becoming the norm, with this cycle times on delivering new infrastructure is now measured in seconds. We can no longer afford lengthy validation and compliance testing cycles.  We need a rapid, repeatable and scalable approach to testing the new infrastructure configuration.
 
-While we can launch new hardware rapidly, there is still a lot of work to be done to complete the installation and configuration of server software and applications.  The great news is that there are a number of different tools already in wide adoption to make this task much easier
+While we can launch new hardware rapidly, there is still a lot of work to be done to complete the installation and configuration of server software and applications.  The great news is that there are a number of different tools already in wide adoption to make this task much easier.
 
 We have seen an evolution of organisations through three phases when adopting an infrastructure as code approach.
 
@@ -52,11 +52,11 @@ By introducing Kitchen to your tool chain you get benefits in two ways:
 
 Kitchen itself does not actually perform any tests, it is the test harness which ensures the tests have access to the server, are able to be run and reports back on the status of the test cases.
 
-A powerful combination is to couple Kitchen with [InSpec](https://www.inspec.io/), while both of these tools find there genesis from the Chef provisioning tool chain, there is nothing restricting the use alongside other tools.
+A powerful combination is to couple Kitchen with [InSpec](https://www.inspec.io/), while both of these tools find their genesis from the Chef provisioning tool chain, there is nothing restricting the use alongside other tools.
 
-One awesome feature of InSpec is the ability to create re-usable test suites (called [Profiles](https://www.inspec.io/docs/reference/profiles/)), this allows you to adopt the DRY principal by re-using existing test profiles across your fleet of servers.
+One awesome feature of InSpec is the ability to create re-usable test suites (called [Profiles](https://www.inspec.io/docs/reference/profiles/)) which allow you to adopt the DRY principal by re-using existing test profiles across your different server images.
 
-A great starting point for your [InSpec Profiles](https://www.inspec.io/docs/reference/profiles/) is to look at the existing [dev-sec profiles](http://dev-sec.io/) [available on github](https://github.com/dev-sec/linux-baseline). The dev-sec team have put together a number of generic profiles that look for common server hardening and patching issues.
+A great starting point for your [InSpec Profiles](https://www.inspec.io/docs/reference/profiles/) is to look at the existing [dev-sec profiles](http://dev-sec.io/) [available on github](https://github.com/dev-sec/linux-baseline). The dev-sec team has put together a number of generic profiles that looks for common server hardening and patching issues.
 
 ## A working Kitchen and InSpec example
 
