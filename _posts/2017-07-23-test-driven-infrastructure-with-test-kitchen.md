@@ -3,7 +3,7 @@ layout: post
 title: Test driven infrastructure with Kitchen and InSpec
 author: Steve Mactaggart
 twittercreator: stevemac
-description: Using Kitchen and InSpec can enable you to develop infrastructure faster, more reliably and with greater confidence.
+description: Using Kitchen and InSpec enables you to develop infrastructure faster, more reliably and with greater confidence.
 categories:
     - testing
 tags:
