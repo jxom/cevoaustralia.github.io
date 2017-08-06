@@ -276,3 +276,12 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/stanly
+
+- name: Bhushan Manekar
+  sort: 2017-08-04
+  position: Infrastructure Automation Consultant 
+  desc: Bhushan has great passion for infrastructure automation, and continuous application delivery. After completing M.S. he worked for many businesses to migrate their applications & IT infrastructure to Amazon Web Services. He successfully led a team of software engineers for years, and also experienced in designing application architecture.
+  avatar: staff/bhushan_manekar.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/bhushanmanekar
