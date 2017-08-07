@@ -276,3 +276,21 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://au.linkedin.com/in/stanly
+
+- name: Bhushan Manekar
+  sort: 2017-08-04
+  position: Infrastructure Automation Consultant 
+  desc: Bhushan has great passion for infrastructure automation, and continuous application delivery. He is also experienced in migrating applications & infrastructure to AWS. His ‘can-do’ attitude & inclination towards adapting new technologies is a great asset to companies looking for next generation IT infrastructure solutions.
+  avatar: staff/bhushan_manekar.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/bhushanmanekar
+
+- name: Shreya Singh
+  sort: 2017-08-04
+  position: Business Solutions Consultant 
+  desc: Shreya has extensive IT experience with focus on Project Management, Business Process Engineering and Software System Development. She is accomplished in driving business results by streamlining process and methodology to maximise resource, time and budget utilisation. Shreya is also an Agile enthusiast and has worked on several organisation wide agile transformations in past.
+  avatar: staff/shreya_singh.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/shreya-singh-8259581b
