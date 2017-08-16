@@ -95,10 +95,8 @@ DEPENDENCIES
   jekyll-assets
   jekyll-compose
   jekyll-paginate
-  kramdown
   mini_magick
   rest-client
-  rouge
   sass
   uglifier
 

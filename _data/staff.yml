@@ -294,3 +294,14 @@
   socials:
     - icon_class: fa fa-linkedin
       url: https://www.linkedin.com/in/shreya-singh-8259581b
+
+  name: Ranjeet Pethe
+  sort: 2017-08-15
+  position: Delivery Optimzr
+  desc: Ranjeet is a multifaceted software consultant.Over his two decades of consulting he has played multiple roles such as tester,iteration manager, test strategist, business analyst, team lead and hacky developer.Ranjeet is extremely passionate about optimization and strongly believes in 'Jugaad' and 'YAGNI' and misses no opportunity to implement either of these approaches wherever possible.
+  avatar: staff/ranjeet_pethe.jpg
+  socials:
+    - icon_class: fa fa-linkedin
+      url: https://www.linkedin.com/in/pethe/
+    - icon_class: fa fa-twitter
+      url: https://twitter.com/folourdream
