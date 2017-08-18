@@ -1,12 +1,12 @@
 - text: "Cevo assisted us in migrating our critical Student Administration applications to AWS whilst educating the team on the concepts & tools used in a cloud environment. Our applications are now taking advantage of the native abilities of the Cloud such as self-healing & autoscaling infrastructure. Using a CI/CD pipeline allows us to deploy changes into Production within minutes rather than hours because handover between our developers and operations staff has been eliminated."
   author: Marc Lewandowski
   position: DevOps Transformation Lead, Business Application, EDA, Monash University
-- text: "The Cevo consultants utilised their expertise and experience to accelerate our transformation into a high-performing, autonomous devops capability. Their coaching and support to upskill our teams also allowed us to implement the agile principles with minimal disruption to our customer services."
-  author: Jamie Franklin
-  position: Team Leader, Business Application, EDA, Monash University
 - text: "Stan Yudin from Cevo has been exceptional. He delivered way ahead of original estimate and has really helped remove some key challenges on a major project. Thanks Stan!"
   author: Andy Owens
   position:  Senior Project Manager, Tab Wagering
+- text: "The Cevo consultants utilised their expertise and experience to accelerate our transformation into a high-performing, autonomous devops capability. Their coaching and support to upskill our teams also allowed us to implement the agile principles with minimal disruption to our customer services."
+  author: Jamie Franklin
+  position: Team Leader, Business Application, EDA, Monash University
 - text: "Cevo have been invaluable in accelerating the adoption of CI/CD practices within Tabcorp, and in helping us improve our test automation capabilities.  Their ability to engage at multiple levels of the business, identify the work of greatest value and execute on it has really helped us to deliver great results within our organisation and to our customers"
   author: Olga Seremetis
   position: Engineering Manager, TCH Wagering Technology, Tabcorp
