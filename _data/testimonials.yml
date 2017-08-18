@@ -1,3 +1,6 @@
+- text: "Cevo assisted us in migrating our critical Student Administration applications to AWS whilst educating the team on the concepts & tools used in a cloud environment. Our applications are now taking advantage of the native abilities of the Cloud such as self-healing & autoscaling infrastructure. Using a CI/CD pipeline allows us to deploy changes into Production within minutes rather than hours because handover between our developers and operations staff has been eliminated."
+  author: Marc Lewandowski
+  position: DevOps Transformation Lead, Technology Services, Monash University
 - text: "The Cevo consultants utilised their expertise and experience to accelerate our transformation into a high-performing, autonomous devops capability. Their coaching and support to upskill our teams also allowed us to implement the agile principles with minimal disruption to our customer services."
   author: Jamie Franklin
   position: Team Leader, Business Application, EDA
