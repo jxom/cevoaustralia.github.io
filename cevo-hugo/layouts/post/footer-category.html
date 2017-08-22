@@ -1,0 +1,41 @@
+<ul class="stats">
+    {{ if isset .Params "categories" }}
+        {{ $categoryCount := (len .Params.categories) }}
+
+        {{ $.Scratch.Set "categoryUrl" "/categories/" }}
+        {{ if ge $categoryCount 1 }}
+            <li>
+                {{ if gt $categoryCount 1 }}
+                    Categories
+                {{ else }}
+                    Category
+                {{ end }}
+            </li>
+        {{ end }}
+
+        <!-- Display the categories associated with this post -->
+        {{ range .Params.categories }}
+            <li><a href='{{ add ($.Scratch.Get "categoryUrl") . | urlize }}'>{{ . }}</a></li>
+        {{ end }}
+    {{ end }}
+
+    {{ if isset .Params "tags" }}
+        {{ $tagsCount := (len .Params.tags) }}
+
+        {{ $.Scratch.Set "tagUrl" "/tags/" }}
+        {{ if ge $tagsCount 1 }}
+            <li>
+                {{ if gt $tagsCount 1 }}
+                    Tags
+                {{ else }}
+                    Tag
+                {{ end }}
+            </li>
+        {{ end }}
+
+        <!-- Display the categories associated with this post -->
+        {{ range .Params.tags }}
+            <li><a href='{{ add ($.Scratch.Get "tagUrl") . | urlize }}'>{{ . }}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>

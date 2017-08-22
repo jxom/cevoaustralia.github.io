@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head" . }}
+
+  <body id="page-top" class="index">
+    {{ partial "nav" . }}
+    <header class="hero list-header"></header>
+
+    {{ "<!-- Portfolio Grid Section -->" | safeHTML }}
+    <section id="portfolio" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{ with .Site.Params.casestudies.title }}{{ . | markdownify }}{{ end }}</h2>
+            <h3 class="section-subheading text-muted">{{ with .Site.Params.casestudies.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+          </div>
+        </div>
+        <div class="row">
+
+          {{ range .Paginator.Pages }}
+              <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal{{ .Params.modalID }}" class="portfolio-link" data-toggle="modal">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  {{ $url := printf "img/case-study/%s" .Params.img }}
+                  <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>{{ .Params.title | markdownify }}</h4>
+                    <p class="text-muted">{{ .Params.category | markdownify }}</p>
+                </div>
+              </div>
+          {{ end }}
+
+        </div>
+      </div>
+    </section>
+
+    {{ range .Paginator.Pages }}
+        <div class="portfolio-modal modal fade" id="portfolioModal{{ .Params.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                <div class="rl">
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <div class="modal-body">
+                    <article class="post">
+                      <h2>{{ .Params.title  | markdownify }}</h2>
+                      <p class="item-intro text-muted">{{ .Params.subtitle | markdownify }}</p>
+                      {{ $url := printf "img/case-study/%s" .Params.img }}
+                      <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+                        <div id="content">
+                          {{ .Content | markdownify }}
+                        </div>
+                      <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
+                      <footer>
+                        <ul class="stats">
+                          <li>Client: {{ .Params.client | markdownify }}</li>
+                          <li>Category: {{ .Params.category | markdownify }}</li>
+                        </ul>
+                      </footer>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    {{ end }}
+
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact" . }}
+    {{ end }}
+
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer" . }}
+    {{ end }}
+
+    {{ partial "js" . }}
+  </body>
+</html>

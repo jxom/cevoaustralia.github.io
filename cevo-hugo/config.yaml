@@ -1,0 +1,126 @@
+baseURL: http://example.org/
+disablePathToLower: true
+languageCode: en-us
+title: Cevo
+theme: hugo-agency-theme
+
+menu:
+  postpend:
+    - name: Case studies
+      url: /case-study
+      weight: 1
+    - name: Blog
+      url: /post
+      weight: 2
+
+params:
+  name: Cevo Australia
+  description: Cevo is an IT consultancy specialising in iterative software delivery, automation and devops
+  favicon: favicon.ico
+  disableFonts: false
+  error404:
+    heading: This is not the page you're looking for
+    text: Because there is nothing here
+
+  custom_css:
+    - css/post.css
+    - css/actions.css
+
+  featuredpath: img
+
+  hero:
+    title: Software delivery solutions
+    subtitle: Engineered for you
+    buttonText: Show me how
+
+  navigation:
+    brand: Cevo Australia
+    logo: logo.png
+    services: Services
+    contact: Contact
+    about: About
+
+  casestudies:
+    title: Case Studies
+    subtitle: Things with did before
+
+  services:
+    title: Services
+    subtitle: Things we do better than anyone else
+    enable: true
+    row:
+    - list:
+      - icon: fa-gears
+        title: Engineering
+        description: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+        url: '/services/engineering'
+
+      - icon: fa-cloud
+        title: Cloud
+        description: >
+          We assist organisations to build immutable cloud platforms,
+          combining innovative automation technologies with
+          unparalleled engineering skills.
+        url: '/services/automation'
+
+      - icon: fa-compass
+        title: DevOps
+        description: >
+          We help you build, manage, and optimise your continuous deployment pipeline,
+          from source control through testing to automated production releases.
+        url: '/services/devops'
+
+  clients:
+    title: Our happy customers
+    enable: true
+    list:
+      - link: '#'
+        logo: aconex.png
+      - link: '#'
+        logo: rea.png
+      - link: '#'
+        logo: monash.png
+      - link: '#'
+        logo: tabcorp.png
+
+  contact:
+    enable: true
+    buttonText: Send message
+    email: sales@cevo.com.au
+    form:
+      email:
+        text: Your Email *
+        warning: Please enter your email address.
+      message:
+        text: Your Message *
+        warning: Please enter a message.
+      name:
+        text: Your Name *
+        warning: Please enter your name.
+      phone:
+        text: Your Phone *
+        warning: Please enter your phone number.
+    subtitle: Lorem ipsum dolor sit amet consectetur.
+    title: Contact us
+
+  footer:
+    enable: true
+    copyright: Cevo Australia 2017.
+    locations:
+      - Level 14, 303 Collins St, Melbourne VIC 3000
+      - Level 4, 20 Bond Street, Sydney NSW 2000
+    phone: 1300 518 265
+    quicklinks:
+    - link: '#'
+      text: Privacy Policy
+    - link: '#'
+      text: Terms of Use
+    social:
+    - icon: fa-twitter
+      link: '#'
+    - icon: fa-facebook
+      link: '#'
+    - icon: fa-linkedin
+      link: '#'
