@@ -1,4 +1,6 @@
 ---
+subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Brief history of Cevo
 endpoint: Be part<br>of our<br>story!
 events:
   - date: 2009-2011
@@ -25,6 +27,4 @@ events:
       sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
     img: 4.jpg
     title: Phase Two Expansion
-subtitle: Lorem ipsum dolor sit amet consectetur.
-title: About
 ---
