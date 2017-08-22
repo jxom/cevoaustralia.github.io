@@ -2,6 +2,7 @@
   title: Amazing People
   image: team.jpg
   link: about.html
+  identifier: people
   details:
     <p>
     Our goal is to be the best place for great technologists to work. We are doing this by
@@ -21,7 +22,8 @@
   title: Interesting Problems
   image: problems.jpg
   link: services.html
-  details: 
+  identifier: problems
+  details:
     <p>
     Great minds like hard problems, and the bulk of our work can be categorised as iterative
     software delivery, devops and automation. This involves helping our clients resolve
@@ -41,7 +43,8 @@
 - sudoTitle: With
   title: Awesome Clients
   image: clients.jpg
-  details: 
+  identifier: clients
+  details:
     <p>
     Our clients are leaders who understand that the most effective approach to solving
     complicated problems is collaboration. Those who recognise that traditional governance,
@@ -59,4 +62,3 @@
     a lean, iterative, experimental approach as the most effective way to tackle and resolve
     complicated problems.
     </p>
-

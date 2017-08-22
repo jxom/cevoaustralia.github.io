@@ -1,5 +1,5 @@
 - icon_class: fa fa-dot-circle-o
-  title: Software Delivery
+  title: Agile
   desc:
     To deliver new
     concepts and solutions, organisations need the
@@ -16,3 +16,9 @@
   desc:
     We assist organisations to build immutable infrastructure platforms, combining innovative automation technologies with unparalleled engineering skills.
   link: services.html#automation
+
+- icon_class: fa fa-cogs
+  title: Engineering
+  desc: >
+    Software engineering is a skill of balancing possibilities, skills and tools to achive desired state of of your systems.
+  link: services.html#engineering
