@@ -32,6 +32,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+    text-decoration: none;
 }
 
 a {
@@ -347,7 +348,7 @@ header.hero .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 section h2.section-heading {
@@ -367,7 +368,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 50px 0;
+        padding: 100px 0;
     }
 }
 
