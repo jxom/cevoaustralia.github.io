@@ -15,7 +15,7 @@
 
 /*some basic settings */
 a {
-  color: #4E9925;
+  color: #e38105;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -28,7 +28,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #4E9925;
+  color: #e38105;
 }
 
 h1.margin-bottom, h2.margin-bottom, h3.margin-bottom, h4.margin-bottom,
@@ -66,7 +66,7 @@ hr {
 }
 
 .full {
-  padding: 80px 0 0;
+  padding: 40px 0 0;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -83,7 +83,7 @@ ul.shortcode-list {
   margin: 0 0 20px;
 }
 ul.shortcode-list i {
-  color: #4E9925;
+  color: #e38105;
   margin-right: 3px;
 }
 
@@ -108,7 +108,7 @@ ul.shortcode-list i {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background-color: #f9ce06;
-  border: 3px solid #4E9925;
+  border: 3px solid #e38105;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -118,7 +118,7 @@ ul.shortcode-list i {
   margin: 0;
 }
 .big-social i:hover {
-  border: 3px solid #4E9925;
+  border: 3px solid #e38105;
   background-color: rgba(135, 206, 100, 0);
 }
 
@@ -192,8 +192,8 @@ ul.shortcode-list i {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  background: #4E9925;
-  border: 2px solid #4E9925;
+  background: #e38105;
+  border: 2px solid #e38105;
 }
 
 .button:hover {
@@ -329,10 +329,10 @@ ul.shortcode-list i {
 }
 
 .f-topbar-fixed.shrink .contain-to-grid {
-  height: 60px;
+  height: 65px;
 }
 .f-topbar-fixed.shrink .top-bar {
-  height: 60px;
+  height: 65px;
   line-height: 60px;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
@@ -340,7 +340,7 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
-  height: 60px;
+  height: 65px;
   line-height: 60px;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -355,11 +355,11 @@ ul.shortcode-list i {
   top: 2.14286rem;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-  height: 60px;
+  height: 65px;
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
-  height: 60px;
+  height: 65px;
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
@@ -436,7 +436,7 @@ ul.info a {
   margin-right: 5px;
 }
 ul.info i {
-  border: 1px solid #4E9925;
+  border: 1px solid #e38105;
   padding: 5px;
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
@@ -444,7 +444,7 @@ ul.info i {
   transition: all 0.1s linear;
 }
 ul.info i:hover {
-  background: #4E9925;
+  background: #e38105;
   color: #fff;
 }
 
@@ -486,7 +486,7 @@ form input.error, form textarea.error {
   color: #999;
 }
 .pager a:hover {
-  color: #4E9925;
+  color: #e38105;
 }
 .pager .older {
   float: left;
@@ -591,7 +591,7 @@ form input.error, form textarea.error {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background: #4E9925;
+  background: #e38105;
 }
 #footer input.email-address {
   padding: 5px 15px;
@@ -629,7 +629,7 @@ body.screenshot {
 }
 .modBarGraph .bars p.highlighted {
   width: 0;
-  background: #4E9925;
+  background: #e38105;
   height: 12px;
 }
 
@@ -1215,7 +1215,7 @@ body.screenshot {
 }
 .modBoxedSlider .caption p {
   display: inline-block;
-  background: #4E9925;
+  background: #e38105;
   color: #fff;
   font-family: "droid serif";
   margin-bottom: 0;
@@ -1240,7 +1240,7 @@ body.screenshot {
   margin-bottom: 40px;
 }
 .modBoxedTextSlider .box i {
-  color: #4E9925;
+  color: #e38105;
   font-size: 36px;
   width: 48px;
   height: 48px;
@@ -1747,11 +1747,11 @@ body.screenshot {
 }
 
 .mainpage h2 {
-  text-shadow: 1px 2px 2px black;
+  text-shadow: 1px 2px 3px black;
 }
 
 .mainpage h3 {
-  text-shadow: 1px 2px 2px black;
+  text-shadow: 1px 2px 3px black;
 }
 
 .modDefaultSlider .sequence .animate-in .info2.bottom-to-top {
@@ -2368,10 +2368,10 @@ body.screenshot {
   color: #999;
 }
 .modGallery .gallery-nav li.current {
-  border: 1px solid #4E9925;
+  border: 1px solid #e38105;
 }
 .modGallery .gallery-nav li.current a {
-  color: #4E9925;
+  color: #e38105;
 }
 .modGallery ul.gallery img {
   width: 100%;
@@ -2472,7 +2472,7 @@ body.screenshot {
   margin: 0;
 }
 .modIconText .icon-text-circle:hover i {
-  color: #4E9925;
+  color: #e38105;
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
@@ -2505,10 +2505,10 @@ body {
   color: #999;
 }
 .modMasonryGallery .gallery-nav li.current {
-  border: 1px solid #4E9925;
+  border: 1px solid #e38105;
 }
 .modMasonryGallery .gallery-nav li.current a {
-  color: #4E9925;
+  color: #e38105;
 }
 .modMasonryGallery ul.gallery {
   margin: 0;
@@ -2595,7 +2595,7 @@ body {
 .modMilestone i {
   font-size: 36px;
   color: #333;
-  background: #4E9925;
+  background: #e38105;
   width: 90px;
   height: 90px;
   -moz-border-radius: 45px;
@@ -2686,7 +2686,7 @@ body {
 }
 
 .modPriceBox.featured .info {
-  border-top: 4px solid #4E9925;
+  border-top: 4px solid #e38105;
 }
 
 .modPriceBox:hover {
@@ -2701,7 +2701,7 @@ body {
   width: 66%;
   margin: 0 auto;
   height: 2px;
-  background: #4E9925;
+  background: #e38105;
   display: block;
 }
 
@@ -2801,7 +2801,7 @@ body {
   border: 1px solid #999;
 }
 .modStylePanel a#yellow {
-  background: #4E9925;
+  background: #e38105;
 }
 .modStylePanel a#red {
   background: #e92b05;
@@ -2889,7 +2889,7 @@ body {
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
   border-radius: 18px;
-  background: #4E9925;
+  background: #e38105;
   color: #fff;
   text-align: center;
   font-size: 1.125rem;
@@ -3177,17 +3177,7 @@ body {
   padding: 0 60px;
   transition: background-color 0.5s;
 }
-.modTestimonials:hover {
-  background: rgb(245, 245, 245);
-  background: radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
-  background: -webkit-radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
-  background: -o-radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
-  background: -moz-radial-gradient(rgb(200, 240, 200), rgba(255, 255, 255, 0) 70%);
-  -moz-transition-duration: background 0.8s;
-  -o-transition-duration: background 0.8s;
-  -webkit-transition-duration: background 0.8s;
-  transition-duration: background 0.8s;
-}
+
 .modTestimonials p.quote {
   /* font-size: 1.5rem; */
   margin-bottom: 30px;
