@@ -1,0 +1,60 @@
+{{ "<!-- Team Section -->" | safeHTML }}
+{{ with .Site.GetPage "section" "about" }}
+<section id="team" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.team.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.team.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
+      {{ range sort .Params.people "sort" "desc" }}
+        <div class="col-sm-4 col">
+          <div class="team-member">
+            {{ $url := printf "img/team/%s" .avatar }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
+            <h3>{{ .name | markdownify }}</h3>
+
+            {{ with .position }}
+            <h4>{{ . | markdownify }}</h4>
+            {{ end }}
+            <!--
+            {{ with .reportsTo }}
+            <h5 class="report">Reports to {{ . | markdownify }}</h5>
+            {{ end }}
+
+            {{ with .livesIn }}
+            <h5>Lives in {{ . | markdownify }}</h5>
+            {{ end }}
+
+            {{ with .scope }}
+            <ul>
+              {{ range . }}
+                <li>{{ . | markdownify }}</li>
+              {{ end }}
+            </ul>
+            {{ end }}
+            -->
+            <ul class="list-inline social-buttons">
+              {{ range .socials }}
+                <li><a href="{{ .url }}"><i class="fa {{ .icon_class }}"></i></a></li>
+              {{ end }}
+            </ul>
+
+            {{ with .desc }}
+            <p class="team-bio">{{ . | markdownify }}</p>
+            {{ end }}
+
+          </div>
+        </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

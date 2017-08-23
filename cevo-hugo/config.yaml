@@ -4,15 +4,6 @@ languageCode: en-us
 title: Cevo
 theme: hugo-agency-theme
 
-menu:
-  postpend:
-    - name: Case studies
-      url: /case-study
-      weight: 1
-    - name: Blog
-      url: /post
-      weight: 2
-
 params:
   name: Cevo Australia
   description: Cevo is an IT consultancy specialising in iterative software delivery, automation and devops
@@ -39,15 +30,21 @@ params:
     services: Services
     contact: Contact
     about: About
+    casestudies: Case Studies
+    blog: Blog
 
   casestudies:
     title: Case Studies
     subtitle: Things with did before
 
+  team:
+    center: true
+    title: Our people
+    subtitle: Best talent around
+
   services:
     title: Services
     subtitle: Things we do better than anyone else
-    enable: true
     row:
     - list:
       - icon: fa-gears
@@ -55,7 +52,7 @@ params:
         description: >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-        url: '/services/engineering'
+        url: '/engineering'
 
       - icon: fa-cloud
         title: Cloud
@@ -63,14 +60,14 @@ params:
           We assist organisations to build immutable cloud platforms,
           combining innovative automation technologies with
           unparalleled engineering skills.
-        url: '/services/automation'
+        url: '/automation'
 
       - icon: fa-compass
         title: DevOps
         description: >
           We help you build, manage, and optimise your continuous deployment pipeline,
           from source control through testing to automated production releases.
-        url: '/services/devops'
+        url: '/devops'
 
   clients:
     title: Our happy customers
@@ -86,7 +83,6 @@ params:
         logo: tabcorp.png
 
   contact:
-    enable: true
     buttonText: Send message
     email: sales@cevo.com.au
     form:
@@ -106,7 +102,6 @@ params:
     title: Contact us
 
   footer:
-    enable: true
     copyright: Cevo Australia 2017.
     locations:
       - Level 14, 303 Collins St, Melbourne VIC 3000
