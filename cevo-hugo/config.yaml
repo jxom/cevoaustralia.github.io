@@ -71,7 +71,7 @@ params:
 
   clients:
     title: Our happy customers
-    enable: true
+    center: false
     list:
       - link: '#'
         logo: aconex.png
@@ -81,6 +81,13 @@ params:
         logo: monash.png
       - link: '#'
         logo: tabcorp.png
+
+  partners:
+    title: Our great partners
+    center: true
+    list:
+      - link: '#'
+        logo: aws.jpg
 
   contact:
     buttonText: Send message
