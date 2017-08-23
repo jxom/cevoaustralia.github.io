@@ -318,7 +318,7 @@ header.hero .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -326,6 +326,7 @@ header.hero .intro-text .intro-heading {
 @media(min-width:768px) {
     header.hero .intro-text {
         padding-top: 300px;
+        font-size: 50px;
         padding-bottom: 200px;
     }
 
