@@ -325,7 +325,7 @@ header.hero .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header.hero .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         font-size: 50px;
         padding-bottom: 200px;
     }
@@ -349,7 +349,8 @@ header.hero .intro-text .intro-heading {
 }
 
 section {
-    padding: 150px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 section h2.section-heading {
@@ -369,7 +370,8 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 }
 
@@ -732,12 +734,12 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
-    aside.clients img {
+    aside.clients, aside.partners img {
         margin: 50px auto;
     }
 }
 
-aside.clients img {
+aside.clients, aside.partners img {
     margin-top: 50px;
 }
 
@@ -942,8 +944,25 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-backdrop {
-    display: none;
+    display: hidden;
+    position: relative;
     opacity: 0;
+}
+
+
+.testimonial {
+  display: none;
+  position: relative;
+}
+
+.testimonial p {
+  text-shadow: 1px 1px 5px black;
+  font-size: 16px;
+}
+
+.testimonial-list {
+  min-height: 150px;
+  padding-top: 10px;
 }
 
 ::-moz-selection {

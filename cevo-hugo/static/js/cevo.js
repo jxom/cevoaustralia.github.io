@@ -1,5 +1,18 @@
-// Smooth scrolling via animate()
+
+function showRandomTestimonial() {
+  var tsList = $("div.testimonial"),
+      idx = Math.floor(Math.random()*tsList.length);
+
+  tsList.hide();
+  $(tsList[idx]).fadeIn().css("display", "inline-block");
+  window.setTimeout(function() {
+    $(tsList[idx]).fadeOut();
+  }, 9000);
+}
+
 $(document).ready(function(){
+
+  // Smooth scrolling via animate()
   $("a").on('click', function(event) {
     if (this.hash && window.location.pathname == "/") {
       event.preventDefault();
@@ -11,10 +24,7 @@ $(document).ready(function(){
       });
     }
   });
-});
 
-// Navigation change on scroll
-$(document).ready(function(){
   var maxOffset = 50;
   $(window).scroll(function() {
     if ($(window).scrollTop() >= maxOffset) {
@@ -24,16 +34,9 @@ $(document).ready(function(){
       $('.navbar-default').removeClass('navbar-shrink');
     }
   });
-});
 
-$(document).ready(function(){
-  var maxOffset = 50;
-  if ($(window).scrollTop() >= maxOffset) {
-    $('.navbar-default').addClass('navbar-shrink');
-  }
-  else {
-    $('.navbar-default').removeClass('navbar-shrink');
-  }
+  showRandomTestimonial();
+  window.setInterval(showRandomTestimonial, 10000);
 });
 
 // Closes the Responsive Menu on Menu Item Click
