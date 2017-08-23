@@ -12,13 +12,11 @@
     {{ range $paginator.Pages }}
         {{ .Render "content-list" }}
     {{ end }}
-    
+
     {{ partial "pagination" . }}
 
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer" . }}
-    {{ end }}
-
+    {{ partial "contact" . }}
+    {{ partial "footer" . }}
     {{ partial "js" . }}
   </body>
 </html>
