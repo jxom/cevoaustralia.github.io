@@ -20,10 +20,8 @@
             </footer>
         </article>
 
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer" . }}
-    {{ end }}
-
+    {{ partial "contact" . }}
+    {{ partial "footer" . }}
     {{ partial "js" . }}
   </body>
 </html>
