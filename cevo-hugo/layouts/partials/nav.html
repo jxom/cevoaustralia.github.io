@@ -26,32 +26,30 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
-          <a href="{{ if .IsHome }}/#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
+          <a href="/#page-top"></a>
         </li>
 
-        {{ range .Site.Menus.prepend }}
           <li>
-            <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
-          </li>
-        {{ end }}
-
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="/#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
           </li>
 
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}/about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="/about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="/case-study">{{ with .Site.Params.navigation.casestudies }}{{ . }}{{ end }}</a>
+          </li>
+
+          <li>
+            <a class="page-scroll" href="/post">{{ with .Site.Params.navigation.blog }}{{ . }}{{ end }}</a>
           </li>
 
           <li>
             <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
           </li>
 
-        {{ range .Site.Menus.postpend }}
-          <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          </li>
-        {{ end }}
+
       </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}

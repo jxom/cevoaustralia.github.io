@@ -3,10 +3,15 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   crossorigin="anonymous"></script>
 
+{{ "<!-- Bootstrap Core -->" | safeHTML }}
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  crossorigin="anonymous"></script>
+
 {{ "<!-- Form Validation -->" | safeHTML }}
 <script src="{{ "js/jquery.form-validator-v2.3.44/jquery.form-validator.min.js"| absURL }}"></script>
 
 {{ "<!-- Custom Theme -->" | safeHTML }}
-<script src="{{ "js/agency.js"| absURL }}"></script>
+<script src="{{ "js/cevo.js"| absURL }}"></script>
 
 {{ template "_internal/google_analytics_async.html" . }}
