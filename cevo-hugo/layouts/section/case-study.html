@@ -77,14 +77,8 @@
         </div>
     {{ end }}
 
-    {{ if .Site.Params.contact.enable }}
-      {{ partial "contact" . }}
-    {{ end }}
-
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer" . }}
-    {{ end }}
-
+    {{ partial "contact" . }}
+    {{ partial "footer" . }}
     {{ partial "js" . }}
   </body>
 </html>
