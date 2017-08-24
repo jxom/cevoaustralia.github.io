@@ -327,7 +327,7 @@ header.hero .intro-text .intro-heading {
     header.hero .intro-text {
         padding-top: 200px;
         font-size: 50px;
-        padding-bottom: 200px;
+        padding-bottom: 50px;
     }
 
     header.hero .intro-text .intro-lead-in {
@@ -961,8 +961,11 @@ ul.social-buttons li a:active {
 }
 
 .testimonial-list {
-  min-height: 150px;
-  padding-top: 10px;
+  min-height: 250px;
+}
+
+.testimonial-list a {
+  color: #fff;
 }
 
 ::-moz-selection {

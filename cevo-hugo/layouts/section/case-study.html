@@ -31,7 +31,7 @@
                 </a>
                 <div class="portfolio-caption">
                     <h4>{{ .Params.title | markdownify }}</h4>
-                    <p class="text-muted">{{ .Params.category | markdownify }}</p>
+                    <p class="text-muted">{{ .Params.case_studies | markdownify }}</p>
                 </div>
               </div>
           {{ end }}
@@ -65,7 +65,7 @@
                       <footer>
                         <ul class="stats">
                           <li>Client: {{ .Params.client | markdownify }}</li>
-                          <li>Category: {{ .Params.category | markdownify }}</li>
+                          <li>Category: {{ .Params.case_studies | markdownify }}</li>
                         </ul>
                       </footer>
                     </article>

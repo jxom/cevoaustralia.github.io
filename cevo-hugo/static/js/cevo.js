@@ -1,7 +1,7 @@
 
 function showRandomTestimonial() {
   var tsList = $("div.testimonial"),
-      idx = Math.floor(Math.random()*tsList.length);
+      idx = Math.floor(Math.random() * (tsList.length + 1));
 
   tsList.hide();
   $(tsList[idx]).fadeIn().css("display", "inline-block");
