@@ -26,6 +26,13 @@ $(document).ready(function(){
   });
 
   var maxOffset = 50;
+  if ($(window).scrollTop() >= maxOffset) {
+    $('.navbar-default').addClass('navbar-shrink');
+  }
+  else {
+    $('.navbar-default').removeClass('navbar-shrink');
+  }
+  
   $(window).scroll(function() {
     if ($(window).scrollTop() >= maxOffset) {
       $('.navbar-default').addClass('navbar-shrink');
