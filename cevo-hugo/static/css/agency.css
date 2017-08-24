@@ -968,6 +968,18 @@ ul.social-buttons li a:active {
   color: #fff;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+img.story {
+  padding: 20px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #e38105;

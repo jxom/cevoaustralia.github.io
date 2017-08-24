@@ -57,8 +57,8 @@ params:
       - icon: fa-gears
         title: Engineering
         description: >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          To deliver new concepts and solutions, organisations need the
+          ability to rapidly deploy code to production, and iterate based on customer feedback.
         url: '/engineering'
 
       - icon: fa-cloud
