@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    <header class="hero list-header"></header>
+
+    {{ partial "nav" . }}
+
+    {{ $paginator := .Paginate (where .Site.Pages "Type" "testimonial") }}
+
+    {{ range .Paginator.Pages }}
+        {{ .Render "content-list" }}
+    {{ end }}
+
+    {{ partial "pagination" . }}
+    {{ partial "contact" . }}
+    {{ partial "footer" . }}
+    {{ partial "js" . }}
+  </body>
+</html>

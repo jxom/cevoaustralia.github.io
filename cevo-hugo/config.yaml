@@ -19,6 +19,12 @@ params:
 
   featuredpath: img
 
+  taxonomies:
+    tag: tags
+    category: categories
+    testimonial_category: testimonials
+    case_study_category: case_studies
+
   hero:
     title: Software delivery solutions
     subtitle: Engineered for you
@@ -32,6 +38,7 @@ params:
     about: About
     casestudies: Case Studies
     blog: Blog
+    testimonials: Testimonials
 
   casestudies:
     title: Case Studies
