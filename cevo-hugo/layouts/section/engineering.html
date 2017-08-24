@@ -5,38 +5,10 @@
 
   <body id="page-top" class="index">
     {{ partial "nav" . }}
-    <header class="hero list-header"></header>
+    <header class="hero small-header"></header>
 
-
-    {{ with .Site.GetPage "section" "engineering" }}
-    <section id="engineering">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">
-              {{ .Params.title | markdownify }}
-            </h2>
-            <h3 class="section-subheading text-muted">
-              {{ .Params.subtitle | markdownify }}
-            </h3>
-          </div>
-        </div>
-
-        <div class="float-left">
-          {{ with .Params.img }}
-          <img class="story" src="{{ add "/img/" . | urlize }}" />
-          {{ end }}
-        </div>
-
-        <p>{{ .Content | markdownify }}</p>
-
-      </div>
-    </section>
-    {{ end }}
-
-
-
-
+    {{ $.Scratch.Add "servicename" "engineering"}}
+    {{ partial "service" . }}
 
     {{ partial "contact" . }}
     {{ partial "footer" . }}

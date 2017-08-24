@@ -323,6 +323,10 @@ header.hero .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header.small-header {
+  min-height: 100px;
+}
+
 @media(min-width:768px) {
     header.hero .intro-text {
         padding-top: 200px;
@@ -734,13 +738,18 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
-    aside.clients, aside.partners img {
+    aside.clients img, aside.partners img {
         margin: 50px auto;
     }
 }
 
-aside.clients, aside.partners img {
+aside.clients img, aside.partners img {
     margin-top: 50px;
+}
+
+div.logo-container {
+  min-width: 272px;
+  min-height: 180px;
 }
 
 aside .heading {

@@ -4,13 +4,11 @@
   {{ partial "head.html" . }}
 
   <body id="page-top" class="index">
-    <header class="hero list-header"></header>
+    <header class="hero small-header"></header>
 
     {{ partial "nav" . }}
 
-    {{ $paginator := .Paginate (where .Site.Pages "Type" "testimonial") }}
-
-    {{ range .Paginator.Pages }}
+    {{ range where .Data.Pages "Type" "testimonial" }}
         {{ .Render "content-list" }}
     {{ end }}
 

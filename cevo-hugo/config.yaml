@@ -67,7 +67,7 @@ params:
           We assist organisations to build immutable cloud platforms,
           combining innovative automation technologies with
           unparalleled engineering skills.
-        url: '/automation'
+        url: '/cloud'
 
       - icon: fa-compass
         title: DevOps
@@ -80,14 +80,22 @@ params:
     title: Our happy customers
     center: false
     list:
-      - link: '#'
+      - link: https://www.aconex.com.au
         logo: aconex.png
-      - link: '#'
+      - link: https://www.rea-group.com
         logo: rea.png
-      - link: '#'
+      - link: https://www.monash.edu/
         logo: monash.png
-      - link: '#'
+      - link: https://www.tabcorp.com.au/
         logo: tabcorp.png
+      - link: https://www.bluechain.com/
+        logo: bluechain.png
+      - link: http://www.catchgroup.com.au/
+        logo: catch-group.png
+      - link: https://www.equiem.com.au/
+        logo: equiem.png
+      - link: https://www.ioof.com.au/
+        logo: ioof.png
 
   partners:
     title: Our great partners

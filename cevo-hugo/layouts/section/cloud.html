@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
-  {{ partial "head.html" . }}
+  {{ partial "head" . }}
 
   <body id="page-top" class="index">
+    {{ partial "nav" . }}
     <header class="hero small-header"></header>
 
-    {{ partial "nav" . }}
-
-    {{ range where .Data.Pages "Type" "testimonial" }}
-        {{ .Render "content-list" }}
-    {{ end }}
-
-    {{ partial "pagination" . }}
+    {{ $.Scratch.Add "servicename" "cloud"}}
+    {{ partial "service" . }}
 
     {{ partial "contact" . }}
     {{ partial "footer" . }}
