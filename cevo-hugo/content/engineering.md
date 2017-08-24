@@ -1,5 +1,6 @@
 ---
 title: Engineering with Cevo
+type: engineering
 subtitle: >
   "The only competitive advantage today is adaptability. To deliver valuable new concepts and solutions faster than the competition, organisations need the ability to rapidly deploy code to production, and then iterate based on customer feedback".
 img: engineering.jpg

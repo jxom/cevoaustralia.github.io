@@ -1,5 +1,6 @@
 ---
 title: DevOps practices
+type: devops
 subtitle: >
   "DevOps is about continuously looking for new ways to break down silos, remove bottlenecks, and eliminate inefficiencies — all while holding ourselves to a higher standard of software quality and reliability".
 img: devops.png

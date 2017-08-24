@@ -1,7 +1,8 @@
 ---
-subtitle: Lorem ipsum dolor sit amet consectetur.
 title: Brief history of Cevo
+subtitle: Lorem ipsum dolor sit amet consectetur.
 endpoint: Be part<br>of our<br>story!
+type: about
 events:
   - date: 2009-2011
     description: >
