@@ -6,18 +6,10 @@ subtitle: >
 img: automation.jpg
 ---
 
-# AUTOMATE YOUR INFRASTRUCTURE
+# The Cloud
 
-One of the ultimate objectives of the devops discipline is to make infrastructure fully programmable and automated, infrastructure-as-code. Infrastructure automation is the process of describing your infrastructure and its configuration as a script or set of scripts so that environments can be replicated with minimal human interference. Infrastructure automation brings agility to both development and operations and reduces the scope for human error. Established software development practices from source control and versioning to automated testing can be applied to infrastructure, laying the foundation for scalability.
+It is no secret that Cloud is here to stay. Be it your favourites coffee shop, academic institutions, insurance provider, medical services  or financial institution - scaling business, acquiring new customers and ensuring uptime is a key to a successful business.Engaging customers via compelling digital touch points such as web, mobile, kiosk, intelligent bots are increasingly crucial to keep a healthy and happy customer base for any business. [Cevo recognises](/cases/cloud) this and has been at the forefront of delivering cloud solutions for our customers. Cevo offers variety of services such cloud migration, cloud first or hybrid approach of on-premise and cloud infrastructure. We at Cevo understand that cloud by itself will not solve many challenges thus we also help and consult our customers to build their softwares which are “cloud friendly” right from the beginning. We believe that infrastructure automation and software architectures are the underpinning of a solid cloud strategy and bring those skills as a part of our Cloud Service offering.
 
-# WHAT ARE THE CHALLENGES?
+We do not believe in the build and transfer approach to our delivery. We closely work with customer teams across software development, project planning and operations to ensure that we build a solutions that suits the needs of the business as well as cross skill client team members for the future.
 
-In many organisations infrastructure departments are still applying non-scalable traditional approaches including manual configuration of environments or writing and running combinations of scripts that must be performed by a team member. Infrastructure should be modelled in scripts or code so it can be versioned, tested and is in line with well- established application software practices. Without consistent, automated configuration management, the release automation of the entire stack becomes very difficult to achieve.
-
-# WHY WOULD YOU BE INTERESTED?
-
-* Deployments will become repeatable and reliable with the deployment scripts serving as documentation
-* Deployments can be initiated by any team members thereby reducing the reliance on expert members
-* Expert engineers are freed up from boring and repetitive deployment tasks and can spend more time on developing software
-* Releases are becoming more frequent so valuable feature and updates are reaching the users earlier
-* Configuration Management enables the reliable re-creation of every infrastructure element necessary to run an application
+We do not believe in keeping it to ourselves and are big promoters of open source software. We believe that knowledge shared is knowledge gained. [Our blogs](/categories/cloud) and presence at various conferences is a testimony to our beliefs.

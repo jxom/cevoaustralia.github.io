@@ -8,19 +8,7 @@ img: devops.png
 
 # COMMUNICATION, COLLABORATION AND INTEGRATION
 
-Born of the need to improve IT service delivery agility, the devops movement emphasises communication, collaboration and integration between software developers and IT operations. Rather than seeing these two groups as silos who pass things along, but don’t really work together, devops recognises the interdependence of software development and IT operations and helps an organisation produce software and IT services rapidly, with frequent iterations.
+Building a DevOps culture is one of the biggest challenges for big and small companies alike. Faster time to market, quicker turnaround based on how fast an organisation can move “single line of code from development to production”.
+For too long the IT industry has been working in silos across teams right from product ideation and  product management to product development and product support and maintenance. DevOps is not a tool, methodology, or a set of practices, it is a principle , a mindset. Accepting this new paradigm and being successful at it is a big challenge. Cevo understands this very well and Cevo consultants are the perfect catalyst to make this transition for our customers.
 
-
-# WHAT ARE THE CHALLENGES?
-
-Continuous delivery is an important practice in the devops philosophy, and aims at delivering high quality software in an efficient, fast and reliable manner. Today, in many organisations, the delivery of software is manual, time consuming, stressful and costly. Often, as soon as the application goes live, issues pop up, forcing the organisation into another costly release cycle. Transforming the release process into an automated, reliable, high quality continuous deployment pipeline that is essential to competing in today’s marketplace.
-
-# WHY WOULD YOU BE INTERESTED?
-
-Companies that incorporate devops and continuous delivery practices get more done, plain and simple.
-
-* Better communication and collaboration across teams
-* Organisational agility through continuous integration and continuous delivery
-* More reliable production performance monitoring and proactive incident management through automation, development and collaboration
-* Reduce software delivery cycle time with infrastructure provisioning through automated deployments and self-service portals
-* Strengthen service delivery, automation of development, quality analysis and operations processes and management with a common lifecycle view
+Cevo consultants believe that the best way to lead is [by doing](/cases/devops) and hence our consultants have been working with many organisations to build the underlying technical capabilities. Our experienced consultants provide technical skills , and our business consultants bring people and change management experience help different teams understand and appreciate principles behind DevOps and the value thereof.On one hand Cevo consultants are experienced in tools that nurture devops capability such Jenkins, BuildKite and GoCD, and on the other hand Cevo consultants are also providing guidance and mentoring to customers on the product management , product delivery and change management aspects.
