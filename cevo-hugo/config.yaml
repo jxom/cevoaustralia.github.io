@@ -83,7 +83,7 @@ params:
     title: Our happy customers
     center: false
     list:
-      - link: https://www.aconex.com.au
+      - link: https://www.aconex.com
         logo: aconex.png
       - link: https://www.rea-group.com
         logo: rea.png
@@ -139,8 +139,6 @@ params:
       text: Terms of Use
     social:
     - icon: fa-twitter
-      link: '#'
-    - icon: fa-facebook
-      link: '#'
+      link: https://twitter.com/cevoaustralia
     - icon: fa-linkedin
-      link: '#'
+      link: https://www.linkedin.com/company-beta/102015/

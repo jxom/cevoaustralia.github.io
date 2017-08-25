@@ -8,7 +8,11 @@
           {{ range .Site.Params.footer.locations }}
             <li>{{ .  | markdownify }}</a></li>
           {{ end }}
-          <li>{{ with .Site.Params.footer.phone }}{{ . | markdownify }}{{ end }}</li>
+          <li>
+            <i class="fa fa-phone"></i>
+            &nbsp;
+            {{ with .Site.Params.footer.phone }}{{ . | markdownify }}{{ end }}
+          </li>
         </ul>
       </div>
       <div class="col-md-4">

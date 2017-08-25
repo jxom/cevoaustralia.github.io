@@ -1,7 +1,7 @@
 
 function showRandomTestimonial() {
   var tsList = $("div.testimonial"),
-      idx = Math.floor(Math.random() * (tsList.length + 1));
+      idx = Math.floor(Math.random() * tsList.length);
 
   tsList.hide();
   $(tsList[idx]).fadeIn().css("display", "inline-block");
@@ -32,7 +32,7 @@ $(document).ready(function(){
   else {
     $('.navbar-default').removeClass('navbar-shrink');
   }
-  
+
   $(window).scroll(function() {
     if ($(window).scrollTop() >= maxOffset) {
       $('.navbar-default').addClass('navbar-shrink');

@@ -12,4 +12,4 @@ It is no secret that Cloud is here to stay. Be it your favourites coffee shop, a
 
 We do not believe in the build and transfer approach to our delivery. We closely work with customer teams across software development, project planning and operations to ensure that we build a solutions that suits the needs of the business as well as cross skill client team members for the future.
 
-We do not believe in keeping it to ourselves and are big promoters of open source software. We believe that knowledge shared is knowledge gained. [Our blogs](/categories/cloud) and presence at various conferences is a testimony to our beliefs.
+We do not believe in keeping it to ourselves and are big promoters of open source software. We believe that knowledge shared is knowledge gained. [Our blogs](/categories/aws) and presence at various conferences is a testimony to our beliefs.

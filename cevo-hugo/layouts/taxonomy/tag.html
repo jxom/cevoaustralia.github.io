@@ -8,13 +8,13 @@
 
     {{ partial "nav" . }}
     <div class="container">
-      {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-      <div class="container">
-        {{ range $paginator.Pages }}
-            {{ .Render "content-list" }}
-        {{ end }}
-      </div>
-      {{ partial "pagination" . }}
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+        <div class="container">
+            {{ range $paginator.Pages }}
+                {{ .Render "content-list" }}
+            {{ end }}
+        </div>
+        {{ partial "pagination" . }}
     </div>
     {{ partial "contact" . }}
     {{ partial "footer" . }}

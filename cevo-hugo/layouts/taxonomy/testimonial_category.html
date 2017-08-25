@@ -7,11 +7,13 @@
     <header class="hero small-header"></header>
 
     {{ partial "nav" . }}
-
-    {{ range .Data.Pages}}
-        {{ .Render "content-list" }}
-    {{ end }}
-
+    <div class="container">
+      <div class="container">
+          {{ range .Data.Pages}}
+              {{ .Render "content-list" }}
+          {{ end }}
+      </div>
+    </div>
     {{ partial "contact" . }}
     {{ partial "footer" . }}
     {{ partial "js" . }}
