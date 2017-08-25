@@ -55,6 +55,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    font-size: 24px;
 }
 
 .img-centered {
@@ -188,9 +189,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-brand>img {
-    height: 50px;
+    max-height: 40px;
+    margin: -10px;
     max-width: 250px;
-    margin: -15px;
 }
 
 @media(min-width:768px) {
@@ -958,23 +959,28 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
-
-.testimonial {
+div.testimonial {
   display: none;
   position: relative;
 }
 
-.testimonial p {
+div.testimonial p {
   text-shadow: 1px 1px 5px black;
   font-size: 16px;
 }
 
-.testimonial-list {
-  min-height: 250px;
+div.testimonial-list {
+  min-height: 500px;
 }
 
-.testimonial-list a {
+div.testimonial-list a {
   color: #fff;
+}
+
+@media(min-width:992px) {
+  .testimonial-list {
+    min-height: 250px;
+  }
 }
 
 .float-left {
@@ -986,7 +992,14 @@ ul.social-buttons li a:active {
 }
 
 img.story {
-  padding: 20px;
+  padding: 2px;
+  max-width: 100%;
+}
+
+@media(min-width:992px) {
+  img.story {
+    padding: 20px;
+  }
 }
 
 ::-moz-selection {
