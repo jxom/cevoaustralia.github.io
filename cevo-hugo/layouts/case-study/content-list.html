@@ -10,6 +10,12 @@
   </a>
   <div class="portfolio-caption">
       <h4>{{ .Params.title | markdownify }}</h4>
-      <p class="text-muted">{{ .Params.cases | markdownify }}</p>
+      <p class="text-muted">
+        {{ with .Params.cases }}
+          <a href="{{ add "/cases/" . | urlize }}">
+            {{ . | humanize }}
+          </a>
+        {{ end }}
+      </p>
   </div>
 </div>

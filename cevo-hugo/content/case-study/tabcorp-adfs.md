@@ -3,7 +3,7 @@ title: ADFS Automation
 subtitle: Active Direction Federation Services automation with EC2 and CloudFormation
 client: TabCorp
 clientLink: "#"
-cases: DevOps
+cases: cloud
 img: ADFS-Automation.png
 ---
 # Customer Overview
