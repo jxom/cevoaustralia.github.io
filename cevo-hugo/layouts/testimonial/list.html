@@ -7,11 +7,12 @@
     <header class="hero small-header"></header>
 
     {{ partial "nav" . }}
-
     <div class="container">
-        {{ range where .Site.Pages "Type" "testimonial" }}
-            {{ .Render "content-list" }}
-        {{ end }}
+      <div class="container">
+          {{ range where .Site.Pages "Type" "testimonial" }}
+              {{ .Render "content-list" }}
+          {{ end }}
+      </div>
     </div>
     {{ partial "contact" . }}
     {{ partial "footer" . }}

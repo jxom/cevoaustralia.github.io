@@ -4,8 +4,8 @@
   {{ partial "head" . }}
 
   <body id="page-top" class="index">
-    {{ partial "nav" . }}
     <header class="hero small-header"></header>
+    {{ partial "nav" . }}
 
     {{ $.Scratch.Add "servicename" "devops"}}
     {{ partial "service" . }}

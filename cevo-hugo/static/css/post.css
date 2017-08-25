@@ -76,6 +76,7 @@
 				-webkit-transition: -webkit-transform 0.2s ease-out;
 				-ms-transition: -ms-transform 0.2s ease-out;
 				transition: transform 0.2s ease-out;
+				width: 100%;
 			}
 
 			.post > .image.featured:hover img {
@@ -264,8 +265,6 @@
 				}
 
 			.post > .image.featured {
-				margin-left: -1.5em;
-				margin-top: calc(-1.5em - 1px);
 				width: calc(100% + 3em);
 			}
 

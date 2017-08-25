@@ -5,18 +5,22 @@
 
   <body id="page-top" class="index">
     <header class="hero small-header"></header>
-
     {{ partial "nav" . }}
 
-    {{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
+    <div class="container">
+      {{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
 
-    {{ range .Paginator.Pages }}
-        {{ .Render "content-list" }}
-    {{ end }}
+      <div class="container">
+        {{ range .Paginator.Pages }}
+            {{ .Render "content-list" }}
+        {{ end }}
+      </div>
 
-    {{ partial "pagination" . }}
+      {{ partial "pagination" . }}
+    </div>
     {{ partial "contact" . }}
     {{ partial "footer" . }}
     {{ partial "js" . }}
+
   </body>
 </html>

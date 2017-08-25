@@ -7,14 +7,15 @@
     <header class="hero small-header"></header>
 
     {{ partial "nav" . }}
-
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-    {{ range $paginator.Pages }}
-        {{ .Render "content-list" }}
-    {{ end }}
-
-    {{ partial "pagination" . }}
-
+    <div class="container">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+        <div class="container">
+            {{ range $paginator.Pages }}
+                {{ .Render "content-list" }}
+            {{ end }}
+        </div>
+        {{ partial "pagination" . }}
+    </div>
     {{ partial "contact" . }}
     {{ partial "footer" . }}
     {{ partial "js" . }}

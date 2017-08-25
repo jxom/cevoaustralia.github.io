@@ -361,7 +361,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 section h3.section-subheading {
@@ -377,6 +377,10 @@ section h3.section-subheading {
     section {
         padding-top: 100px;
         padding-bottom: 50px;
+    }
+
+    section h2.section-heading {
+      font-size: 40px;
     }
 }
 
@@ -959,21 +963,21 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
-div.testimonial {
+.testimonial {
   display: none;
   position: relative;
 }
 
-div.testimonial p {
+.testimonial p {
   text-shadow: 1px 1px 5px black;
   font-size: 16px;
 }
 
-div.testimonial-list {
+.testimonial-list {
   min-height: 500px;
 }
 
-div.testimonial-list a {
+.testimonial-list a {
   color: #fff;
 }
 

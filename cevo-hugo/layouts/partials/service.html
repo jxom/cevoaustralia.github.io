@@ -21,7 +21,7 @@
     <p>{{ .Content | markdownify }}</p>
 
     <h1>What our customers say about {{ $serviceName }}</h1>
-    <div>
+    <div class="container">
       {{ range where .Site.Pages "Type" "testimonial"  }}
         {{ if eq .Params.testimonials $serviceName }}
           {{ partial "testimonial-item" . }}
