@@ -5,8 +5,13 @@
         <i class="fa fa-plus fa-3x"></i>
       </div>
     </div>
-    {{ $url := printf "img/case-study/%s" .Params.img }}
-    <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+    {{ if .Params.img }}
+      {{ $url := printf "img/case-study/%s" .Params.img }}
+      <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+    {{ else }}
+      <img src="{{ "/img/case-study/placeholder.png" | absURL }}" class="img-responsive" alt="">
+    {{ end }}
+
   </a>
   <div class="portfolio-caption">
       <h4>{{ .Params.title | markdownify }}</h4>
