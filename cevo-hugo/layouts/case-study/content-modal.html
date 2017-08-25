@@ -1,0 +1,34 @@
+<div class="portfolio-modal modal fade" id="case-study-{{ .Scratch.Get "index" }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <article class="post">
+              <h2>{{ .Params.title  | markdownify }}</h2>
+              <p class="item-intro text-muted">{{ .Params.subtitle | markdownify }}</p>
+              {{ $url := printf "img/case-study/%s" .Params.img }}
+              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+                <div id="content">
+                  {{ .Content | markdownify }}
+                </div>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
+              <footer>
+                <ul class="stats">
+                  <li>Client: {{ .Params.client | markdownify }}</li>
+                  <li>Category: {{ .Params.cases | markdownify }}</li>
+                </ul>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

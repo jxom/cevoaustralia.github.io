@@ -1,0 +1,15 @@
+<div class="col-md-4 col-sm-6 portfolio-item">
+  <a href="#case-study-{{ .Scratch.Get "index" }}" class="portfolio-link" data-toggle="modal">
+    <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+        <i class="fa fa-plus fa-3x"></i>
+      </div>
+    </div>
+    {{ $url := printf "img/case-study/%s" .Params.img }}
+    <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+  </a>
+  <div class="portfolio-caption">
+      <h4>{{ .Params.title | markdownify }}</h4>
+      <p class="text-muted">{{ .Params.cases | markdownify }}</p>
+  </div>
+</div>

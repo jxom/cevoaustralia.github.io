@@ -23,7 +23,7 @@ params:
     tag: tags
     category: categories
     testimonial_category: testimonials
-    case_study_category: case_studies
+    case_category: cases
 
   hero:
     title: Software delivery solutions
@@ -57,8 +57,11 @@ params:
       - icon: fa-gears
         title: Engineering
         description: >
-          To deliver new concepts and solutions, organisations need the
-          ability to rapidly deploy code to production, and iterate based on customer feedback.
+          We believe that technology is a the backbone for building new concepts,
+          business models, ideas. Sound engineering approach is a key to be able
+          to scale, pivot and adapt to changing needs based on customer feedback
+          and market uptake. Cevo understands these business challenges and helps
+          customers build the engineering side of a business.
         url: '/engineering'
 
       - icon: fa-cloud

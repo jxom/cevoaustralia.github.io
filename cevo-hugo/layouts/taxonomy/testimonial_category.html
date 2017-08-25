@@ -8,7 +8,7 @@
 
     {{ partial "nav" . }}
 
-    {{ range where .Site.Pages "Type" "testimonial" }}
+    {{ range .Data.Pages}}
         {{ .Render "content-list" }}
     {{ end }}
 
