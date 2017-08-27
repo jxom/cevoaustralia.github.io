@@ -6,6 +6,8 @@ gem "jekyll-assets"
 gem "jekyll-sitemap"
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
+gem 'jekyll-crosspost-to-medium'
+
 gem "rest-client"
 
 gem "sass"

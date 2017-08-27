@@ -28,7 +28,7 @@ careers:
 include: [robots.txt]
 exclude: [Gemfile, Gemfile.lock, README.md, TODO.md, .dockerignore, install_image_optim.sh]
 markdown: kramdown
-plugins: [jekyll-paginate, jekyll-assets, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-assets, jekyll-sitemap, jekyll-crosspost-to-medium]
 paginate: 4
 paginate_path: "blog/page:num"
 future: true
@@ -48,3 +48,4 @@ assets:
     - _assets/css
     - _assets/javascripts
     - _assets/images
+

@@ -10,6 +10,7 @@ tags:
     - devops
 author: Trent Hornibrook
 images:
+crosspost_to_medium: true
 
 excerpt:
     Trent Hornibrook recently gave a DevOps brownbag at a client where he described the DevOps transformation of REA Group and his perspective on DevOps.

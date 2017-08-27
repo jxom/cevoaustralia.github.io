@@ -12,6 +12,7 @@ tags:
     - leadership
 author: Trent Hornibrook
 images:
+crosspost_to_medium: true
 
 excerpt:
     You are given a blank cheque at a start-up and you need to execute on a product strategy. What technical choices would you make?.
