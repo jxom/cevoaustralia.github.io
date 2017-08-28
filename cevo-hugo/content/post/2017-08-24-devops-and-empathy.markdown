@@ -16,6 +16,7 @@ url: /2017/08/24/devops-and-empathy/
 I recently gave a talk at a client titled _DevOps: State Of The Union_. In this talk, I detailed my professional journey driving the DevOps transformation at REA Group.
 
 The specific items I talked about was:
+
 * **REA's orgnisational structure and culture at 2009,2011,2013 and 2015**
 * **Contrasting an IT support operating model at REA to places like Google or Facebook**
 * **My perspective on DevOps**
