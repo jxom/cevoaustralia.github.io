@@ -1,0 +1,9 @@
+---
+layout: robots
+---
+
+User-agent: * 
+{{ site.robots.allow }}
+{% if site.url == "https://www.cevo.com.au" %}
+Sitemap: http://www.cevo.com.au/sitemap.xml
+{% endif %}
