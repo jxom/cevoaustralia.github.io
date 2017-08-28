@@ -81,7 +81,7 @@ If you have issues getting this example working, you may need to review your net
 
 **Gemfile**
 
-``` ruby
+```ruby
 source "https://rubygems.org"
 
 gem "rake"

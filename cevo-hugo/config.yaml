@@ -4,6 +4,9 @@ languageCode: en-us
 title: Cevo
 theme: hugo-agency-theme
 
+PygmentsCodeFences: true
+PygmentsStyle: "trac"
+
 params:
   name: Cevo Australia
   description: Cevo is an IT consultancy specialising in iterative software delivery, automation and devops

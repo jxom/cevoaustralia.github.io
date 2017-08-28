@@ -243,16 +243,6 @@ people:
       - icon_class: fa fa-linkedin
         url: https://au.linkedin.com/in/jamiewpotter
 
-  - name: David Sanza
-    sort: 2017-03-06
-    position: Client Executive
-    desc: David has worked in the tech scene in a sales capacity for the last 7+ years and in that time, has grown to understand the close relationship between team dynamic and successful client outcomes.
-          <br/><br/>His aim is to help successfully grow Cevo by sticking to its focus of hiring the best technologists to engage in challenging and interesting work for awesome clients.
-    avatar: david_sanza.jpg
-    socials:
-      - icon_class: fa fa-linkedin
-        url: https://www.linkedin.com/in/davidsanza/
-
   - name: Ebony Worth
     sort: 2017-03-06
     position: Talent/HR
@@ -320,15 +310,6 @@ people:
     socials:
       - icon_class: fa fa-linkedin
         url: https://www.linkedin.com/in/bhushanmanekar
-
-  - name: Shreya Singh
-    sort: 2017-08-04
-    position: Business Solutions Consultant
-    desc: Shreya has extensive IT experience with focus on Project Management, Business Process Engineering and Software System Development. She is accomplished in driving business results by streamlining process and methodology to maximise resource, time and budget utilisation. Shreya is also an Agile enthusiast and has worked on several organisation-wide agile transformations.
-    avatar: shreya_singh.jpg
-    socials:
-      - icon_class: fa fa-linkedin
-        url: https://www.linkedin.com/in/shreya-singh-8259581b
 
   - name: Ranjeet Pethe
     sort: 2017-08-15
