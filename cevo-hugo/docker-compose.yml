@@ -7,8 +7,6 @@ services:
       volumes:
           - .:/data
       working_dir: /data
-      expose:
-        - 1313
       ports:
         - "1313:1313"
 
