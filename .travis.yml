@@ -5,7 +5,7 @@ services:
 
 before_install:
   - cd cevo-hugo
-  - git pull ubuntu/16.04
+  - docker pull ubuntu:16.04
 
 script:
   - docker-compose build alpha
@@ -16,6 +16,8 @@ deploy:
   access_key_id: AKIAJUODWS5UV4ONCCZA
   secret_access_key:
     secure: s6dqWk+/YhTOuxOiBue61Dr9R46ec8FR8I7NXwdsOTB0561hP27W2wKl39w+T7pHhAp+1g1E1g3pvlKT6Btv8amBhF10MZ89ndxVnpkrECTJ71/2GRAYPobWCrTzn8vB5C6N+WndlT+OtdKlMZgaG63ZTtkxWpl9j9zzdUS1LuZ9cMwCQb+5AY7ZyQLXXfw1HDXaNfNjE91nikhB+b4x6mR2zpZAlkW3NGZmmHGCdCtQk1IYmNlm3gh7cf3lunTJm1FZTqGl0HkXuCC/o6zuGc27rvxTuTPaivy609GO2SHbwUIZIMYQDtP8TgO6u03ClTPRpoUF8Sdlin/EW0t2WrA+njcCwe5TMp+mtlKuVlMS1tlCxZcY7YXgeXGvgnKxm6xscEAg6gNPuJd0s/U2lneNz84cvux1nPz5s9ZwmVTBKSJ+9bMiJqHx4dnTf21eLNvinVx0xqUWvOzWSkgRJGNpcHf0pdUqYfYew3jrJZSA56K0AFi3BXzKn20jndsVArIEIQVOXlNPPkBox3w5PkaE/rLeKZeAGIkJBChKbT8d+tJqFRRVkyjUZyZJhcfSgzUH5GSm7bHUy58d51XOpjzIXMrcL0JquqLIARXnL4TybOMeH38crD0/vL0ucvq2ltsNKWDJK2v4eQ1Nj74zYg0isCcCvn6RL5XD9M+2fT8=
+  region: ap-southeast-2
+  local_dir: public
   bucket: cevo-hugo
   skip_cleanup: true
   acl: public_read
