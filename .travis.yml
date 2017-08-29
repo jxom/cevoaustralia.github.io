@@ -21,3 +21,5 @@ deploy:
   bucket: cevo-hugo
   skip_cleanup: true
   acl: public_read
+  on:
+    branch: hugo-port
