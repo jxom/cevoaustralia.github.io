@@ -4,6 +4,7 @@ services:
 - docker
 
 before_install:
+  - cd cevo-hugo
   - git pull ubuntu/16.04
 
 script:
