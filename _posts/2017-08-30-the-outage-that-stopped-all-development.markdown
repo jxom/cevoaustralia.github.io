@@ -23,7 +23,7 @@ excerpt:
 
 We were aggressively using AWS. Like most workplaces that are familiar with a datacenter operating model, cost accounting becomes a focus given the pay-per-hour operating expenditure pricing model of AWS. Generally, the first solution of arresting cost is to implement a solution that would turn off EC2 instances out of hours. This was our in-house 'stopinator' tool.
 
-We invested heavily on individual local environments deployed into AWS along with team specific CI's also deployed into AWS. There were some 20 different complex environments supporting 80 odd IT engineers.
+We invested heavily on individual environments along with team specific CI's that were both deployed into AWS. This made up around 20 different complex environments which supported the work of 80 odd IT engineers.
 
 A developer implemented a custom 'stopinator' solution, however they introduced two fundamental bugs that caused a critical outage:
 
