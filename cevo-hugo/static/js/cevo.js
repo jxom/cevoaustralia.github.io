@@ -25,7 +25,7 @@ $(document).ready(function(){
     }
   });
 
-  var maxOffset = 50;
+  var maxOffset = 20;
   if ($(window).scrollTop() >= maxOffset) {
     $('.navbar-default').addClass('navbar-shrink');
   }

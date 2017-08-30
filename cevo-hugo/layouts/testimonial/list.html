@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
-  {{ partial "head.html" . }}
+  {{ partial "head" . }}
 
-  <body id="page-top" class="index">
-    <header class="hero small-header"></header>
-
+  <body id="page-top">
     {{ partial "nav" . }}
+    <header class="hero small-header"></header>
     <div class="container">
-      <div class="container">
-          {{ range where .Site.Pages "Type" "testimonial" }}
-              {{ .Render "content-list" }}
-          {{ end }}
-      </div>
+      <h1>What our customers say about our services</h1>
+      {{ range .Data.Pages }}
+          {{ .Render "content-list" }}
+      {{ end }}
     </div>
     {{ partial "contact" . }}
     {{ partial "footer" . }}
