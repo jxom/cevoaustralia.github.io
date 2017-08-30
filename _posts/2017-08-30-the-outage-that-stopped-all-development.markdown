@@ -19,13 +19,13 @@ excerpt:
 
 ---
 
-I want to share a story about a major development outage that occurred at my former workspace in 2012 and the corresponding leadership response.
+ I want to share my experience when a major development outage occurred and how the leadership responded.
 
-My former workplace began aggressively using AWS. Like most workplaces that are familiar with a datacenter operating model, cost accounting becomes a focus given the pay-per-hour operating expenditure pricing model of AWS. Generally, the first solution of arresting cost is to implement a 'stopinator' type tool that will switch off all compute resources out-of-business hours.
+We were aggressively using AWS. Like most workplaces that are familiar with a datacenter operating model, cost accounting becomes a focus given the pay-per-hour operating expenditure pricing model of AWS. Generally, the first solution of arresting cost is to implement a solution that would turn off EC2 instances out of hours. This was our in-house 'stopinator' tool.
 
-My former workplace at the time invested heavily on individual local environments deployed into AWS along with team specific CI's also deployed into AWS. There were some 20 different complex environments supporting 80 odd IT engineers.
+We invested heavily on individual local environments deployed into AWS along with team specific CI's also deployed into AWS. There were some 20 different complex environments supporting 80 odd IT engineers.
 
-A developer implemented a custom 'stopinator' however they introduced two fundamental bugs that caused a critical outage.
+A developer implemented a custom 'stopinator' however they introduced two fundamental bugs that caused a critical outage:
 
 * The time-period logic was incorrect - meaning that it ran during business hours
 * The dry-run logic was incorrect - meaning when it ran, it destroyed everything
