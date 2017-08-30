@@ -25,17 +25,17 @@ We were aggressively using AWS. Like most workplaces that are familiar with a da
 
 We invested heavily on individual local environments deployed into AWS along with team specific CI's also deployed into AWS. There were some 20 different complex environments supporting 80 odd IT engineers.
 
-A developer implemented a custom 'stopinator' however they introduced two fundamental bugs that caused a critical outage:
+A developer implemented a custom 'stopinator' solution, however they introduced two fundamental bugs that caused a critical outage:
 
 * The time-period logic was incorrect - meaning that it ran during business hours
 * The dry-run logic was incorrect - meaning when it ran, it destroyed everything
 
-You can imagine the screams of "what happened to my environment?" or "where did my Jenkins go?". Sure, cost savings was in full swing, however some 80 people were fully impacted by this destructive event. The damage was massive - particularly for the Continuous Integration servers, as the pipeline build logic was manually created and was subsequently lost through the event.
+Just imagine the screams of "What happened to my environment?" or "Where did my Jenkins go?". Sure, minimising our AWS costs was in full swing, however at least 80 people were entirely impacted by this very destructive event. The resulting blast radius of damage was especially massive - the Continuous Integration (CI) servers in particular, due to the fact that pipeline build logic had been manually created and was subsequently lost following the event.
 
-The outage lasted multiple days as teams rewrote their CI logic. I was one of the engineers who rebuild CIs whilst being completely annoyed and angry at the event that caused this outage.
+The outage lasted multiple days as teams rewrote their CI logic. I was one of the engineers who had the task of rebuilding CIs, all the while feeling completely annoyed and angry about the event that caused this outage and bulk of unplanned work.
 
-The CTO responded to the event in a way that left me dismayed - he celebrated the person that made the mistake. I remember being completely bewildered of the response though now reflecting back, I think it was a great response.
+The CTO responded to the event in a way that left me dismayed - he celebrated the person that made the mistake. I remember being completely bewildered by his response, although upon reflection as I now think back, it was a great response.
 
-The problem was not that an engineer made a mistake. The problem was that the systems were built in a way that were not resilient to failure.
+The problem was not that an engineer made a mistake. Our systems were built in a way that meant they were not resilient to failures, that was the real problem.
 
-When you build anything, design it for failure - as failure will occur.
+When you build anything, design it to be resilient to failure; as failure will always occur.
