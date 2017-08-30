@@ -19,7 +19,7 @@ excerpt:
 
 ---
 
- I want to share my experience when a major development outage occurred and how the leadership responded.
+I want to share my experience of when a major development outage occurred, and how the leadership responded.
 
 We were aggressively using AWS. Like most workplaces that are familiar with a datacenter operating model, cost accounting becomes a focus given the pay-per-hour operating expenditure pricing model of AWS. Generally, the first solution of arresting cost is to implement a solution that would turn off EC2 instances out of hours. This was our in-house 'stopinator' tool.
 
