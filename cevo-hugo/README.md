@@ -4,8 +4,12 @@
 
 # How to build?
 
-* [Install](http://gohugo.io/getting-started/installing/) locally
-* `$ cd ~/src/website`
+* [Install](http://gohugo.io/getting-started/installing/) Hugo locally
+* `$ git clone https://github.com/cevoaustralia/cevoaustralia.github.io.git`
+* `$ cd cevoaustralia.github.io`
+* `$ git submodule init`
+* `$ git submodule update`
+* `$ cd cevo-hugo`
 * `$ hugo serve`
 * open locally running [website](http://localhost:1313)
 
