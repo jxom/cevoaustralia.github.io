@@ -14,9 +14,7 @@
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 			left: -3em;
-			margin: -3em 0 3em 0;
 			position: relative;
 			width: calc(100% + 6em);
 		}
@@ -41,7 +39,6 @@
 
 			.post > header .meta {
 				padding: 3.75em 3em 1.75em 3em ;
-				border-left: solid 1px rgba(160, 160, 160, 0.3);
 				min-width: 17em;
 				text-align: right;
 				width: 17em;
