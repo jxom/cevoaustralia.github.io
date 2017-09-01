@@ -47,8 +47,8 @@ params:
 
   team:
     center: true
-    title: Our people
-    subtitle: Best talent around
+    title: Our team
+    subtitle: Meet the Cevo crew
 
   services:
     title: Services
@@ -124,7 +124,7 @@ params:
       phone:
         text: Your Phone *
         warning: Please enter your phone number.
-    subtitle: Lorem ipsum dolor sit amet consectetur.
+    subtitle: We respond quickly, within 24 hours.
     title: Contact us
 
   footer:
