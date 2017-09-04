@@ -1,6 +1,6 @@
 ---
 author: Nish Mahanty
-position: Head of Development, irexchange
+position: Head of Development, Irexchange
 testimonials: engineering
 frontpage: true
 ---

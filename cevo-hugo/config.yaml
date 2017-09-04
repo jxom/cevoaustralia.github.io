@@ -43,7 +43,7 @@ params:
 
   casestudies:
     title: Case Studies
-    subtitle: Things with did before
+    subtitle: The outcomes our awesome clients have achieved 
 
   team:
     center: true
@@ -52,29 +52,23 @@ params:
 
   services:
     title: Services
-    subtitle: Things we do better than anyone else
+    subtitle: Delivering technology, sharing skills, building capability
     row:
     - list:
       - icon: fa-gears
         title: Engineering
         description: >
-          We believe that technology is a the backbone for building new concepts,
-          business models, ideas. Sound engineering approach is a key to be able
-          to scale, pivot and adapt to changing needs based on customer feedback
-          and market uptake. Cevo understands these business challenges and helps
-          customers build the engineering side of a business.
+          Technology drives our organisations, so you might want to get good at it! Sound engineering approaches are key to be able to scale, pivot and adapt to changing customer needs based on feedback. 
         url: '/engineering'
 
       - icon: fa-cloud
         title: Cloud
         description: >
-          We assist organisations to build immutable cloud platforms,
-          combining innovative automation technologies with
-          unparalleled engineering skills.
+          We assist organisations to build immutable cloud platforms, migrate workloads to the cloud and automate environment provisioning and deployments.
         url: '/cloud'
 
       - icon: fa-compass
-        title: DevOps
+        title: Devops
         description: >
           We help you build, manage, and optimise your continuous deployment pipeline,
           from source control through testing to automated production releases.
@@ -102,7 +96,7 @@ params:
         logo: ioof.png
 
   partners:
-    title: Our great partners
+    title: Our partnership
     center: true
     list:
       - link: '#'
@@ -124,7 +118,7 @@ params:
       phone:
         text: Your Phone *
         warning: Please enter your phone number.
-    subtitle: We respond quickly, within 24 hours.
+    subtitle: We will get back to you within 24 hours.
     title: Contact us
 
   footer:
