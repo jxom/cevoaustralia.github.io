@@ -12,15 +12,15 @@ author: Trent Hornibrook
 images:
 
 excerpt:
-    Trent Hornibrook recently gave a DevOps brownbag at a client where he described the DevOps transformation of REA Group and his perspective on DevOps.
+    Trent Hornibrook recently gave a DevOps brownbag at a client where he detailed his work history in the DevOps space and his perspective on DevOps.
 
 ---
 
-I recently gave a talk at a client titled _DevOps: State Of The Union_. In this talk, I detailed my professional journey driving the DevOps transformation at REA Group.
+I recently gave a talk at a client titled _DevOps: State Of The Union_. In this talk, I detailed my professional journey driving the DevOps transformation at my former workplace.
 
-The specific items I talked about was:
-* **REA's orgnisational structure and culture at 2009,2011,2013 and 2015**
-* **Contrasting an IT support operating model at REA to places like Google or Facebook**
+The specific items I talked about were:
+* **The evolution of the orgnisational structure and culture**
+* **Contrasting an IT support operating model at my former workplace to places like Google or Facebook**
 * **My perspective on DevOps**
 * **Empathy, and why language like 'us' and 'we' is important**
 
