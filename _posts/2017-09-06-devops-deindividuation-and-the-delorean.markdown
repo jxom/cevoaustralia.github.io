@@ -20,9 +20,9 @@ excerpt:
 
 I’m fascinated by human interaction. If I was able to find a <a href="https://en.wikipedia.org/wiki/DeLorean_time_machine">DeLorean</a> I’d tell myself to fly back in time and study Psychology and not Computer Science.
 
-#### Deindividation
+#### Deindividuation
 
-Deindividation is a concept in social psychology that is generally thought of as the loss of self-awareness in groups. The term has been used to explain the behaviour of people that do and say things you would not normally expect them to do. Its the behaviour that attempts to explain ‘Mob  mentality’ and the actions people perform under the guise of anonymity. We see this behaviour in society today with the rise of anonymous Twitter trolls and the rise of anonymous far right and far left political groups protesting behind masks.
+Deindividuation is a concept in social psychology that is generally thought of as the loss of self-awareness in groups. The term has been used to explain the behaviour of people that do and say things you would not normally expect them to do. Its the behaviour that attempts to explain ‘Mob  mentality’ and the actions people perform under the guise of anonymity. We see this behaviour in society today with the rise of anonymous Twitter trolls and the rise of anonymous far right and far left political groups protesting behind masks.
 
 My theory is that we see this everywhere at various degrees and this is the anti-pattern of DevOps.
 
