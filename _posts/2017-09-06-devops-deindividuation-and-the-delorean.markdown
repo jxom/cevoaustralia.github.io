@@ -22,7 +22,7 @@ I’m fascinated by human interaction. If I was able to find a <a href="https://
 
 #### Deindividuation
 
-Deindividuation is a concept in social psychology that is generally thought of as the loss of self-awareness in groups. The term has been used to explain the behaviour of people that do and say things you would not normally expect them to do. Its the behaviour that attempts to explain ‘Mob  mentality’ and the actions people perform under the guise of anonymity. We see this behaviour in society today with the rise of anonymous Twitter trolls and the rise of anonymous far right and far left political groups protesting behind masks.
+Deindividuation is a concept in social psychology that is generally thought of as the loss of self-awareness in groups. The term has been used to explain the behaviour of people that do and say things you would not normally expect them to do. Its the behaviour that attempts to explain ‘Mob  mentality’ and the actions people perform under the guise of anonymity. We see this behaviour in society today with the rise of anonymous trolls on social media and the rise of anonymous far right and far left political groups protesting behind masks.
 
 My theory is that we see this everywhere at various degrees and this is the anti-pattern of DevOps.
 
@@ -32,7 +32,7 @@ My theory is that we see this everywhere at various degrees and this is the anti
 
 - _Worked on my machine, its your problem now!_
 
-The “us”/“them” behaviour that appears in some organisations, in my opinion, is examples of micro-deindividuation. In my experience, we see this behaviour more so in functionally aligned organisations where flow of work transitions between those functional units. My thoughts are that the larger the functional unit (the larger the mob) the more likely this behaviour would occur and to higher degree.
+The “us”/“them” behaviour that appears in some organisations, in my opinion, are examples of micro-deindividuation. In my experience, we see this behaviour more so in functionally aligned organisations where flow of work transitions between those functional units. My thoughts are that the larger the functional unit (the larger the mob) the more likely this behaviour would occur and to higher degree.
 
 (Note I don’t have any data or supporting social science as my DeLorean hasn’t been built yet!)
 
