@@ -36,11 +36,11 @@ The “us”/“them” behaviour that appears in some organisations, in my opin
 
 (Note I don’t have any data or supporting social science as my DeLorean hasn’t been built yet!)
 
-This is bad! The success of a business is dependant on how it’s able to execute - on how it’s able to execute is dependant on how all parts of the business are able to communicate and calibre with one another.
+This is bad! The success of a business is dependant on how it's able to execute - this is dependant on how all parts of the business are able to communicate and collaborate with one another.
 
 #### So what can we do?
 
-Encourage direct communication between people, particularly if they’re in the flow of work. For example, if we are in a functionally structured organisation and are three teams: one that is writing code, one that is deploying it and another supporting it, invent in ensuring that all team members know each other directly.
+Encourage direct communication between people, particularly if they’re in the flow of work. For example, if we are in a functionally structured organisation and are three teams: one that is writing code, one that is deploying it and another supporting it, invest in ensuring that all team members know each other directly.
 
 Encourage direct communication between people at all levels. Avoid, at all cost, the feedback by organisational hierarchy. For instance, your manager is speaking to me via my manager. Communication loses its authenticity when performed this way.
 
