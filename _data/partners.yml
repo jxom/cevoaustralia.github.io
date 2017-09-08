@@ -1,5 +1,5 @@
 - name: Amazon Web Services
-  image: aws.jpg
+  image: aws_advanced_public.png
   url: "http://aws.amazon.com/"
   description: 
     Whether you’re looking for compute power, database storage, 
