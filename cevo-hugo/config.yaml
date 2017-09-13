@@ -39,6 +39,7 @@ params:
     about: About
     casestudies: Case Studies
     blog: Blog
+    partners: Partners
     testimonials: Testimonials
 
   casestudies:
@@ -98,9 +99,6 @@ params:
   partners:
     title: Our partnership
     center: true
-    list:
-      - link: '#'
-        logo: aws.jpg
 
   contact:
     buttonText: Send message

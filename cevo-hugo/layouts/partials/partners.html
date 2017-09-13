@@ -1,26 +1,48 @@
-{{ "<!-- Partners Aside -->" | safeHTML }}
-<aside class="partners">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h4 class="heading">{{ with .Site.Params.partners.title }}{{ . | markdownify }}{{ end }}</h4>
-      </div>
+<section id="sisters">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <h2 class="section-heading">Sister Companies</h2>
     </div>
-    <div class="row flexbox{{ if .Site.Params.partners.center }} flexbox-center{{ end }}">
-
-      {{ range .Site.Params.partners.list }}
-        <div class="col-md-3 col-sm-6 col">
-          {{ $url := printf "img/logos/%s" .logo }}
-          {{ if .link }}
-            <a href="{{ .link }}">
-              <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
-            </a>
-          {{ else }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
-          {{ end }}
+    <div class="row flexbox flexbox-center">
+    {{ range .Params.sisters }}
+      {{ $url := printf "img/%s" .img }}
+      <hr>
+      <div class='row'>
+        <div class="col-md-4 col-md-offset-2">
+         <a href="{{ .url }}"> <img style="display:block; margin-left: auto;" src="{{ $url | absURL }}"  /></a>
         </div>
-      {{ end }}
-
+        <div class='col-md-5'>
+          <a href="{{ .url }}"><h5 style="padding-top: none">{{ .name }}</h5></a>
+            <p>
+            {{ .description }}
+            </p>
+        </div>
+      </div>
+    {{ end }}
     </div>
   </div>
-</aside>
+</section>
+
+<section id="partners">
+  <div class="container-fluid">
+    <div class="row text-center">
+        <h2 class="section-heading">Partners</h2>
+    </div>
+
+    {{ range .Params.partners }}
+      {{ $url := printf "img/%s" .img }}
+      <div class='row'>
+        <div class="col-md-4 col-md-offset-2">
+         <a href="{{ .link }}"> <img style="display:block; margin-left: auto;" src="{{ $url | absURL }}"  /></a>
+        </div>
+        <div class='col-md-6'>
+          <a href="{{ .link }}"><h5 style="padding-top: none">{{ .name }}</h5></a>
+            <p>
+            {{ .description }}
+            </p>
+        </div>
+      </div>
+    {{ end }}
+
+  </div>
+</section>
