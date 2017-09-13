@@ -315,4 +315,13 @@ people:
       - icon_class: fa fa-twitter
         url: https://twitter.com/folourdream
 
+  - name: Johnny Sammon
+    sort: 2017-09-11
+    position: Delivery Consultant
+    desc: Johnny enjoys to wear multiple hats in high performing Agile development teams. His career has been spent mainly in IM/BA and QA roles and he likes to coach others in these areas. Johnny is a people person keen to learn what motivates the people around him to build amazing team culture and in turn deliver value for the business.
+    avatar: johnny_sammon.jpg
+    socials:
+      - icon_class: fa fa-linkedin
+        url: https://www.linkedin.com/in/johnny-sammon-74b21428
+
 ---
