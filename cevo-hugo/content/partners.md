@@ -34,11 +34,11 @@ sisters:
       that not only help learners better understand the source material, but also ensure that they
       enjoy taking part in the learning process.
 
-      
+
 partners:
   -
     name: aws
-    img: partners/aws.jpg
+    img: partners/aws_advanced_public.png
     description: >
       Whether you’re looking for compute power, database storage,
       content delivery or other functionality, Amazon Web Services
