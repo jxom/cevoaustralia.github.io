@@ -25,4 +25,4 @@ TDB
 
 
 Links:  
-- <a href="https://flic.kr/p/qRBoSS">Kanbdan wall image</a>
+- <a href="https://flic.kr/p/qRBoSS">Kanban wall image</a>
