@@ -31,6 +31,7 @@
 				}
 
 				.post > header .title > p{
+					margin-top: 2em;
 					margin-right: 2em;
 					font-style: italic;
 				}
@@ -42,6 +43,10 @@
 				text-align: center;
 				width: 17em;
 			}
+
+				.post > header .meta .avatar {
+					width: 35%;
+				}
 
 				.post > header .meta > * {
 					margin: 0 0 1em 0;

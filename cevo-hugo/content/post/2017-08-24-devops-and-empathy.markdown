@@ -8,6 +8,8 @@ categories:
 tags:
     - devops
 author: Trent Hornibrook
+avatar: team/trent_hornibrook.jpg
+linkedin: https://au.linkedin.com/in/trenthornibrook
 excerpt:
     Trent Hornibrook recently gave a DevOps brownbag at a client where he described the DevOps transformation of REA Group and his perspective on DevOps.
 url: /2017/08/24/devops-and-empathy/

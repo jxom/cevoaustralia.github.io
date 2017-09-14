@@ -17,13 +17,21 @@
             {{ $.Scratch.Set "dateType" .Date }}
         {{ end }}
 
-        <time class="published"
-            datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
-            {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
-        <span class="author">{{ .Params.author }}</span>
+        <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+            {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+        </time>
+        <p class="author">{{ .Params.author }}</p>
+
+        {{ if .Params.avatar}}
+          {{ $url := printf "img/%s" .Params.avatar }}
+          {{ if .Params.linkedin }}
+          <a href="{{ .Params.linkedin }}"><img class="avatar img-circle" src="{{ $url | absURL }}"></a>
+          {{ else }}
+            <img class="avatar img-circle" src="{{ $url | absURL }}">
+          {{ end }}
+        {{ end }}
+
         {{ if .Site.Params.includeReadingTime }}
             <p>{{ .ReadingTime }} minute read</p>
-        {{ end }}
-        <!--<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>-->
-    </div>
+        {{ end }}    </div>
 </header>
