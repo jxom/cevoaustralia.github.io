@@ -100,6 +100,8 @@ params:
         logo: equiem.png
       - link: https://www.ioof.com.au/
         logo: ioof.png
+      - link: https://www.iag.com.au
+        logo: iag.png
 
   partners:
     title: Our partnership
