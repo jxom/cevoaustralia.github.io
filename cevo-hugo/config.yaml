@@ -85,6 +85,12 @@ params:
         logo: rea.png
       - link: https://www.monash.edu/
         logo: monash.png
+      - link: https://www.myob.com/au
+        logo: myob.png
+      - link: https://www.irexchange.com
+        logo: irexchange.png
+      - link: https://www.urbanise.com
+        logo: urbanise.png
       - link: https://www.tabcorp.com.au/
         logo: tabcorp.png
       - link: https://www.bluechain.com/

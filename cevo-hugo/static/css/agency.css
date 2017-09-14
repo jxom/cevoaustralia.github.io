@@ -743,19 +743,19 @@ section h3.section-subheading {
     padding: 15px
 }
 
-@media(min-width:992px) {
-    aside.clients img, aside.partners img {
-        margin: 50px auto;
-    }
+.logo-container {
+  position: relative;
+  height: 120px;
 }
-
-aside.clients img, aside.partners img {
-    margin-top: 50px;
-}
-
-div.logo-container {
-  min-width: 272px;
-  min-height: 180px;
+.logo-container img {
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
 }
 
 aside .heading {
