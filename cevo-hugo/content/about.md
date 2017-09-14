@@ -7,21 +7,22 @@ events:
   - date: Early 2015
     description: >
       Cevo began in 2015 when a premier provider of professional and managed services acquired a Sydney based devops consultancy specialising in software licensing.
-    img: 1.jpg
-    title: The acquisition 
+    img: early.jpg
+    title: The acquisition
   - date: May 2015
     description: >
       With a new brand and lease on life, Cevo focused on providing engineering, cloud and devops services to some of Australia’s most prestigious technology companies, ambitious start-ups and innovative enterprise organisations.
-    img: 2.jpg
+    img: vic_chapter.jpg
     title: The Victorian chapter
   - date: March 2016
     description: >
       Cevo gained independence when our parent company was acquired. We became a part of a group of companies including Chamonix and Expose Data in providing premier consulting services across Australia.
-    img: 3.jpg
+    img: independence.jpg
     title: Independence
   - date: 2017
     description: >
-      The core team are a group with deep roots in the agile and devops movements. We are striving to help our clients achieve real, meaningful, valuable change in their technology adoption, software development practices and across their organisations.    img: 4.jpg
+      The core team are a group with deep roots in the agile and devops movements. We are striving to help our clients achieve real, meaningful, valuable change in their technology adoption, software development practices and across their organisations.
+    img: momentum.jpg
     title: Gathering momentum
 
 people:
