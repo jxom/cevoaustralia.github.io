@@ -999,13 +999,13 @@ ul.social-buttons li a:active {
 }
 
 img.story {
-  padding: 2px;
-  max-width: 100%;
+  padding: 5px 20px 0 0;
+  display: none;
 }
 
 @media(min-width:992px) {
   img.story {
-    padding: 20px;
+    display: block;
   }
 }
 

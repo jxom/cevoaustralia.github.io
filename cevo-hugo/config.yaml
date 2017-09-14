@@ -131,10 +131,6 @@ params:
       - Level 4, 20 Bond Street, Sydney NSW 2000
     phone: 1300 518 265
     quicklinks:
-    - link: '#'
-      text: Privacy Policy
-    - link: '#'
-      text: Terms of Use
     social:
     - icon: fa-twitter
       link: https://twitter.com/cevoaustralia

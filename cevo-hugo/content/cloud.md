@@ -3,11 +3,8 @@ title: Leveraging cloud infrastructure
 type: cloud
 subtitle: >
   A labour intensive approach to IT service delivery is no longer an option and those that persist are already behind. Automating your processes and systems will reduce your cycle times and provide your business with the competitive advantage to keep ahead.
-
-  img: automation.jpg
+img: automation.jpg
 ---
-
-# The Cloud
 
 Moving to the cloud is a great way for organisations to achieve scale and resilience. Engineering the cloud requires the ability to write code for constrained infrastructure. This will raise the bar for your delivery teams, requiring architectural approaches along with software delivery practices that achieve resilience by baking quality into the development lifecycle.
 
