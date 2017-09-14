@@ -3,6 +3,7 @@ title: Leveraging cloud infrastructure
 type: cloud
 subtitle: >
   A labour intensive approach to IT service delivery is no longer an option and those that persist are already behind. Automating your processes and systems will reduce your cycle times and provide your business with the competitive advantage to keep ahead.
+
   img: automation.jpg
 ---
 

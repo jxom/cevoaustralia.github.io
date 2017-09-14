@@ -69,10 +69,9 @@ params:
         url: '/cloud'
 
       - icon: fa-compass
-        title: Devops
+        title: DevOps
         description: >
-          We help you build, manage, and optimise your continuous deployment pipeline,
-          from source control through testing to automated production releases.
+          We help our customers to create a DevOps culture and build, manage, and optimise the continuous deployment pipeline, from source control through testing to automated production releases. 
         url: '/devops'
 
   clients:
