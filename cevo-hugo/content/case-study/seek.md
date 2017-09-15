@@ -1,6 +1,5 @@
 ---
 title: 20% Decrease in Load Time
-subtitle: Mauris nec mi laoreet, iaculis quam non, consectetur lorem. Aliquam erat volutpat.
 client: Seek
 clientLink: https://seek.com.au
 cases: engineering

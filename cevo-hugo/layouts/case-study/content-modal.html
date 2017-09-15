@@ -12,7 +12,9 @@
           <div class="modal-body">
             <article class="post">
               <h2>{{ .Params.title  | markdownify }}</h2>
-              <p class="item-intro text-muted">{{ .Params.subtitle | markdownify }}</p>
+              {{ if .Params.subtitle }}
+                <p class="item-intro text-muted">{{ .Params.subtitle | markdownify }}</p>
+              {{ end }}
               {{ $url := printf "img/case-study/%s" .Params.img }}
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
                 <div id="content">
