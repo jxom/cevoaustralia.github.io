@@ -1,5 +1,6 @@
 ---
 author: Team Cevo
+avatar: swoosh.png
 categories:
 - Community
 date: 2016-10-27T00:00:00Z
