@@ -10,6 +10,8 @@ tags:
     - devops
     - leadership
 author: Trent Hornibrook
+avatar: team/trent_hornibrook.jpg
+linkedin: https://au.linkedin.com/in/trenthornibrook
 excerpt:
     You are given a blank cheque at a start-up and you need to execute on a product strategy. What technical choices would you make?.
 url: /2017/08/05/greenfields-tech-decisions/

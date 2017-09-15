@@ -1,5 +1,7 @@
 ---
 author: Hannah Browne
+avatar: team/hannah_browne.jpg
+linkedin: https://au.linkedin.com/in/hannahbrowne
 categories:
 - Community
 date: 2016-08-19T00:00:00Z

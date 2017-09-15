@@ -1,5 +1,7 @@
 ---
 author: Henrik Axelsson
+avatar: team/henrik_axelsson.jpg
+linkedin: https://au.linkedin.com/in/henrik-axelsson-7083b23
 categories:
 - aws
 date: 2017-02-23T00:00:00Z

@@ -1,5 +1,7 @@
 ---
 author: Steve Mactaggart
+avatar: team/steve_mactaggart.jpg
+linkedin: https://www.linkedin.com/in/steve-mactaggart
 categories:
 - development
 date: 2017-01-18T00:00:00Z

@@ -1,5 +1,7 @@
 ---
 author: Colin Panisset
+avatar: team/colin_panisset.jpg
+linkedin: https://www.linkedin.com/in/colinpanisset
 categories:
 - tools
 - devops

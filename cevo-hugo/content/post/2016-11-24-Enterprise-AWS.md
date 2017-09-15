@@ -1,5 +1,7 @@
 ---
 author: Steve Mactaggart
+avatar: team/steve_mactaggart.jpg
+linkedin: https://www.linkedin.com/in/steve-mactaggart
 categories:
 - Enterprise
 date: 2016-11-24T00:00:00Z

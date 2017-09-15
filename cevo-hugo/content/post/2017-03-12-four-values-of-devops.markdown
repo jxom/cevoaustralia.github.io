@@ -1,5 +1,7 @@
 ---
 author: Steve Mactaggart
+avatar: team/steve_mactaggart.jpg
+linkedin: https://www.linkedin.com/in/steve-mactaggart
 categories:
 - culture
 date: 2017-03-12T00:00:00Z
