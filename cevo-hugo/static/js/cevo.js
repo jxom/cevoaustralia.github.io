@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   // Smooth scrolling via animate()
   $("a").on('click', function(event) {
-    if (this.hash) {
+    if (this.hash && window.location.pathname == "/") {
       event.preventDefault();
       var hash = this.hash;
       $('html, body').animate({
