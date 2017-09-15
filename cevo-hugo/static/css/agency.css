@@ -305,6 +305,27 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-nav>li>a {
+      padding-right: 10px;
+      padding-left: 10px;
+      font-size: 11px;
+    }
+}
+
+@media(min-width:870px) {
+  .navbar-nav>li>a {
+    font-size: 13px;
+  }
+}
+
+
+@media(min-width:992px) {
+  .navbar-nav>li>a {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: inherit;
+  }
 }
 
 header.hero {
