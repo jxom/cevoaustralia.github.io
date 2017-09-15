@@ -13,7 +13,7 @@ deploy:
   provider: s3
   region: ap-southeast-2
   local_dir: public
-  bucket: new-cevo-website
+  bucket: new.cevo.com.au
   skip_cleanup: true
   acl: public_read
   on:
