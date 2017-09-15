@@ -4,6 +4,7 @@ subtitle: Infrastructure automation with HashiCorp Terraform
 client: Aconex
 clientLink: "#"
 cases: cloud
+img: aconex.png
 ---
 
 # Customer Overview

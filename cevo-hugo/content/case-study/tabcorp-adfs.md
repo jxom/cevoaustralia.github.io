@@ -4,7 +4,7 @@ subtitle: Active Direction Federation Services automation with EC2 and CloudForm
 client: TabCorp
 clientLink: "#"
 cases: cloud
-img: ADFS-Automation.png
+img: aws.png
 ---
 # Customer Overview
 Tabcorp is an ASX100 company and one of the largest publicly listed gambling companies in the world.

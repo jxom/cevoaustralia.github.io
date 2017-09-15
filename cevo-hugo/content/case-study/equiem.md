@@ -4,6 +4,7 @@ subtitle: Customer-focused changes to the digital platform
 client: Equiem
 clientLink: "#"
 cases: engineering
+img: equiem.png
 ---
 
 # Customer Overview

@@ -4,6 +4,7 @@ subtitle: Upgrade of infrastructure handling capability and understanding of clo
 client: Monash University
 clientLink: "#"
 cases: devops
+img: monash.png
 ---
 
 # Customer Overview
