@@ -1,3 +1,6 @@
+- text: "Cevo were engaged to build a set of automated controls that would give both us and APRA the confidence that we were building a cloud environment that met our compliance obligations. The Cevo team came up with an innovative approach to this, making use of native AWS services to implement the controls. The controls are individually testable and can be versioned in source control. They could also easily be deployed consistently across the 40+ AWS accounts that we have with no additional work, meaning that all new workloads that come onto the platform are immediately subject to the same standards"
+  author: Dave Coombs
+  position: Head of Group Technology, IAG
 - text: "Cevo have accelerated our agile maturity. They have helped us build in quality early through collaborative testing practices. With creative problem solving and skilled prioritisation Cevo's technologists have enabled us to identify and define the valuable work, and deliver with speed and confidence. Their multi-skilled consultants were able to provide expertise in Agile Coaching, Business Analysis, Iteration Management & Testing. Their capabilities enabled us to adopt a lean agile approach which was key to us rapidly delivering business functionality to our customers."
   author: Greg Frye
   position: Chief Information & Technology Officer, irexchange
