@@ -1,6 +1,6 @@
 ---
 author: Nish Mahanty
-position: Head of Development, Irexchange
+position: Head of Development, irexchange
 testimonials: cloud
 frontpage: true
 ---
