@@ -5,15 +5,15 @@ date:   2015-09-28
 categories:
   - devops
 tags:
-  - Learning
-  - Continuous Integration
-  - Continuous Delivery
+  - devops
+  - learing
 author: Orlando Erazo
 images: blog/my-devops-journey.png
 thumbnail: blog/my-devops-journey.png
 
 excerpt:
   One of the challenges we devops Consultants face is explaining what we do to customers, as there are so many definitions. I’m always thinking about new ways to share the incredible opportunities that a continuous delivery pipeline offers.
+url: devops/2015/09/28/My-DevOps-Journey.html
 ---
 One of the challenges we devops Consultants face is explaining what we do to customers, as there are so many definitions. I’m always thinking about new ways to share the incredible opportunities that a continuous delivery pipeline offers. **So what is devops, and why does it matter?** The very definition of devops, as a portmanteau of Development and Operations suggests to us that this is a new role where we have to be fluent in both of these areas. But that’s a bit misleading. devops is not a role, a job description, or a single school of thought. Devops is a practice, a culture, and a movement. It is a different view of the Development Pipeline that involves much more than just Development and Operations. I like to think that devops as an extension of Agile. We have seen during the last 10 years or so a growing trend for companies to improve the way software is built by applying known and proven manufacturing concepts. Yes, manufacturing concepts! It seems an unlikely source but things like Lean Manufacturing have contributed a great deal to the software development space. With these progressive improvements in the development of software, organisations have started to face challenges also improving the delivery of software. This is the opportunity I see with devops; it compliments excellent software development with autonomous software delivery. **Where to Start?** I should start by mentioning that there are a lot of devops tools these days and the list keeps growing. Before you go into solution mode and try to automate software delivery, I strongly suggest that you take your time to evaluate your readiness to implement a devops approach, this is what it has worked for me.
 

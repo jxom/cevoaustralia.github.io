@@ -10,13 +10,14 @@ tags:
 author: Steve Mactaggart
 images: blog/evolving-team-leadership.png
 thumbnail: blog/evolving-team-leadership.png
-
+date: 2017-05-16
 excerpt:
     There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?<br/>
     <br/>
     In <i>pre-agile environments</i>, as a Team Lead, your role is one of structure and co-ordination, it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.<br/>
     <br/>
     You might find yourself asking "Do we need Team Lead's in an agile/devops culture?" and If so "What value can I provide?"
+url: agile/transformation/2017/05/16/evolving-team-leadership.html
 ---
 
 There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?

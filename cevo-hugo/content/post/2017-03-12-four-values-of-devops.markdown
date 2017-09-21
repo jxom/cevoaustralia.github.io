@@ -9,13 +9,13 @@ tags:
 author: Steve Mactaggart
 images: blog/the-four-values-of-a-devops-transformation.png
 thumbnail: blog/the-four-values-of-a-devops-transformation.png
-
+date: 2017-03-12
 excerpt:
     Just like the agile transformations of the past, there is a difference between ‘Doing Agile’, and ‘Being Agile’.  ‘We do standups’ - therefore we are Agile. With the increase in adoption of devops practices, are we 'Doing devops' or are we 'Being devops'?
     <br/>
     <br/>
     In this post we look into the four values that support a successful devops transformation.
-
+url: devops/2017/03/12/four-values-of-devops.html
 ---
 
 A successful devops transformation sees a change in organisational culture. These changes often come in the way of adoption of specific tools or practices.

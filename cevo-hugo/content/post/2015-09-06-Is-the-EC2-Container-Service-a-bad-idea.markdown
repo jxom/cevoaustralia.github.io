@@ -14,6 +14,7 @@ images: blog/is-this-ec2-thing-a-bad-idea.png
 thumbnail: blog/is-this-ec2-thing-a-bad-idea.png
 
 excerpt: The container revolutionaries call upon you! Are you ready to beg forgiveness for your sins of monolithic architecture and pay homage at the Church of 12 Factors? // No doubt you – like so many others before you – have endured the experience of being cornered by a zealot of the new world order. He is determined to make you see the light, and understand that containerisation is the future, and all ye who resist shall suffer the perpetual horrors of vertical scaling and, gasp, eternal re-architecture for multiple platforms.// Okay, I might be being a wee bit dramatic here. But you see, I too am a convert. I too carry around a copy of the Mesos white paper and dream of the swarm.
+url: devops/2015/09/06/Is-the-EC2-Container-Service-a-bad-idea.html
 ---
 
 _The container revolutionaries call upon you!_ Are you ready to beg forgiveness for your sins of **[monolithic architecture](http://www.thoughtworks.com/insights/blog/monoliths-are-bad-design-and-you-know-it)** and pay homage at the **[Church of 12 Factors](http://12factor.net/)**?

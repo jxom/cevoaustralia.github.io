@@ -9,6 +9,7 @@ tags:
 author: Hannah Browne
 images: blog/migrating-to-aws.png
 thumbnail: blog/migrating-to-aws.png
+url: devops/2016/08/08/migrating-to-aws.html
 ---
 
 #### Customer Overview

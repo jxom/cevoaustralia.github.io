@@ -13,7 +13,7 @@ images: blog/delorean.png
 thumbnail: blog/delorean.png
 excerpt:
     Encourage direct communication between people at all levels. Avoid, at all cost, the feedback by organisational hierarchy. Communication loses its authenticity when performed this way.
-
+url: culture/devops/communciation/2017/09/06/devops-deindividuation-and-the-delorean.html
 ---
 
 

@@ -11,6 +11,7 @@ excerpt:
     As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing.
 
     Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.
+url: enterprise/2016/11/24/Enterprise-AWS.html
 ---
 
 As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing. Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.

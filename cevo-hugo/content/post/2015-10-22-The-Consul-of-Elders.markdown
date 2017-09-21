@@ -1,7 +1,7 @@
 ---
 title:  The Consul of Elders
 description: An overview of how Consul software makes it easy to identify and find docker containers in large scale deployments
-date:   2015-10-22 07:20:05
+date: 2015-10-22
 categories:
   - DevOps
 tags:
@@ -13,6 +13,7 @@ thumbnail: blog/how-consul-and-docker-work-together.png
 
 excerpt: #
   Two weeks ago I had an opportunity to architect and deploy a cluster of self-provisioning Docker Swarm servers, which utilised Consul as their shared database. Thanks to Consul, we could immediately identify the address and services running on any container in the cluster. This technology was remarkably easy to deploy. In fact, the biggest challenge was getting an understanding of how all the different pieces fit together. What we really needed was an `educational-scifi-adventure` movie to help educate everyone on these amazing tools. After all, we all know how warp drive and death stars work, and it’s that kind of knowledge that can only be taught through movies.
+url: devops/2015/10/22/The-Consul-of-Elders.html
 ---
 <!--
 Beer and pizza. Fish and chips. `Docker and Consul`. Sometimes perfect matches are discovered, and there’s no going back.

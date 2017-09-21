@@ -10,6 +10,7 @@ tags:
 author: Eloise Skella
 images: blog/automated-provisioning-with-docker.png
 thumbnail: blog/automated-provisioning-with-docker.png
+url: devops/2015/12/09/automated-provisioning-with-docker.html
 ---
 
 #### Customer Overview

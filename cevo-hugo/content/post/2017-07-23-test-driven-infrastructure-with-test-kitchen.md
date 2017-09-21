@@ -10,12 +10,12 @@ tags:
     - kitchen
 images: blog/test-driven-infrastructure.png
 thumbnail: blog/test-driven-infrastructure.png
-
+date: 2017-07-23
 excerpt:
     As the cycle times for providing new servers and services decrease, the demands on infrastructure developers is increasing. To cope with this increased demand, we need new ways to think about building and validating servers.<br />
     <br />
     A powerful combination is to couple <a href="http://kitchen.ci/">Kitchen</a> with <a href="https://www.inspec.io/">InSpec</a>, to provide a modern development approach to both the provisioning of servers and validating their configuration is correct.
-
+url: testing/2017/07/23/test-driven-infrastructure-with-test-kitchen.html
 ---
 
 For a long time infrastructure was the sort of thing you pulled out of a box, plugged in and then set about configuring and testing.  The cycle between needing new equipment and having it ready was measured in weeks, if not months.
