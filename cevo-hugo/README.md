@@ -6,27 +6,30 @@
 # How to develop?
 
 * [Install Hugo](http://gohugo.io/getting-started/installing/) locally
+
 * Clone this repository
   
-  `$ git clone git@github.com:cevoaustralia/cevoaustralia.github.io.git`
+  `git clone git@github.com:cevoaustralia/cevoaustralia.github.io.git`
+
 * Install submodules (theme)
   
-  `$ git submodule update --init --recursive`
+  `cd cevoaustralia.github.io`
+  
+  `git submodule update --init --recursive`
+
 * Run the site locally on [http://localhost:1313](http://localhost:1313)
   
-  `$ cd ~/src/cevoaustralia.github.io`
-  
-  `$ hugo serve`
+  `hugo serve`
 
 
 ## Local development with docker
 
-* `$ docker-compose build dev`
-* `$ docker-compose up dev`
+* `docker-compose build dev`
+* `docker-compose up dev`
 
 ## Build static html
 
-* `$ docker-compose build alpha`
-* `$ docker-compose run alpha`
+* `docker-compose build alpha`
+* `docker-compose run alpha`
 
 Output is now in `public` folder.
