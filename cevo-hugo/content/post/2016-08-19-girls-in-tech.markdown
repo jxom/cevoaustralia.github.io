@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Girls In Tech
 description: Cevo's Hannah Browne talks at Girls in Tech Australia about diversity in technology
 date:   2016-08-19

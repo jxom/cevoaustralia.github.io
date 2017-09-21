@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "You're doing it wrong if..."
 description: When you have eliminated what's wrong, whatever remains, however improbable, must be right.
 twittercreator: stevemac

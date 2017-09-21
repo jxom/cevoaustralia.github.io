@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  What's this docker thing?
 description: An overview of docker, how the technology has grown and its readiness to be run in production
 date:   2015-07-09

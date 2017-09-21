@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  The Four values of a devops transformation
 description: A look into the four values that support a successful devops transformation.
 date:   2017-03-12

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Is the EC2 Container Service a bad idea?
 description: The reasons for and against Amazon's EC2 container service for deploying docker containers
 date:   2015-09-06

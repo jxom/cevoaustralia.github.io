@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Greenfields tech decisions
 description: Trent Hornibrook gave a recent thought experiment talk at the Infracoders meet-up regarding the tech decisions one would make when running a starting a start-up
 date:   2017-08-05

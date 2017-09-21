@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mapping system couplings and dependencies for discovery and profit"
 description: Crowdsourcing and social engineering combined with open-source tools to map your systems
 twittercreator: nonspecialist

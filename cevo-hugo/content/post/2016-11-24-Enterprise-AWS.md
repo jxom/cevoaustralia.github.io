@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Enterprise AWS adoption
 description: The challenges of AWS adoption to organisational structures, staffing, skills, processes & practices
 date:   2016-11-24

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Test driven infrastructure with Kitchen and InSpec
 author: Steve Mactaggart
 twittercreator: stevemac

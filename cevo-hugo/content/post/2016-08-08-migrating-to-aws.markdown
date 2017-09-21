@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Migrating to AWS"
 description: How MYOB benefited from migrating to AWS to automate infrastructure, provide self-servicing & reduce costs
 date:   2016-08-08

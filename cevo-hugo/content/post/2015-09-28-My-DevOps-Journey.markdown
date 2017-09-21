@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  My devops Journey
 description: One consultant's personal journey about what devops means & four key devops practices to get started with
 date:   2015-09-28

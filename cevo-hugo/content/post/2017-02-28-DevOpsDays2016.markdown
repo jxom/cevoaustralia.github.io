@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Why?: the forgotten word of DevOps"
 description: From DevOpsDays 2016 our own Hannah Browne and Steve Mactaggart explore why we do what we do.
 date:   2017-02-28

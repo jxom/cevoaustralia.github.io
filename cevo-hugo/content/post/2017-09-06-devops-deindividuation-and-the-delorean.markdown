@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  DevOps, Deindividuation and the DeLorean.
 description: Trent Hornibrook theorises that the "us"/"them" culture in some organisations is a symptom of the social psychology concept 'Deindividuation'.
 date:   2017-09-06

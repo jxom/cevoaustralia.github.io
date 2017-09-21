@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Evolving team leadership
 description: There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?
 twittercreator: stevemac

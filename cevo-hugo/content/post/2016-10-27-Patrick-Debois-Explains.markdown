@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Patrick Debois - 'What is DevOps?'
 date:   2016-10-27
 categories:

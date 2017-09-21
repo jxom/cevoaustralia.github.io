@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "A spot of AWS"
 description: Have you considered using spot instances to save on AWS costs?
 date:   2017-02-23

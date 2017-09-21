@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Census 2.0
 description: A hypothetical how to architect the census using cloud computing
 date:   2016-08-12
