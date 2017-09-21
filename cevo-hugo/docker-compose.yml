@@ -3,6 +3,7 @@ version: "3.0"
 services:
   dev:
       build: .
+      image: hugo:latest
       command: hugo serve --bind 0.0.0.0 --baseURL http://localhost/
       volumes:
           - .:/data
@@ -12,6 +13,7 @@ services:
 
   alpha:
       build: .
+      image: hugo:latest
       command: make alpha
       volumes:
           - .:/data

@@ -7,7 +7,7 @@ clean:
 	rm -fr ./public
 
 alpha: clean
-	@hugo --baseURL http://cevo-hugo.s3-website-ap-southeast-2.amazonaws.com/
+	@hugo --baseURL http://new.cevo.com.au/
 
 beta: clean
 	@hugo --baseURL http://beta.cevo.com.au
