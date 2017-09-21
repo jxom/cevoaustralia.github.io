@@ -1,18 +1,22 @@
 # Cevo Website port to hugo
 
 [Hugo](http://gohugo.io/getting-started/quick-start/) is static website generator.
+`Dockerfile` produces build environment with `hugo` and `pygments` installed.
 
-# How to build?
+# How to develop?
 
 * [Install Hugo](http://gohugo.io/getting-started/installing/) locally
-* `$ cd ~/src/website`
-* `$ hugo serve`
-* By default, the site locally runs on [http://localhost:1313](http://localhost:1313)
-* You may also need to run `git submodule update --init --recursive`
-
-# Docker and Docker-compose
-
-`Dockerfile` produces ubuntu-based env with `hugo` installed.
+* Clone this repository
+  
+  `$ git clone git@github.com:cevoaustralia/cevoaustralia.github.io.git`
+* Install submodules (theme)
+  
+  `$ git submodule update --init --recursive`
+* Run the site locally on [http://localhost:1313](http://localhost:1313)
+  
+  `$ cd ~/src/cevoaustralia.github.io`
+  
+  `$ hugo serve`
 
 
 ## Local development with docker
@@ -20,7 +24,7 @@
 * `$ docker-compose build dev`
 * `$ docker-compose up dev`
 
-## Build static website
+## Build static html
 
 * `$ docker-compose build alpha`
 * `$ docker-compose run alpha`
