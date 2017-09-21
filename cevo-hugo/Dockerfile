@@ -1,5 +1,9 @@
-FROM ubuntu:16.04
+FROM python:3.6
 
-RUN apt-get -y update && apt-get -y install make wget
-RUN wget -c https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.deb
-RUN dpkg -i ./hugo_0.26_Linux-64bit.deb
+WORKDIR /usr/local/share/hugo
+RUN wget -c https://github.com/gohugoio/hugo/releases/download/v0.27.1/hugo_0.27.1_Linux-64bit.tar.gz
+RUN tar xvfz hugo_0.27.1_Linux-64bit.tar.gz
+RUN mv ./hugo /usr/local/bin
+RUN chmod +x /usr/local/bin/hugo
+RUN hugo version
+RUN pip install pygments
