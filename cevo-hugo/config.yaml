@@ -4,6 +4,7 @@ theme: hugo-agency-theme
 
 PygmentsCodeFences: true
 PygmentsStyle: "trac"
+enableRobotsTXT: true
 
 params:
   name: Cevo Australia
@@ -44,7 +45,7 @@ params:
 
   casestudies:
     title: Case Studies
-    subtitle: The outcomes our awesome clients have achieved 
+    subtitle: The outcomes our awesome clients have achieved
 
   team:
     center: true
@@ -59,7 +60,7 @@ params:
       - icon: fa-gears
         title: Engineering
         description: >
-          Technology drives our organisations, so you might want to get good at it! Sound engineering approaches are key to be able to scale, pivot and adapt to changing customer needs based on feedback. 
+          Technology drives our organisations, so you might want to get good at it! Sound engineering approaches are key to be able to scale, pivot and adapt to changing customer needs based on feedback.
         url: '/engineering'
 
       - icon: fa-cloud
@@ -71,7 +72,7 @@ params:
       - icon: fa-compass
         title: DevOps
         description: >
-          We help our customers to create a DevOps culture and build, manage, and optimise the continuous deployment pipeline, from source control through testing to automated production releases. 
+          We help our customers to create a DevOps culture and build, manage, and optimise the continuous deployment pipeline, from source control through testing to automated production releases.
         url: '/devops'
 
   clients:
