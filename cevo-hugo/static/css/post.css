@@ -82,6 +82,7 @@
 				-ms-transition: -ms-transform 0.2s ease-out;
 				transition: transform 0.2s ease-out;
 				width: 100%;
+				padding-bottom: 1em;
 			}
 
 			.post > .image.featured:hover img {
