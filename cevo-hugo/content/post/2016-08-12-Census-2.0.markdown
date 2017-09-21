@@ -1,22 +1,18 @@
 ---
-author: Steve Mactaggart
-avatar: team/steve_mactaggart.jpg
-linkedin: https://www.linkedin.com/in/steve-mactaggart
-categories:
-- Devops
-date: 2016-08-12T00:00:00Z
+layout: post
+title:  Census 2.0
 description: A hypothetical how to architect the census using cloud computing
-excerpt: In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a>
-  the ABS delivered to us on Tuesday night, I thought I'd put a blog post where my
-  mouth is and suggest an architecture I feel would have delivered had Cevo been involved
-  in the creation of this years' Census application.
-images: blog/census-2.0.png
+date:   2016-08-12
+categories:
+  - Devops
 tags:
-- Cloud
-- System Architecture
+  - Cloud
+  - System Architecture
+author: Steve Mactaggart
+images: blog/census-2.0.png
 thumbnail: blog/census-2.0.png
-title: Census 2.0
-url: /2016/08/12/Census-2.0/
+excerpt:
+  In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, I thought I'd put a blog post where my mouth is and suggest an architecture I feel would have delivered had Cevo been involved in the creation of this years' Census application.
 ---
 
 In light of the <a href="https://twitter.com/hashtag/CensusFAIL">#CensusFail</a> the ABS delivered to us on Tuesday night, I thought I'd put a blog post where my mouth is and suggest an architecture I feel would have delivered had Cevo been involved in the creation of this years' Census application.

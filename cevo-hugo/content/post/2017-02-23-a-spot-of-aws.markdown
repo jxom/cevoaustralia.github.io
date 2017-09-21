@@ -1,21 +1,21 @@
 ---
-author: Henrik Axelsson
-avatar: team/henrik_axelsson.jpg
-linkedin: https://au.linkedin.com/in/henrik-axelsson-7083b23
-categories:
-- aws
-date: 2017-02-23T00:00:00Z
+layout: post
+title:  "A spot of AWS"
 description: Have you considered using spot instances to save on AWS costs?
-excerpt: |-
-  Have you considered using spot instances to save on AWS costs? It may pay to investigate the details of your operating environment first!
-  Andy and I took journey down a pricing rabbit hole...
-images: blog/a-spot-of-aws.png
+date:   2017-02-23
+categories:
+    - aws
 tags:
-- spot
-- cost
+    - spot
+    - cost
+author: Henrik Axelsson
+images: blog/a-spot-of-aws.png
 thumbnail: blog/a-spot-of-aws.png
-title: A spot of AWS
-url: /2017/02/23/a-spot-of-aws/
+
+excerpt:
+    Have you considered using spot instances to save on AWS costs? It may pay to investigate the details of your operating environment first!
+
+    Andy and I took journey down a pricing rabbit hole...
 ---
 
 As more enterprises start transitioning over to using AWS, cost optimisation has become a hot topic. Andy and I were recently given the opportunity to explore the potential savings of running on spot instances.

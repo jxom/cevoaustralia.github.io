@@ -1,29 +1,23 @@
 ---
-author: Steve Mactaggart
-avatar: team/steve_mactaggart.jpg
-linkedin: https://www.linkedin.com/in/steve-mactaggart
-categories:
-- devops
-date: 2017-05-16T00:00:00Z
-description: There is much written about the changing roles of Development and Operations
-  staff when organisations undergo agile/devops transformations.  But what about the
-  changing role of the Team Leader?
-excerpt: There is much written about the changing roles of Development and Operations
-  staff when organisations undergo agile/devops transformations.  But what about the
-  changing role of the Team Leader?<br/> <br/> In <i>pre-agile environments</i>, as
-  a Team Lead, your role is one of structure and co-ordination, it is through you
-  that work routes. You know the skills and capacity of your team and are regularly
-  making decisions about what can and can't be done.<br/> <br/> You might find yourself
-  asking "Do we need Team Lead's in an agile/devops culture?" and If so "What value
-  can I provide?"
-images: blog/evolving-team-leadership.png
-tags:
-- agile
-- transformation
-thumbnail: blog/evolving-team-leadership.png
+layout: post
 title: Evolving team leadership
+description: There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?
 twittercreator: stevemac
-url: /2017/05/16/evolving-team-leadership/
+categories:
+  - devops
+tags:
+  - agile
+  - transformation
+author: Steve Mactaggart
+images: blog/evolving-team-leadership.png
+thumbnail: blog/evolving-team-leadership.png
+
+excerpt:
+    There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?<br/>
+    <br/>
+    In <i>pre-agile environments</i>, as a Team Lead, your role is one of structure and co-ordination, it is through you that work routes. You know the skills and capacity of your team and are regularly making decisions about what can and can't be done.<br/>
+    <br/>
+    You might find yourself asking "Do we need Team Lead's in an agile/devops culture?" and If so "What value can I provide?"
 ---
 
 There is much written about the changing roles of Development and Operations staff when organisations undergo agile/devops transformations.  But what about the changing role of the Team Leader?

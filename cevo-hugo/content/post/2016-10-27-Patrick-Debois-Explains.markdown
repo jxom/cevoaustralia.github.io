@@ -1,15 +1,14 @@
 ---
-author: Team Cevo
-avatar: swoosh.png
+layout: post
+title:  Patrick Debois - 'What is DevOps?'
+date:   2016-10-27
 categories:
-- Community
-date: 2016-10-27T00:00:00Z
-excerpt: DevOpsDays founder Patrick Debois explains his thoughts on what DevOps has
-  become since defining the term in 2009.
+  - Community
+author: Team Cevo
 images: blog/what-is-devops.png
 thumbnail: blog/what-is-devops.png
-title: Patrick Debois - 'What is DevOps?'
-url: /2016/10/27/Patrick-Debois-Explains/
+excerpt:
+    DevOpsDays founder Patrick Debois explains his thoughts on what DevOps has become since defining the term in 2009.
 ---
 
 In an interview with Linux.com, Patrick provides some insight into DevOps by answering the following questions:

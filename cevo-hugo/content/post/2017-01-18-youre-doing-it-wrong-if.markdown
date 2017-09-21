@@ -1,23 +1,21 @@
 ---
-author: Steve Mactaggart
-avatar: team/steve_mactaggart.jpg
-linkedin: https://www.linkedin.com/in/steve-mactaggart
-categories:
-- development
-date: 2017-01-18T00:00:00Z
-description: When you have eliminated what's wrong, whatever remains, however improbable,
-  must be right.
-excerpt: We are all looking to learn from our failures and make things better, but
-  sometimes it better to communicate what is right by eliminating what is wrong.<br/>
-  <br/> <i>"When you have eliminated what's wrong, whatever remains, however improbable,
-  must be right".</i>
-images: blog/youre-doing-it-wrong-if.png
-tags:
-- best-practice
-thumbnail: blog/youre-doing-it-wrong-if.png
-title: You're doing it wrong if...
+layout: post
+title:  "You're doing it wrong if..."
+description: When you have eliminated what's wrong, whatever remains, however improbable, must be right.
 twittercreator: stevemac
-url: /2017/01/18/youre-doing-it-wrong-if/
+date:   2017-01-18
+categories:
+    - development
+tags:
+    - best-practice
+author: Steve Mactaggart
+images: blog/youre-doing-it-wrong-if.png
+thumbnail: blog/youre-doing-it-wrong-if.png
+
+excerpt:
+    We are all looking to learn from our failures and make things better, but sometimes it better to communicate what is right by eliminating what is wrong.<br/>
+    <br/>
+    <i>"When you have eliminated what's wrong, whatever remains, however improbable, must be right".</i>
 ---
 
 I've been around for a while, worked through different teams, across different industries and companies.  

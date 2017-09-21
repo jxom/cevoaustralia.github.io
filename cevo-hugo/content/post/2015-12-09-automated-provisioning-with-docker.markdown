@@ -1,17 +1,16 @@
 ---
-author: Eloise Skella
+layout: post
+title:  "Automated provisioning with Docker"
+description: How Media Links deployed Docker clusters to easily provision & scale their infrastructure
+date:   2015-12-09
 categories:
-- devops
-date: 2015-12-09T00:00:00Z
-description: How Media Links deployed Docker clusters to easily provision & scale
-  their infrastructure
-images: blog/automated-provisioning-with-docker.png
+  - devops
 tags:
-- docker
-- automation
+  - docker
+  - automation
+author: Eloise Skella
+images: blog/automated-provisioning-with-docker.png
 thumbnail: blog/automated-provisioning-with-docker.png
-title: Automated provisioning with Docker
-url: /2015/12/09/automated-provisioning-with-docker/
 ---
 
 #### Customer Overview

@@ -1,19 +1,17 @@
 ---
-author: Steve Mactaggart
-avatar: team/steve_mactaggart.jpg
-linkedin: https://www.linkedin.com/in/steve-mactaggart
+layout: post
+title:  Enterprise AWS adoption
+description: The challenges of AWS adoption to organisational structures, staffing, skills, processes & practices
+date:   2016-11-24
 categories:
-- Enterprise
-date: 2016-11-24T00:00:00Z
-description: The challenges of AWS adoption to organisational structures, staffing,
-  skills, processes & practices
-excerpt: |-
-  As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing.
-  Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.
+  - Enterprise
+author: Steve Mactaggart
 images: blog/enterprise-aws.png
 thumbnail: blog/enterprise-aws.png
-title: Enterprise AWS adoption
-url: /2016/11/24/Enterprise-AWS/
+excerpt:
+    As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing.
+
+    Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.
 ---
 
 As more enterprise scale businesses migrate their workloads to AWS, the size and complexity of the solutions they are trying to manage is growing. Businesses will face a set of new challenges, many that their current organisational structure, staffing, skills, processes and practices will not be set up to handle.

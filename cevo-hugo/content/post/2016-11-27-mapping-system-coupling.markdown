@@ -1,26 +1,22 @@
 ---
-author: Colin Panisset
-avatar: team/colin_panisset.jpg
-linkedin: https://www.linkedin.com/in/colinpanisset
-categories:
-- tools
-- devops
-- methods
-date: 2016-11-27T00:00:00Z
-description: Crowdsourcing and social engineering combined with open-source tools
-  to map your systems
-excerpt: Have you ever wondered just what would break if _that system_ (you know the
-  one) went down?  Do you actually _know_ what systems depend on it? How do the reports
-  get from it to Marketing? In this post, I'll describe a simple technique I've developed
-  to surface and share all this juicy, interesting information.
-images: blog/mapping-systems-blog.png
-tags:
-- graphviz
-- discovery
-thumbnail: blog/mapping-systems-blog.png
-title: Mapping system couplings and dependencies for discovery and profit
+layout: post
+title:  "Mapping system couplings and dependencies for discovery and profit"
+description: Crowdsourcing and social engineering combined with open-source tools to map your systems
 twittercreator: nonspecialist
-url: /2016/11/27/mapping-system-coupling/
+date:   2016-11-27
+categories:
+    - tools
+    - devops
+    - methods
+tags:
+    - graphviz
+    - discovery
+author: Colin Panisset
+images: blog/mapping-systems-blog.png
+thumbnail: blog/mapping-systems-blog.png
+
+excerpt:
+    Have you ever wondered just what would break if _that system_ (you know the one) went down?  Do you actually _know_ what systems depend on it? How do the reports get from it to Marketing? In this post, I'll describe a simple technique I've developed to surface and share all this juicy, interesting information.
 ---
 
 Have you ever wondered just what would break if <em>that system</em>

@@ -1,26 +1,22 @@
 ---
-author: Steve Mactaggart
-avatar: team/steve_mactaggart.jpg
-linkedin: https://www.linkedin.com/in/steve-mactaggart
-categories:
-- testing
-date: 2017-07-23T00:00:00Z
-description: Using Kitchen and InSpec enables you to develop infrastructure faster,
-  more reliably and with greater confidence.
-excerpt: As the cycle times for providing new servers and services decrease, the demands
-  on infrastructure developers is increasing. To cope with this increased demand,
-  we need new ways to think about building and validating servers.<br /> <br /> A
-  powerful combination is to couple <a href="http://kitchen.ci/">Kitchen</a> with
-  <a href="https://www.inspec.io/">InSpec</a>, to provide a modern development approach
-  to both the provisioning of servers and validating their configuration is correct.
-images: blog/test-driven-infrastructure.png
-tags:
-- infrastructure-testing
-- kitchen
-thumbnail: blog/test-driven-infrastructure.png
+layout: post
 title: Test driven infrastructure with Kitchen and InSpec
+author: Steve Mactaggart
 twittercreator: stevemac
-url: /2017/07/23/test-driven-infrastructure-with-test-kitchen/
+description: Using Kitchen and InSpec enables you to develop infrastructure faster, more reliably and with greater confidence.
+categories:
+    - testing
+tags:
+    - infrastructure-testing
+    - kitchen
+images: blog/test-driven-infrastructure.png
+thumbnail: blog/test-driven-infrastructure.png
+
+excerpt:
+    As the cycle times for providing new servers and services decrease, the demands on infrastructure developers is increasing. To cope with this increased demand, we need new ways to think about building and validating servers.<br />
+    <br />
+    A powerful combination is to couple <a href="http://kitchen.ci/">Kitchen</a> with <a href="https://www.inspec.io/">InSpec</a>, to provide a modern development approach to both the provisioning of servers and validating their configuration is correct.
+
 ---
 
 For a long time infrastructure was the sort of thing you pulled out of a box, plugged in and then set about configuring and testing.  The cycle between needing new equipment and having it ready was measured in weeks, if not months.
@@ -83,7 +79,7 @@ If you have issues getting this example working, you may need to review your net
 
 **Gemfile**
 
-```ruby
+``` ruby
 source "https://rubygems.org"
 
 gem "rake"

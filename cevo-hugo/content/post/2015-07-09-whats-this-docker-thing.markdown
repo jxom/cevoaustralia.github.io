@@ -1,26 +1,19 @@
 ---
-author: Peter Viertel
+layout: post
+title:  What's this docker thing?
+description: An overview of docker, how the technology has grown and its readiness to be run in production
+date:   2015-07-09
 categories:
-- Devops
-date: 2015-07-09T00:00:00Z
-description: An overview of docker, how the technology has grown and its readiness
-  to be run in production
-excerpt: If there’s one thing industry news sources have been mentioning to you recently
-  it would almost certainly be Docker. But is there too much hype? Should one wait
-  before looking into it?. There’s certainly a large amount of hype out there in the
-  industry of the likes we have not seen since for about 6 years, when you could not
-  move for “Cloud Experts” crowding your doorstep offering cloud this and cloud that.
-  We can see with the benefit of hindsight that “The Cloud” did not turn out to be
-  complete fakery, in fact it’s turned out a lot of the promises came true, it’s even
-  better than expected in that “The Cloud” is now a whole industry that enhances and
-  supports your operations, and you really can run your IT operations more efficiently.
-images: blog/whats-this-docker-thing.png
+  - Devops
 tags:
-- Docker
-- Cloud
+  - Docker
+  - Cloud
+author: Peter Viertel
+images: blog/whats-this-docker-thing.png
 thumbnail: blog/whats-this-docker-thing.png
-title: What's this docker thing?
-url: /2015/07/09/whats-this-docker-thing/
+
+excerpt:
+  If there’s one thing industry news sources have been mentioning to you recently it would almost certainly be Docker. But is there too much hype? Should one wait before looking into it?. There’s certainly a large amount of hype out there in the industry of the likes we have not seen since for about 6 years, when you could not move for “Cloud Experts” crowding your doorstep offering cloud this and cloud that. We can see with the benefit of hindsight that “The Cloud” did not turn out to be complete fakery, in fact it’s turned out a lot of the promises came true, it’s even better than expected in that “The Cloud” is now a whole industry that enhances and supports your operations, and you really can run your IT operations more efficiently.
 ---
 
 If there’s one thing industry news sources have been mentioning to you recently it would almost certainly be Docker. But is there too much hype? Should one wait before looking into it?. There’s certainly a large amount of hype out there in the industry of the likes we have not seen since for about 6 years, when you could not move for “Cloud Experts” crowding your doorstep offering cloud this and cloud that. We can see with the benefit of hindsight that “The Cloud” did not turn out to be complete fakery, in fact it’s turned out a lot of the promises came true, it’s even better than expected in that “The Cloud” is now a whole industry that enhances and supports your operations, and you really can run your IT operations more efficiently. Hindsight also shows us a road littered with the carcasses of ‘offerings’; hastily formulated packages, misguided use cases, overpriced and under-delivering cloud services. It’s still going on, but there’s now plenty of wisdom to be found, real-world success stories, long-term studies, but if you’d sat back and said “let’s wait until the hype dies down” then you did end up spending far too much money still, many of your competitors did very well out of taking measured steps to adopt the new technology.

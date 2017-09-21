@@ -1,18 +1,15 @@
 ---
-author: Hannah Browne
-avatar: team/hannah_browne.jpg
-linkedin: https://au.linkedin.com/in/hannahbrowne
+layout: post
+title:  "Migrating to AWS"
+description: How MYOB benefited from migrating to AWS to automate infrastructure, provide self-servicing & reduce costs
+date:   2016-08-08
 categories:
-- devops
-date: 2016-08-08T00:00:00Z
-description: How MYOB benefited from migrating to AWS to automate infrastructure,
-  provide self-servicing & reduce costs
-images: blog/migrating-to-aws.png
+  - devops
 tags:
-- aws
+  - aws
+author: Hannah Browne
+images: blog/migrating-to-aws.png
 thumbnail: blog/migrating-to-aws.png
-title: Migrating to AWS
-url: /2016/08/08/migrating-to-aws/
 ---
 
 #### Customer Overview
