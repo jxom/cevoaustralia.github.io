@@ -60,19 +60,25 @@ params:
       - icon: fa-gears
         title: Engineering
         description: >
-          Technology drives our organisations, so you might want to get good at it! Sound engineering approaches are key to be able to scale, pivot and adapt to changing customer needs based on feedback.
+          Technology drives our organisations, so you might want to get good at it!
+          Sound engineering approaches are key to be able to scale, pivot and adapt
+          to changing customer needs based on feedback
         url: '/engineering'
 
       - icon: fa-cloud
         title: Cloud
         description: >
-          We assist organisations to build immutable cloud platforms, migrate workloads to the cloud and automate environment provisioning and deployments.
+          We assist organisations to build immutable cloud platforms,
+          migrate workloads to the cloud and automate environment provisioning
+          and deployments
         url: '/cloud'
 
       - icon: fa-compass
         title: DevOps
         description: >
-          We help our customers to create a DevOps culture and build, manage, and optimise the continuous deployment pipeline, from source control through testing to automated production releases.
+          We help our customers to create a DevOps culture and build, manage,
+          and optimise the continuous deployment pipeline, from source control
+          through testing to automated production releases
         url: '/devops'
 
   clients:
