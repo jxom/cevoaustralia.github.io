@@ -4,10 +4,11 @@
 
 # How to build?
 
-* [Install](http://gohugo.io/getting-started/installing/) locally
+* [Install Hugo](http://gohugo.io/getting-started/installing/) locally
 * `$ cd ~/src/website`
 * `$ hugo serve`
-* open locally running [website](http://localhost:1313)
+* By default, the site locally runs on [http://localhost:1313](http://localhost:1313)
+* You may also need to run `git submodule update --init --recursive`
 
 # Docker and Docker-compose
 
