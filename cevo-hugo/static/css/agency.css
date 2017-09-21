@@ -1048,6 +1048,7 @@ ul.social-buttons li a:active {
 img.story {
   padding: 5px 20px 0 0;
   display: none;
+  padding-bottom: 1em;
 }
 
 @media(min-width:992px) {
