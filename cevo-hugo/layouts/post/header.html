@@ -22,8 +22,9 @@
         </time>
         <p class="author">{{ .Params.author }}</p>
 
-        {{ if .Params.avatar}}
-          {{ $url := printf "img/%s" .Params.avatar }}
+        {{ if .Params.author}}
+          {{ $url := replace (lower .Params.author) " " "_" }}
+          {{ $url := printf "img/team/%s.jpg" $url }}
           {{ if .Params.linkedin }}
           <a href="{{ .Params.linkedin }}"><img class="avatar img-circle hidden-sm" src="{{ $url | absURL }}"></a>
           {{ else }}
