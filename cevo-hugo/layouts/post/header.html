@@ -20,17 +20,17 @@
         <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
             {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
         </time>
-        <p class="author">{{ .Params.author }}</p>
+        <div class="author">
 
-        {{ if .Params.author}}
-          {{ $url := replace (lower .Params.author) " " "_" }}
-          {{ $url := printf "img/team/%s.jpg" $url }}
-          {{ if .Params.linkedin }}
-          <a href="{{ .Params.linkedin }}"><img class="avatar img-circle hidden-sm" src="{{ $url | absURL }}"></a>
-          {{ else }}
-            <img class="avatar img-circle hidden-sm" src="{{ $url | absURL }}">
-          {{ end }}
-        {{ end }}
+            {{ $url := replace (lower .Params.author) " " "_" }}
+            {{ $url := printf "img/team/%s.jpg" $url }}
+            {{ if .Params.linkedin }}
+                <a href="{{ .Params.linkedin }}"><img class="avatar img-circle hidden-sm" src="{{ $url | absURL }}"></a>
+            {{ else }}
+                <img class="avatar img-circle hidden-sm" src="{{ $url | absURL }}">
+            {{ end }}
+            <p class="name">{{ .Params.author }}</p>
+        </div>
 
         {{ if .Site.Params.includeReadingTime }}
             <p>{{ .ReadingTime }} minute read</p>
