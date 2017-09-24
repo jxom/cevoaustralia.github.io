@@ -1,4 +1,4 @@
-<ul><li></li></ul>
+
 <ul class="stats">
     {{ if isset .Params "categories" }}
         {{ $categoryCount := (len .Params.categories) }}
@@ -18,10 +18,10 @@
             <li><a href='{{ add "/categories/" . | urlize }}'>{{ . }}</a></li>
         {{ end }}
     {{ end }}
-</ul>
-<ul><li></li></ul>
-<ul class="stats">
     {{ if isset .Params "tags" }}
+</ul>
+<ul><li/></ul>
+<ul class="stats">
         {{ $tagsCount := (len .Params.tags) }}
 
         {{ if ge $tagsCount 1 }}
