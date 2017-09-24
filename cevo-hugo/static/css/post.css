@@ -24,6 +24,9 @@
 				flex-grow: 1;
 				-ms-flex: 1;
 			}
+				.post > header .title h1 {
+					font-size: 2em;
+				}
 
 				.post > header .title h2 {
 					font-weight: 900;
@@ -81,9 +84,16 @@
 				-webkit-transition: -webkit-transform 0.2s ease-out;
 				-ms-transition: -ms-transform 0.2s ease-out;
 				transition: transform 0.2s ease-out;
-				width: 100%;
+				width: 75%;
 				padding-bottom: 1em;
 			}
+
+			@media screen and (max-width: 980px) {
+				.post > .image.featured img {
+					width: 100%
+				}
+			}
+			
 
 			.post > .image.featured:hover img {
 				-moz-transform: scale(1.05);
