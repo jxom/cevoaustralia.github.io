@@ -1,5 +1,5 @@
 ---
-title: The Cevo story to date
+title: The story to date
 subtitle: Delivering technology, sharing skills, building capability
 endpoint: Be part<br>of our<br>story!
 type: about
