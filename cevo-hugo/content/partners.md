@@ -27,13 +27,7 @@ sisters:
     img: sisters/cortex.jpg
     url: "http://cortexinteractive.com.au/"
     description:
-      Just like people, no two business are born the same. Each has its own unique makeup of
-      individuals with different strengths, knowledge and capabilities. We understand that people
-      learn in different ways and at different paces, but we know and believe that at the heart of
-      every learning experience is to play – and because of this we infuse elements of
-      gamifications into all of our training programs. This enables us to deliver experiences
-      that not only help learners better understand the source material, but also ensure that they
-      enjoy taking part in the learning process.
+      Cortex solve business problems by providing immersive experiences that encourage participation, increase attention and improve retention rates of the information being presented to your audience. We achieve this by embracing creativity to deliver engaging solutions that leverage the latest in technologies, including Virtual (VR) and Augmented Reality (AR).
 
 
 partners:
