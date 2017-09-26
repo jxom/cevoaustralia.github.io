@@ -4,6 +4,7 @@ subtitle: Amazon Web Services usage review, validation & adaptation
 client: Financial Technology
 clientLink: #
 cases: engineering
+img: aws.png
 ---
 
 # Industry
