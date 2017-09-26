@@ -181,7 +181,7 @@ people:
       Melissa began her career in testing and quickly discovered the value of building quality in from inception.
       Now with over a decade of experience working in teams, she champions cross-competency collaboration to achieve this.
       She is an avid girl geek and draws inspiration from people with the willingness and openness to learn.
-    avatar: melissa_ngau-250x250.jpg
+    avatar: melissa_ngau.jpg
     socials:
       - icon_class: fa fa-linkedin
         url: https://au.linkedin.com/in/melissangau
