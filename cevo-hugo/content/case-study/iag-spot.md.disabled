@@ -1,14 +1,14 @@
 ---
 title: Benefits of Spot Instances
-subtitle: Mauris nec mi laoreet, iaculis quam non, consectetur lorem. Aliquam erat volutpat.
-client: IAG
+client: Insurance Company
 clientLink: "#"
 cases: devops
+img: aws.png
 ---
 
 # Customer Overview
 
-We worked with an Insurance Company who we will refer to as Rainy Day Insurce from now on. Rainy Day Insurance's businesses underwrite over $11.4 billion of premium per annum, selling insurance under many leading brands including NRMA Insurance, CGU, SGIO, SGIC, Swann Insurance and WFI (Australia); NZI, State, AMI and Lumley Insurance (New Zealand); Safety and NZI (Thailand); AAA Assurance (Vietnam); and Asuransi Parolamas (Indonesia). Rainy Day Insurance also has interests in general insurance joint ventures in Malaysia and India. Standard & Poor’s has assigned a ‘Very Strong’ Insurer Financial Strength Rating of ‘AA-’ to the Group’s core operating subsidiaries.
+We worked with an Insurance Company who we will refer to as Rainy Day Insurance from now on. Rainy Day Insurance's businesses underwrite over $11.4 billion of premium per annum, selling insurance under many leading brands. Rainy Day Insurance also has interests in general insurance joint ventures in Malaysia and India. Standard & Poor’s has assigned a ‘Very Strong’ Insurer Financial Strength Rating of ‘AA-’ to the Group’s core operating subsidiaries.
 
 # Business Challenge
 
