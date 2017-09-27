@@ -13,14 +13,14 @@ excerpt:
 ---
 
 ### Where we were
-A large client of ours has recently started their cloud migration journey. I was brought in as an iteration manager to help one of the recently renamed *Cloud Foundation* squads manage their work.
+A large client of ours had recently started their cloud migration journey. I was brought in as an iteration manager to help one of the recently renamed *Cloud Foundation* squads manage their work. Tom Partington from Cevo also joined the squad to add some engineering firepower.
 
 The team had previously been known as the *Technology Automation* team. Strangely enough their goal was trying to automate things for other teams as much as possible.
 
 ### The challenge
-Unfortunately there were some problems with automation the team tried to provide in the past. Firstly, there was often changing priorities. Secondly, when things did get built, other teams didn't tend to use them.
+Unfortunately there were some problems with what automation the team had tried to provide in the past: changing priorities often left work unfinished and then, when things did get built, other teams didn't tend to use them.
 
-In addition to this, it seemed like the team was doing a lot of manual work for other teams. Things like getting firewall changes done or setting up direct connect for AWS accounts. The team didn't actually do the task, but knew who could so often took it upon themselves to help coordinate these activities.
+In addition to this, it seemed like the team was doing a lot of manual work for other teams. Things like getting firewall changes done or setting up Direct Connect for AWS accounts. The team didn't actually do the task, but knew who could, so often took it upon themselves to help coordinate these activities.
 
 It seemed like there were two different types of work the team was trying to do.
 
@@ -35,9 +35,9 @@ Here I am using the definition of a service in the traditional sense. For exampl
 A techy thing that has to be built, that will be used by a customer. This could be SaaS or some other kind of consumable digital product.
 
 ### Focus
-While doing both building products and providing services could possibly be done by the team, I felt that better outcomes would be achieved by focusing on one or the other.
+While the team could both build products and deliver services, I felt that they would be able to deliver better outcomes by focusing on one task exclusively.
 
-The view from management was the team should be building things that other teams can use. Having this direction was very helpful, as it meant the service aspect could be reduced to supporting the products that we would build.
+The view from management was that the team should be building things that other teams can use. Having this direction was very helpful, as it meant the service aspect could be reduced to supporting the products that we would build.
 
 As the team had tried to build things for other teams in the past and not had the success they were hoping for, how could we increase our chances of hitting the mark this time?
 
@@ -78,7 +78,7 @@ I'll use one of the products built as an example. We called it Woodstock and it'
 
 Why Woodstock? Well that's were all the logs are kept! The accounts that send logs to Woodstock are called Lumberjacks. While the names may sound silly, it's one more thing that helps give life to what we built. Our customers always remember it too!
 
-At our client, any team running a workload in AWS must send their CloudTrail logs back on premise so they can be analysed for suspicious activity. Prior to Woodstock, each workload owner had to spend several weeks liaising with security to get Splunk integration sorted out.
+At our client, any team running a workload in AWS must send their CloudTrail logs back on premises so they can be analysed for suspicious activity. Prior to Woodstock, each workload owner had to spend several weeks liaising with security to get Splunk integration sorted out.
 
 To get Woodstock working takes about 10 minutes for a team. The process entails:
 1. Contact us on the #Woodstock slack channel with their AWS account number.
