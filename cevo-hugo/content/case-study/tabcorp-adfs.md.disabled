@@ -1,19 +1,19 @@
 ---
 title: ADFS Automation
 subtitle: Active Direction Federation Services automation with EC2 and CloudFormation
-client: TabCorp
+client: A major gaming company
 clientLink: "#"
 cases: cloud
 img: aws.png
 ---
 # Customer Overview
-Tabcorp is an ASX100 company and one of the largest publicly listed gambling companies in the world.
+An ASX100 company and one of the largest publicly listed gambling companies in the world.
 
-Their iconic brands TAB, Keno, Luxbet, their stable of Sky Racing subscription television channels, Sky Sports Radio and Tabcorp Gaming Solutions ignite passion and excitement in millions of customers each year.
+Their iconic brands, their stable of subscription television channels, ignite passion and excitement in millions of customers each year.
 
 # Business Challenge
 
-Tabcorp runs Active Directory to manage all of their user permissions and profiles. The growing number of applications being developed and hosted externally in the cloud has brought to light the large amount overhead required to integrate each with Active Directory.
+The company runs Active Directory to manage all of their user permissions and profiles. The growing number of applications being developed and hosted externally in the cloud has brought to light the large amount overhead required to integrate each with Active Directory.
 
 # Solution
 
