@@ -15,7 +15,7 @@ excerpt:
 ### Where we were
 A large client of ours has recently started their cloud migration journey. I was brought in as an iteration manager to help one of the recently renamed *Cloud Foundation* squads manage their work.
 
-The team had previously been known as *Technology Automation* team. Strangely enough their goal was trying to automate things for other teams as much as possible.
+The team had previously been known as the *Technology Automation* team. Strangely enough their goal was trying to automate things for other teams as much as possible.
 
 ### The challenge
 Unfortunately there were some problems with automation the team tried to provide in the past. Firstly, there was often changing priorities. Secondly, when things did get built, other teams didn't tend to use them.
@@ -28,7 +28,7 @@ It seemed like there were two different types of work the team was trying to do.
 * Providing services.
 
 #### What is a service?
-Here I am using the definition of a service in the traditional sense. For example, helping get a firewall change done and not in the Software as a Service (SaaS) sense.
+Here I am using the definition of a service in the traditional sense. For example: *helping get a firewall change done*. Not in the *Software as a Service (SaaS)* sense.
 
 
 #### What is a product?
@@ -75,6 +75,8 @@ We have focused carefully on the user experience, in particular:
 ### Woodstock
 
 I'll use one of the products built as an example. We called it Woodstock and it's used aggregate CloudTrail logs.
+
+Why Woodstock? Well that's were all the logs are kept! The accounts that send logs to Woodstock are called Lumberjacks. While the name may sound silly, it's one more thing that helps give life to what we built. Our customers always remember it too!
 
 At our client, any team running a workload in AWS must send their CloudTrail logs back on premise so they can be analysed for suspicious activity. Prior to Woodstock, each workload owner had to spend several weeks liaising with security to get Splunk integration sorted out.
 
