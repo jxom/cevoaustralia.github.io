@@ -76,7 +76,7 @@ We have focused carefully on the user experience, in particular:
 
 I'll use one of the products built as an example. We called it Woodstock and it's used aggregate CloudTrail logs.
 
-Why Woodstock? Well that's were all the logs are kept! The accounts that send logs to Woodstock are called Lumberjacks. While the name may sound silly, it's one more thing that helps give life to what we built. Our customers always remember it too!
+Why Woodstock? Well that's were all the logs are kept! The accounts that send logs to Woodstock are called Lumberjacks. While the names may sound silly, it's one more thing that helps give life to what we built. Our customers always remember it too!
 
 At our client, any team running a workload in AWS must send their CloudTrail logs back on premise so they can be analysed for suspicious activity. Prior to Woodstock, each workload owner had to spend several weeks liaising with security to get Splunk integration sorted out.
 
