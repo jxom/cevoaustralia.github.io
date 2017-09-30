@@ -1031,17 +1031,24 @@ ul.social-buttons li a:active {
 /* Testimonial lists */
 
 .testimonial {
-  display: none;
-  position: relative;
+    display: none;
+    position: relative;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: -webkit-linear-gradient(bottom, rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.8)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(bottom, rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.8)); /* Standard syntax */
 }
 
 .testimonial p {
-  text-shadow: 1px 1px 5px black;
-  font-size: 16px;
+    text-shadow: 1px 1px 3px black;
+    font-size: 16px;
 }
 
 .testimonial-list {
-  min-height: 500px;
+    min-height: 500px;
 }
 
 .testimonial-list a {
