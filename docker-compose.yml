@@ -1,8 +1,28 @@
-version: '2'
+version: "3.0"
+
 services:
-  cevo-web:
-    build: .
-    ports:
-      - "4000:4000/tcp"
-    volumes:
-      - .:/data:Z
+  dev:
+      build: .
+      image: hugo:latest
+      command: hugo serve --bind 0.0.0.0 --baseURL http://localhost/
+      volumes:
+          - .:/data
+      working_dir: /data
+      ports:
+        - "1313:1313"
+
+  alpha:
+      build: .
+      image: hugo:latest
+      command: make alpha
+      volumes:
+          - .:/data
+      working_dir: /data
+
+  alpha:
+      build: .
+      image: hugo:latest
+      command: make beta
+      volumes:
+          - .:/data
+      working_dir: /data
