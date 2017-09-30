@@ -1,7 +1,14 @@
 
+var lastIdx = null;
 function showRandomTestimonial() {
   var tsList = $("div.testimonial"),
-      idx = Math.floor(Math.random() * tsList.length);
+      idx = null;
+  do {
+    idx = Math.floor(Math.random() * tsList.length);
+  }
+  while(idx == lastIdx);
+  console.log('show idx:' + idx + ', last:' + lastIdx + ', total:' + tsList.length);
+  lastIdx = idx;
 
   tsList.hide();
   $(tsList[idx]).fadeIn().css("display", "inline-block");
