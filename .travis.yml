@@ -1,26 +1,25 @@
 sudo: required
 dist: trusty
-language: ruby
+language: python
 services:
-- docker
+  - docker
 before_install:
-- cd cevo-hugo
-- docker pull ubuntu:16.04
+  - docker pull python:3.6
 script:
-- docker-compose build alpha
-- docker-compose run alpha
+  - docker-compose build beta
+  - docker-compose run beta
 deploy:
-  provider: s3
-  region: ap-southeast-2
-  local_dir: public
-  bucket: new.cevo.com.au
-  skip_cleanup: true
-  acl: public_read
-  on:
-    branch: hugo-port
-  access_key_id: AKIAJ223OQAQ5VH7BE6A
-  secret_access_key:
-    secure: iqv4sLGzKaU6G23IwJgbFvFteZ6HwBBtX/h1B5uD1Ti/x7i6q0hb77gvifUdsJoL1CuRCC+Y05JrP6+IyWnbYiazSNEpCz6fUwtqLqjcFgwHrm4G//HcmzlZl1eho1M428ZgOelXWcq4UHEODS+7swiPqTQhzxmyRXc8ucSw4FoutGRGqcwyHcwRQyeOn8ewHMCa0LzGo36xtartJU94UIS8wQVp3NkwAT9MXARmANR/MazVRqOLEWmMeUBRgJvzV9ka93eL4LPT7R5niAneiLB1f81oQQj/qnZkQutTmEbVH1+J4yVYD74YhSI0VL1OU3VXOfbM64DXoT8wrvgw+4oWt6LC+A9BtqSso5WT6HzgI3sDyuElX8VLaaHVcM9sA2o72s/CSMaSXzgM18L35r/Prs4egT+Tb2AIQ4g+8KQjgP2VRcMt2cKhsPPfE9Whx2Shw+/IKtD/Ceezru75BOtteiVvHupfxRGeECjSvEb6xsQ3gTIpV2IotFhqFaAoPwWzYwI8HGsZzfwXUuKvVu0mdKxncpb8jqMQpHPXbTdVglOePZ8wnrUdMweosA1Ml7DI5kkChrGE0cA6GokXW8vo5m4BEeVfBQxXi7oI8yV74ykj2tJme2pVqHEaaXNrm/IHoRrKieuKEL6iYDUS7xVn44d/rGmjYy64KUnUxuo=
-notifications:
-  slack:
-    secure: QiL7R6/ARch+1zek730zvWKoEtsHY73ftC5udpkpoyd2A/MWngTFnctvRrTa/rbqPJD/29VyZnWDHrAgskEBwecsBKJ+wRRBU8k96wmTE4tZoTcnWnWvfvAAmTZ6t8fCNZR+MHkH05gTSMU/l8rafao3TcEd4p6VaVH4VP9wtUA7DHeJQ5dh7DGAlg7rOCl/2N39YknVxhpkq6VOVCVq+z9aaJVX6BT+OBDrgsdN7ZpI2sJZo6T6/Z5s/KSLiL2l4lrhX4LB6cbGuY+saUwfNs2jdfvNYqjPofowoYmMpi6sip/4WxkIsEgUrJXi6wQ7aSbWuF+sFshZOSn36i2VFYsuiNbbWNL0pCl/jGFODu5f77rud/MDf4roQPg08rZEyL56QCiwsez2zYcXMK+iPCOzw2U+VWW9yT7WXG64QrquCiUY8vcy8OPMsRQj1x1hEBf/tIT7tC6XBe6leu4GwF212ZtXc6x0/3DJu76WZF4lB5IuIEmTGUtKNXqEA382vzQ5SY50onwEtlbZ7ozjcMh9OTQ7GDhZgD6qNCZ9MUN4FcTYiVdISK2rp85Z39irHMZ/l9lierdcaKpKuPcRY5oEk+y6N7ZB93rGnuf8YzHiY0SVcW3D1UicH5952P6Bq3ft7b5uVkRQMdZ3wjSJzGKZ0upbfPSe0dKZki/7jKQ=
+  - provider: s3
+    on:
+        branch: develop
+    region: ap-southeast-2
+    local_dir: public
+    bucket: beta.cevo.com.au
+    skip_cleanup: true
+    acl: public_read
+    access_key_id: AKIAJ223OQAQ5VH7BE6A
+    secret_access_key:
+      secure: iqv4sLGzKaU6G23IwJgbFvFteZ6HwBBtX/h1B5uD1Ti/x7i6q0hb77gvifUdsJoL1CuRCC+Y05JrP6+IyWnbYiazSNEpCz6fUwtqLqjcFgwHrm4G//HcmzlZl1eho1M428ZgOelXWcq4UHEODS+7swiPqTQhzxmyRXc8ucSw4FoutGRGqcwyHcwRQyeOn8ewHMCa0LzGo36xtartJU94UIS8wQVp3NkwAT9MXARmANR/MazVRqOLEWmMeUBRgJvzV9ka93eL4LPT7R5niAneiLB1f81oQQj/qnZkQutTmEbVH1+J4yVYD74YhSI0VL1OU3VXOfbM64DXoT8wrvgw+4oWt6LC+A9BtqSso5WT6HzgI3sDyuElX8VLaaHVcM9sA2o72s/CSMaSXzgM18L35r/Prs4egT+Tb2AIQ4g+8KQjgP2VRcMt2cKhsPPfE9Whx2Shw+/IKtD/Ceezru75BOtteiVvHupfxRGeECjSvEb6xsQ3gTIpV2IotFhqFaAoPwWzYwI8HGsZzfwXUuKvVu0mdKxncpb8jqMQpHPXbTdVglOePZ8wnrUdMweosA1Ml7DI5kkChrGE0cA6GokXW8vo5m4BEeVfBQxXi7oI8yV74ykj2tJme2pVqHEaaXNrm/IHoRrKieuKEL6iYDUS7xVn44d/rGmjYy64KUnUxuo=
+    notifications:
+      slack:
+        secure: QiL7R6/ARch+1zek730zvWKoEtsHY73ftC5udpkpoyd2A/MWngTFnctvRrTa/rbqPJD/29VyZnWDHrAgskEBwecsBKJ+wRRBU8k96wmTE4tZoTcnWnWvfvAAmTZ6t8fCNZR+MHkH05gTSMU/l8rafao3TcEd4p6VaVH4VP9wtUA7DHeJQ5dh7DGAlg7rOCl/2N39YknVxhpkq6VOVCVq+z9aaJVX6BT+OBDrgsdN7ZpI2sJZo6T6/Z5s/KSLiL2l4lrhX4LB6cbGuY+saUwfNs2jdfvNYqjPofowoYmMpi6sip/4WxkIsEgUrJXi6wQ7aSbWuF+sFshZOSn36i2VFYsuiNbbWNL0pCl/jGFODu5f77rud/MDf4roQPg08rZEyL56QCiwsez2zYcXMK+iPCOzw2U+VWW9yT7WXG64QrquCiUY8vcy8OPMsRQj1x1hEBf/tIT7tC6XBe6leu4GwF212ZtXc6x0/3DJu76WZF4lB5IuIEmTGUtKNXqEA382vzQ5SY50onwEtlbZ7ozjcMh9OTQ7GDhZgD6qNCZ9MUN4FcTYiVdISK2rp85Z39irHMZ/l9lierdcaKpKuPcRY5oEk+y6N7ZB93rGnuf8YzHiY0SVcW3D1UicH5952P6Bq3ft7b5uVkRQMdZ3wjSJzGKZ0upbfPSe0dKZki/7jKQ=
