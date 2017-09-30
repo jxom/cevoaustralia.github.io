@@ -802,7 +802,16 @@ section h3.section-subheading {
 .logo-container {
   position: relative;
   height: 120px;
+  width: 120px;
 }
+
+@media(min-width:1200px) {
+    .logo-container {
+        height: 250px;
+        width: 250px;
+    }
+}
+
 .logo-container img {
   max-height: 100%;
   position: absolute;
