@@ -1034,8 +1034,6 @@ ul.social-buttons li a:active {
     display: none;
     position: relative;
     border-radius: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
     background: -webkit-linear-gradient(bottom, rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.8)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom, rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.8)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom, rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.8)); /* For Firefox 3.6 to 15 */
@@ -1044,7 +1042,13 @@ ul.social-buttons li a:active {
 
 .testimonial p {
     text-shadow: 1px 1px 3px black;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+@media(min-width:1200px) {
+    .testimonial p {
+        font-size: 16px;
+    }
 }
 
 .testimonial-list {
