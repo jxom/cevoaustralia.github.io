@@ -3,6 +3,10 @@ var lastIdx = null;
 function showRandomTestimonial() {
   var tsList = $("div.testimonial"),
       idx = null;
+
+  if (tsList.length == 0)
+    return;
+    
   do {
     idx = Math.floor(Math.random() * tsList.length);
   }
