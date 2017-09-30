@@ -1,0 +1,32 @@
+---
+title: Benefits of Spot Instances
+client: Insurance Company
+clientLink: "#"
+cases: devops
+img: aws.png
+---
+
+# Customer Overview
+
+We worked with an Insurance Company who we will refer to as Rainy Day Insurance from now on. Rainy Day Insurance's businesses underwrite over $11.4 billion of premium per annum, selling insurance under many leading brands. Rainy Day Insurance also has interests in general insurance joint ventures in Malaysia and India. Standard & Poor’s has assigned a ‘Very Strong’ Insurer Financial Strength Rating of ‘AA-’ to the Group’s core operating subsidiaries.
+
+# Business Challenge
+
+To improve their software development speed, Rainy Day Insurance has begun using Amazon Web Services (AWS) to provide development environments for a selection of their delivery teams. While this has let them solve the common and painful problem of environment availability, it has brought a new problem: rapidly escalating cloud costs.
+
+# Solution
+
+Rainy Day Insurance ran some internal projects to reduce the AWS cost which were successful. To evaluate further cost reductions they required external expertise in AWS spot instances to evaluate:
+
+* If spot instances could reduce the monthly cost?
+* If there were any other, non-monetary expenses generated from running on spot?
+
+A cost analysis was provided which outlined how different AWS instance types could be used to manage the monthly AWS spend more effectively.
+
+# Benefits
+
+Rainy Day Insurance saved the time and cost of implementing spot instances to “trial” their theory. Instead they were able to evaluate the effectiveness over a short period of time and make a decision without affecting any of their environments or risking a spike in cost.
+
+# Extra Notes
+
+Rainy Day Insurance were keen to investigate ways to reduce their monthly AWS bill, which had risen to over 6 figures per month at it’s peak. Several internal project were undertaken to reduce the monthly cost, of which many were successful. Rainy Day Insurance were now looking to see if there were any other potentially large savings on offer by looking at AWS spot instances.

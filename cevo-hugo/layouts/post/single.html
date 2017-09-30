@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    <header class="hero small-header"></header>
+    {{ partial "nav" . }}
+
+    <div class="container">
+      <article class="post">
+
+        {{ $.Scratch.Set "h1" true }}
+        {{ .Render "header" }}
+        {{ .Render "featured" }}
+        <div id="content">
+            {{ .Content }}
+        </div>
+
+        <footer>
+            {{ .Render "footer-category" }}
+        </footer>
+
+      </article>
+    </div>
+    {{ partial "contact" . }}
+    {{ partial "footer" . }}
+    {{ partial "js" . }}
+  </body>
+</html>

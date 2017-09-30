@@ -1,0 +1,10 @@
+<div>
+    <p>{{ .Content | markdownify }}</p>
+
+    <footer>
+        <ul class="actions">
+            <li>-- {{ .Params.author }}</li>
+            <li>{{ .Params.position }}</li>
+        </ul>
+    </footer>
+</div>
