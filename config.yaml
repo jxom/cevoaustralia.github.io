@@ -6,6 +6,9 @@ PygmentsCodeFences: true
 PygmentsStyle: "trac"
 enableRobotsTXT: true
 
+ignoreFiles:
+  - \.disabled$
+
 params:
   name: Cevo Australia
   description: Cevo is an IT consultancy specialising in iterative software delivery, automation and devops
