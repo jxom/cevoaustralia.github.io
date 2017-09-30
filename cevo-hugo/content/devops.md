@@ -6,7 +6,7 @@ subtitle: >
 img: devops.png
 ---
 
-# COMMUNICATION, COLLABORATION AND INTEGRATION
+### COMMUNICATION, COLLABORATION AND INTEGRATION
 
 Devops is an ideal, a set of principles, a mindset. It is not a tool, methodology, or a set of practices. Building a DevOps culture is creating teams that value speed to market, customer feedback to validate the value in work delivered, quality, automation, scalability and reliability. We want to realise value quickly and can measure this based on how fast an organisation can move a single line of code from development to production. That is why DevOps is as much about change management as technical capability.
 
