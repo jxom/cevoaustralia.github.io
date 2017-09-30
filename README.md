@@ -1,92 +1,35 @@
-# Cevo Website
-Jekyll website for cevo.com.au
+# Cevo Website port to hugo
 
-# Jekyll?
-Jekyll is a simple way to build a static website. You can view more details at http://jekyllrb.com/
+[Hugo](http://gohugo.io/getting-started/quick-start/) is static website generator.
+`Dockerfile` produces build environment with `hugo` and `pygments` installed.
 
-* The theme used here is from http://elbe.blahlab.com/
+# How to develop?
 
-[ ![Codeship Status for cevoaustralia/cevoaustralia.github.io](https://codeship.com/projects/8fa2b1e0-44d0-0134-47ad-02154be91b77/status?branch=master)](https://codeship.com/projects/168509)
+* [Install Hugo](http://gohugo.io/getting-started/installing/) locally
 
-# How to develop (docker)
-If you don't want to install Ruby and instead test the site in docker container:
-```
-docker-compose build
-docker-compose up
-```
-This should build the docker image and run the server at http://localhost:4000/.
+* Clone this repository
+  
+  `git clone git@github.com:cevoaustralia/cevoaustralia.github.io.git`
 
-# How to develop
+* Install submodules (theme)
+  
+  `cd cevoaustralia.github.io`
+  
+  `git submodule update --init --recursive`
 
-You need to have:
-* a working Ruby environment
-* ImageOptim and friends (jhead, jpegarchive, jpegoptim, jpegtran, and mozjpeg)
-* this repository checked out
-
-The site is developed as a set of static resources, and assembled into the resultant website through the use of [Jekyll][f0caf124]
-
-## How to install dependencies
-
-To install the image_optim dependancies (used to optimise the images for serving on the web)
-on MacOS run  
-```
-brew install jhead jpegoptim jpeg
-```
-
-For linux see the requirements for your distribution [here](https://github.com/toy/image_optim)  
+* Run the site locally on [http://localhost:1313](http://localhost:1313)
+  
+  `hugo serve`
 
 
-`bundler` is needed for all dependencies, including jekyll. If you are running `ruby` without it, it can be installed with
+## Local development with docker
 
-```
-$ gem install bundler
-```
+* `docker-compose build dev`
+* `docker-compose up dev`
 
-The dependencies of the build have been included in a `Gemfile`, use `bundler` to
+## Build static html
 
-```
-$ bundle install
-```
+* `docker-compose build alpha`
+* `docker-compose run alpha`
 
-If you are running in an rbenv you will need to run `rehash` for your commands to be exported to your shell
-```
-$ rbenv rehash
-```
-
-## How to serve the site locally
-
-To run the server with the correct URL's and base paths, you will need to serve the content from
-
-```
-$ bundle exec jekyll serve
-```
-
-## How to build the site
-```
-$ bundle exec jekyll build
-# => The current folder will be generated into ./_site
-
-$ bundle exec jekyll build --watch
-# => The current folder will be generated into ./_site,
-#    watched for changes, and regenerated automatically.
-```
-
-### How to build the beta site
-
-To ensure that the correct absolute URL's are generated for the `beta.cevo.com.au` site, you need
-to specify an override file at build time to include the additional beta configuration.
-
-```
-# bundle exec jekyll build --config _config.yml,_config_beta.yml
-```
-
-### How to build the production site
-
-To ensure that the correct absolute URL's are generated for the `www.cevo.com.au` site, you need
-to specify an override file at build time to include the additional production configuration.
-
-```
-# bundle exec jekyll build --config _config.yml,_config_production.yml
-```
-
-[f0caf124]: https://jekyllrb.com/ "Jekyll"
+Output is now in `public` folder.
