@@ -46,7 +46,7 @@ The view from management was that the team should be building things that other 
 As the team had tried to build things for other teams in the past and not had the success they were hoping for, how could we increase our chances of hitting the mark this time?
 
 ### Product centric view
-I decided that software/infrastructure/SaaS/scripts/automation that the team would provide should be treated as any other product:
+I decided that software / infrastructure / SaaS / scripts / automation that the team would provide should be treated as any other product:
 
 * It must have people willing to use it (customers).
 * It must be owned by a team.
