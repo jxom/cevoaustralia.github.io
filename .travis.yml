@@ -6,7 +6,7 @@ services:
 before_install:
   - docker pull python:3.6
 script:
-  - make docker-html
+  - make travis-ci
 deploy:
   - provider: s3
     on:

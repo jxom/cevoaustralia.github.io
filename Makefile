@@ -1,10 +1,13 @@
 BUCKET=cevo-hugo
-GIT_BRANCH=$(shell git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
+TRAVIS_BRANCH?=$(shell git rev-parse --abbrev-ref HEAD)
 
-dev:
+run:
 	@hugo serve --baseUrl http://localhost:1313/
 
-default: dev
+build:
+	@hugo --baseUrl http://localhost:1313/
+
+default: build
 
 clean:
 	rm -fr ./public
@@ -16,9 +19,9 @@ clean:
 docker-image:
 	docker build -t hugo:latest .
 
-docker-html: docker-image
+travis-ci: docker-image
 	docker run -v $(PWD):/data -w /data \
-		hugo:latest make $(GIT_BRANCH)
+		hugo:latest make $(TRAVIS_BRANCH)
 
 develop:
 	@hugo --baseUrl http://beta.cevo.com.au/
