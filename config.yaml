@@ -9,6 +9,8 @@ enableRobotsTXT: true
 ignoreFiles:
   - \.disabled$
 
+googleAnalytics: "UA-85342414-1"
+
 params:
   name: Cevo Australia
   description: Cevo is an IT consultancy specialising in iterative software delivery, automation and devops
