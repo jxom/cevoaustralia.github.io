@@ -1,0 +1,152 @@
+languageCode: en-us
+title: Cevo
+theme: hugo-agency-theme
+
+PygmentsCodeFences: true
+PygmentsStyle: "trac"
+enableRobotsTXT: true
+
+ignoreFiles:
+  - \.disabled$
+
+googleAnalytics: "UA-85342414-1"
+
+params:
+  name: Cevo Australia
+  description: Cevo is an IT consultancy specialising in iterative software delivery, automation and devops
+  favicon: favicon.ico
+  disableFonts: false
+  error404:
+    heading: This is not the page you're looking for
+    text: Because there is nothing here
+
+  custom_css:
+    - css/post.css
+    - css/actions.css
+
+  featuredpath: img
+
+  taxonomies:
+    tag: tags
+    category: categories
+    testimonial_category: testimonials
+    case_category: cases
+
+  hero:
+    title: Software delivery solutions
+    subtitle: Engineered for you
+    buttonText: Show me how
+
+  navigation:
+    brand: Cevo Australia
+    logo: logo.png
+    services: Services
+    contact: Contact
+    about: About
+    casestudies: Case Studies
+    blog: Blog
+    partners: Partners
+    testimonials: Testimonials
+
+  casestudies:
+    title: Case Studies
+    subtitle: The outcomes our awesome clients have achieved
+
+  team:
+    center: true
+    title: Our team
+    subtitle: Meet the Cevo crew
+
+  services:
+    title: Services
+    subtitle: Delivering technology, sharing skills, building capability
+    row:
+    - list:
+      - icon: fa-gears
+        title: Engineering
+        description: >
+          Technology drives our organisations, so you might want to get good at it!
+          Sound engineering approaches are key to be able to scale, pivot and adapt
+          to changing customer needs based on feedback
+        url: '/engineering'
+
+      - icon: fa-cloud
+        title: Cloud
+        description: >
+          We assist organisations to build immutable cloud platforms,
+          migrate workloads to the cloud and automate environment provisioning
+          and deployments
+        url: '/cloud'
+
+      - icon: fa-compass
+        title: DevOps
+        description: >
+          We help our customers to create a DevOps culture and build, manage,
+          and optimise the continuous deployment pipeline, from source control
+          through testing to automated production releases
+        url: '/devops'
+
+  clients:
+    title: Our happy customers
+    center: true
+    list:
+      - link: https://www.aconex.com
+        logo: aconex.png
+      - link: https://www.rea-group.com
+        logo: rea.png
+      - link: https://www.monash.edu/
+        logo: monash.png
+      - link: https://www.myob.com/au
+        logo: myob.png
+      - link: https://www.irexchange.com
+        logo: irexchange.png
+      - link: https://www.urbanise.com
+        logo: urbanise.png
+      - link: https://www.tabcorp.com.au/
+        logo: tabcorp.png
+      - link: https://www.bluechain.com/
+        logo: bluechain.png
+      - link: http://www.catchgroup.com.au/
+        logo: catch-group.png
+      - link: https://www.equiem.com.au/
+        logo: equiem.png
+      - link: https://www.ioof.com.au/
+        logo: ioof.png
+      - link: https://www.iag.com.au
+        logo: iag.png
+
+  partners:
+    title: Our partnership
+    center: true
+
+  contact:
+    buttonText: Send message
+    email: sales@cevo.com.au
+    form:
+      email:
+        text: Your Email *
+        warning: Please enter your email address.
+      message:
+        text: Your Message *
+        warning: Please enter a message.
+      name:
+        text: Your Name *
+        warning: Please enter your name.
+      phone:
+        text: Your Phone *
+        warning: Please enter your phone number.
+    subtitle: We will get back to you within 24 hours.
+    title: Contact us
+
+  footer:
+    copyright: Cevo Australia 2017.
+    locations:
+      - Level 14, 303 Collins St, Melbourne VIC 3000
+      - Level 4, 20 Bond Street, Sydney NSW 2000
+    phone: 1300 518 265
+    quicklinks:
+    social:
+    - icon: fa-twitter
+      link: https://twitter.com/cevoaustralia
+    - icon: fa-linkedin
+      link: https://www.linkedin.com/company-beta/102015/

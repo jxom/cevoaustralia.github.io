@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head" . }}
+
+  <body id="page-top">
+    {{ partial "nav" . }}
+    <header class="hero small-header"></header>
+    <div class="container">
+      <h1>What our customers say about our services</h1>
+      {{ range .Data.Pages }}
+          {{ .Render "content-list" }}
+      {{ end }}
+    </div>
+    {{ partial "contact" . }}
+    {{ partial "footer" . }}
+    {{ partial "js" . }}
+  </body>
+</html>

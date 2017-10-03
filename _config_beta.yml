@@ -1,4 +1,0 @@
-url: "http://beta.cevo.com.au" # the base hostname & protocol for your site
-robots:
-  allow: "Disallow: /"
-

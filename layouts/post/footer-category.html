@@ -1,0 +1,42 @@
+
+<ul class="stats">
+    {{ if isset .Params "categories" }}
+        {{ $categoryCount := (len .Params.categories) }}
+
+        {{ if ge $categoryCount 1 }}
+            <li>
+                {{ if gt $categoryCount 1 }}
+                    Categories
+                {{ else }}
+                    Category
+                {{ end }}
+            </li>
+        {{ end }}
+
+        <!-- Display the categories associated with this post -->
+        {{ range .Params.categories }}
+            <li><a href='{{ add "/categories/" . | urlize }}'>{{ . }}</a></li>
+        {{ end }}
+    {{ end }}
+    {{ if isset .Params "tags" }}
+</ul>
+<ul><li/></ul>
+<ul class="stats">
+        {{ $tagsCount := (len .Params.tags) }}
+
+        {{ if ge $tagsCount 1 }}
+            <li>
+                {{ if gt $tagsCount 1 }}
+                    Tags
+                {{ else }}
+                    Tag
+                {{ end }}
+            </li>
+        {{ end }}
+
+        <!-- Display the categories associated with this post -->
+        {{ range .Params.tags }}
+            <li><a href='{{ add "/tags/" . | urlize }}'>{{ . }}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>

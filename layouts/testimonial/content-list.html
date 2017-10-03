@@ -1,0 +1,18 @@
+<article class="post">
+    <p>{{ .Content | markdownify }}</p>
+
+    <footer>
+        <ul class="actions">
+            <li>-- {{ .Params.author }}</li>
+            <li>{{ .Params.position }}</li>
+        </ul>
+    </footer>
+    <footer>
+        <ul class="stats">
+            <li>Category</li>
+            {{ with .Params.testimonials }}
+            <li><a href='{{ add "/testimonials/" . | urlize }}'>{{ . }}</a></li>
+            {{ end }}
+        </ul>
+    </footer>
+</article>

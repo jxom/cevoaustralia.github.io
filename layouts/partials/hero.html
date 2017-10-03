@@ -1,0 +1,22 @@
+{{ "<!-- Hero -->" | safeHTML }}
+<header class="hero">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
+      <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
+      <a href="#services" class=" btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+    </div>
+    <div class="testimonial-list">
+      <a href="{{ "/testimonial" | urlize }}">
+        {{ range where .Data.Pages "Section" "testimonial" }}
+            {{ if .Params.frontpage }}
+              <div class="testimonial">
+                <p>{{ .Content | markdownify }}</p>
+                <p>-- {{ .Params.author }}, {{ .Params.position }}</p>
+              </div>
+            {{ end }}
+        {{ end }}
+      </a>
+    </div>
+  </div>
+</header>
