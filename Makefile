@@ -30,6 +30,3 @@ master:
 	@hugo --baseUrl https://cevo.com.au/
 
 .PHONY: all clean dev alpha beta prod
-
-%: build
-	
