@@ -19,17 +19,19 @@
 
 * Run the site locally on [http://localhost:1313](http://localhost:1313)
   
-  `hugo serve`
-
+  `hugo serve` or use `make`
 
 ## Local development with docker
 
 * `docker-compose build dev`
 * `docker-compose up dev`
 
-## Build static html
+## Build static html 
 
-* `docker-compose build alpha`
-* `docker-compose run alpha`
+* `make docker-html`
 
-Output is now in `public` folder.
+  This will build in html like in CI based on your branch name. 
+
+* `hugo --baseUrl http://localhost:1313`
+
+  Output static html to `public` folder.

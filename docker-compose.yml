@@ -10,19 +10,3 @@ services:
       working_dir: /data
       ports:
         - "1313:1313"
-
-  alpha:
-      build: .
-      image: hugo:latest
-      command: make alpha
-      volumes:
-          - .:/data
-      working_dir: /data
-
-  beta:
-      build: .
-      image: hugo:latest
-      command: make beta
-      volumes:
-          - .:/data
-      working_dir: /data

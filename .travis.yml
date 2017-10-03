@@ -6,8 +6,7 @@ services:
 before_install:
   - docker pull python:3.6
 script:
-  - docker-compose build beta
-  - docker-compose run beta
+  - make docker-html
 deploy:
   - provider: s3
     on:

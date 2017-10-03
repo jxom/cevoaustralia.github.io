@@ -1,23 +1,29 @@
 BUCKET=cevo-hugo
+GIT_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
 
 dev:
 	@hugo serve --baseUrl http://localhost:1313/
 
+default: dev
+
 clean:
 	rm -fr ./public
 
-alpha: clean
-	@hugo --baseURL http://new.cevo.com.au/
+#
+# Docker build for TravisCI 
+#
 
-beta: clean
-	@hugo --baseURL http://beta.cevo.com.au
+docker-image:
+	docker build -t hugo:latest .
 
-prod: clean
-	@hugo --baseURL http://cevo.com.au
+docker-html: docker-image
+	docker run -v $(PWD):/data -w /data \
+		hugo:latest make $(GIT_BRANCH)
 
-upload:
-	@aws s3 cp --recursive public s3://$(BUCKET)/
+develop:
+	@hugo --baseUrl http://beta.cevo.com.au/
 
-default: dev
+master:
+	@hugo --baseUrl https://cevo.com.au/
 
 .PHONY: clean dev alpha beta prod
