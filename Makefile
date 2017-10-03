@@ -1,5 +1,5 @@
 BUCKET=cevo-hugo
-GIT_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
+GIT_BRANCH=$(shell git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 
 dev:
 	@hugo serve --baseUrl http://localhost:1313/
