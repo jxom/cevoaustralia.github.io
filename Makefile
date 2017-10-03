@@ -29,4 +29,7 @@ develop:
 master:
 	@hugo --baseUrl https://cevo.com.au/
 
-.PHONY: clean dev alpha beta prod
+.PHONY: all clean dev alpha beta prod
+
+%: build
+	
