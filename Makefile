@@ -1,11 +1,19 @@
-BUCKET=cevo-hugo
+BASE_URL?=http://localhost:1313/
 TRAVIS_BRANCH?=$(shell git rev-parse --abbrev-ref HEAD)
 
+ifeq ($(TRAVIS_BRANCH),develop)
+        BASE_URL=http://beta.cevo.com.au/
+endif
+
+ifeq ($(TRAVIS_BRANCH),master)
+        BASE_URL=http://cevo.com.au/
+endif
+
 run:
-	@hugo serve --baseUrl http://localhost:1313/
+	@hugo serve --baseUrl $(BASE_URL)
 
 build:
-	@hugo --baseUrl http://localhost:1313/
+	@hugo --baseUrl $(BASE_URL)
 
 default: build
 
@@ -21,12 +29,7 @@ docker-image:
 
 travis-ci: docker-image
 	docker run -v $(PWD):/data -w /data \
-		hugo:latest make $(TRAVIS_BRANCH)
-
-develop:
-	@hugo --baseUrl http://beta.cevo.com.au/
-
-master:
-	@hugo --baseUrl https://cevo.com.au/
+		-e BASE_URL=$(BASE_URL) \
+		hugo:latest make build
 
 .PHONY: all clean dev alpha beta prod

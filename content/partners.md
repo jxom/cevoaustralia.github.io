@@ -17,7 +17,7 @@ sisters:
       We love our work and are passionate about data and analytics. We produce
       solutions which give businesses actionable strategic insights fast; the technology
       is merely a vehicle to achieve the right outcome for our customers and this is ingrained
-      in our consultants.</br></br>
+      in our consultants.
       Use the past to track performance and to understand what happened and why it happened
       using modern and evolving practices to resolve conventional business intelligence problems.
       exposé offers clever architectures and responsive solutions that bring your organisation's

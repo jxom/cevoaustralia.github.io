@@ -69,25 +69,21 @@
 					white-space: nowrap;
 				}
 
-		.post > .image.featured {
+		.post > .featured img {
 			overflow: hidden;
 		}
 
-			.post > .image.featured img {
-				-moz-transition: -moz-transform 0.2s ease-out;
-				-webkit-transition: -webkit-transform 0.2s ease-out;
-				-ms-transition: -ms-transform 0.2s ease-out;
-				transition: transform 0.2s ease-out;
+			.post > .featured img {
 				width: 75%;
 				padding-bottom: 1em;
 			}
 
 			@media screen and (max-width: 980px) {
-				.post > .image.featured img {
+				.post > .featured img {
 					width: 100%
 				}
 			}
-			
+
 
 			.post > .image.featured:hover img {
 				-moz-transform: scale(1.05);
