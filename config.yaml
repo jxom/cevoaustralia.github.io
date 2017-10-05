@@ -24,8 +24,6 @@ params:
     - css/post.css
     - css/actions.css
 
-  featuredpath: img
-
   taxonomies:
     tag: tags
     category: categories
