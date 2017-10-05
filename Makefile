@@ -6,7 +6,7 @@ ifeq ($(TRAVIS_BRANCH),develop)
 endif
 
 ifeq ($(TRAVIS_BRANCH),master)
-        BASE_URL=http://cevo.com.au/
+        BASE_URL=https://cevo.com.au/
 endif
 
 run:
