@@ -180,7 +180,8 @@ people:
     desc:
       Melissa began her career in testing and quickly discovered the value of building quality in from inception.
       She has worked in a variety of roles, from Iteration Manager (IM), Quality Analyst, Product Owner and Release Lead.
-      Melissa champions cross-competency collaboration to achieve successful delivery of real value for the customer and has a passion for coaching and mentoring teams.    avatar: melissa_ngau.jpg
+      Melissa champions cross-competency collaboration to achieve successful delivery of real value for the customer and has a passion for coaching and mentoring teams.
+    avatar: melissa_ngau.jpg
     socials:
       - icon_class: fa fa-linkedin
         url: https://au.linkedin.com/in/melissangau
