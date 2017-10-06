@@ -13,7 +13,7 @@ url: devops/2017/10/06/intro_to_wpo.html
 ---
 This is an excerpt from a [talk](https://confengine.com/last-conference-melbourne-2017/proposal/4034/an-introduction-to-web-performance-optimisation-practical-steps-for-reducing-costs-and-improving-the-user-experience) I gave at [LASTConf Melbourne](https://www.lastconference.com/melbourne/) on Web Performance Optimisation.  
 
-In this short I discuss some of the benefits that web optimisation can bring to internal web pages, and what this means for our concentration and stress levels.
+In this short video I discuss some of the benefits that web optimisation can bring to internal web pages, and what this means for our concentration and stress levels.
 
 In the full talk, ([video](https://www.youtube.com/watch?v=EhPeK0TK7sE), [slides](https://docs.google.com/presentation/d/1hcDTkV9G0sAfqsFe3gw41iJXxiqUosaRfD2DGaHizSU/edit?usp=sharing)), I cover:
 
