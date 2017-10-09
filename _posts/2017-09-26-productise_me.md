@@ -20,7 +20,7 @@ The team had previously been known as the *Technology Automation* team. Strangel
 ### The challenge
 Unfortunately there were some problems with what automation the team had tried to provide in the past: changing priorities often left work unfinished and then, when things did get built, other teams didn't tend to use them.
 
-In addition to this, it seemed like the team was doing a lot of manual work for other teams. Things like getting firewall changes done or setting up Direct Connect for AWS accounts. The team didn't actually do the task, but knew who could, so often took it upon themselves to help coordinate these activities.
+In addition to this, it seemed like the team were doing a lot of manual work for other teams. Things like getting firewall changes done or setting up Direct Connect for AWS accounts. The team didn't actually do the task, but knew who could, so often took it upon themselves to help coordinate these activities.
 
 It seemed like there were two different types of work the team was trying to do.
 
@@ -63,7 +63,7 @@ For the cloud migration initiative, the customers were teams across the organisa
 We needed to make their life easier. We needed to build products that they wanted to use.
 
 ### Putting the customer first
-So far the team has built three products since Cevo engagement started.
+So far the team has built three products since the Cevo engagement started.
 
 Two of the products are being used in over 20 AWS accounts across the organisation while the third is being used by the team internally until the user experience is up to scratch. There are already two teams asking when it will be ready for them to use.
 
@@ -74,9 +74,9 @@ We have focused carefully on the user experience, in particular:
 
 ### Woodstock
 
-I'll use one of the products built as an example. We called it Woodstock and it's used aggregate CloudTrail logs.
+I'll use one of the products built as an example. We called it Woodstock and it's used to aggregate CloudTrail logs.
 
-Why Woodstock? Well that's were all the logs are kept! The accounts that send logs to Woodstock are called Lumberjacks. While the names may sound silly, it's one more thing that helps give life to what we built. Our customers always remember it too!
+Why Woodstock? Well that's where all the logs are kept! The accounts that send logs to Woodstock are called Lumberjacks. While the names may sound silly, it's one more thing that helps give life to what we built. Our customers always remember it too!
 
 At our client, any team running a workload in AWS must send their CloudTrail logs back on premises so they can be analysed for suspicious activity. Prior to Woodstock, each workload owner had to spend several weeks liaising with security to get Splunk integration sorted out.
 
