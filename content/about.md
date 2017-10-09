@@ -176,11 +176,11 @@ people:
 
   - name: Melissa Ngau
     sort: 2016-09-29
-    position: Quality Analysis Consultant
+    position: Customer Solutions & Delivery Consultant
     desc:
       Melissa began her career in testing and quickly discovered the value of building quality in from inception.
-      Now with over a decade of experience working in teams, she champions cross-competency collaboration to achieve this.
-      She is an avid girl geek and draws inspiration from people with the willingness and openness to learn.
+      She has worked in a variety of roles, from Iteration Manager (IM), Quality Analyst, Product Owner and Release Lead.
+      Melissa champions cross-competency collaboration to achieve successful delivery of real value for the customer, and has a passion for coaching and mentoring teams.
     avatar: melissa_ngau.jpg
     socials:
       - icon_class: fa fa-linkedin
