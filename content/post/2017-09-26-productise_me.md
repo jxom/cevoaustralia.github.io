@@ -60,6 +60,7 @@ I decided that software / infrastructure / SaaS / scripts / automation that the 
 My previous work as a BA has drummed into me that the most important thing to keep in mind when building any product is the customers. Ultimately they will determine the success or failure of any product. Who were our customers?
 
 For the cloud migration initiative, the customers were teams across the organisation that were:
+
 * Moving applications in the cloud.
 * Building new applications in the cloud.
 * Storing data in the cloud.
@@ -72,6 +73,7 @@ So far the team has built three products since Cevo engagement started.
 Two of the products are being used in over 20 AWS accounts across the organisation while the third is being used by the team internally until the user experience is up to scratch. There are already two teams asking when it will be ready for them to use.
 
 We have focused carefully on the user experience, in particular:
+
 * Is it easy to install?
 * Is it easy to use?
 * Is it easy to maintain?
@@ -85,6 +87,7 @@ Why Woodstock? Well that's were all the logs are kept! The accounts that send lo
 At our client, any team running a workload in AWS must send their CloudTrail logs back on premises so they can be analysed for suspicious activity. Prior to Woodstock, each workload owner had to spend several weeks liaising with security to get Splunk integration sorted out.
 
 To get Woodstock working takes about 10 minutes for a team. The process entails:
+
 1. Contact us on the #Woodstock slack channel with their AWS account number.
 2. Configure CloudTrail to point to the correct S3 bucket.
 
