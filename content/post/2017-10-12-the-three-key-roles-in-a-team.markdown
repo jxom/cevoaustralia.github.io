@@ -1,6 +1,6 @@
 ---
 title:  The three key roles in a successful delivery team - 3W1H
-description: There are three key roles in a successful delivery team. Ensuring you have a team that is structured with the three roles in mind can set you up from success.
+description: There are three key roles in a successful delivery team. Ensuring you have a team that is structured with the three roles in mind can set you up for success.
 date:   2017-10-12
 categories:
     - culture
