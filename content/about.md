@@ -179,7 +179,7 @@ people:
     position: Customer Solutions & Delivery Consultant
     desc:
       Melissa began her career in testing and quickly discovered the value of building quality in from inception.
-      She has worked in a variety of roles, from Iteration Manager (IM), Quality Analyst, Product Owner and Release Lead.
+      She has worked in a variety of roles, including Iteration Manager (IM), Quality Analyst, Product Owner and Release Lead.
       Melissa champions cross-competency collaboration to achieve successful delivery of real value for the customer, and has a passion for coaching and mentoring teams.
     avatar: melissa_ngau.jpg
     socials:
