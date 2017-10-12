@@ -11,7 +11,6 @@ author: Trent Hornibrook
 images: blog/team.jpg
 thumbnail: blog/team.jpg
 excerpt: 3W1H is short hand for The What, The Why, Then When & The How
-url: culture/devops/2017/10/12/the-three-key-roles-in-a-team.html
 ---
 
 Reflecting back on my professional work history, I have found that there are three equality important roles that make up a successful delivery team. These roles can be represented by what I called 3W1H, based on the shorthand 5W1H of <a href=https://en.wikipedia.org/wiki/Five_Ws>"Five Ws"</a>.
