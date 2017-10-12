@@ -1,14 +1,14 @@
 ---
 title:  Recognising the fallacy of a single root cause
 description: when something goes wrong it’s often tempting to attribute it to a single root cause
-date:   2017-10-10
+date:   2017-10-13
 categories:
     - devops
 tags:
     - devops
 author: Tom Partington
 excerpt: Think back to a successful deployment or a project and try and attribute the success to a single thing. It seems ridiculous, and that’s because it is. It’s easy to see that many things that had to go right for success.
-url: devops/2017/10/10/the-fallacy-of-single-root-cause.html
+url: devops/2017/10/13/the-fallacy-of-single-root-cause.html
 ---
 When something goes wrong it’s often tempting to attribute it to a single root cause:  
 
