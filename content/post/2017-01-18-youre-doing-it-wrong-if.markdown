@@ -13,8 +13,6 @@ thumbnail: blog/youre-doing-it-wrong-if.png
 date: 2017-01-18
 excerpt:
     We are all looking to learn from our failures and make things better, but sometimes it better to communicate what is right by eliminating what is wrong.<br/>
-    <br/>
-    <i>"When you have eliminated what's wrong, whatever remains, however improbable, must be right".</i>
 url: development/2017/01/18/youre-doing-it-wrong-if.html
 ---
 

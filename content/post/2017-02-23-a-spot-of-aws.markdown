@@ -12,9 +12,7 @@ images: blog/a-spot-of-aws.png
 thumbnail: blog/a-spot-of-aws.png
 date: 2017-02-23
 excerpt:
-    Have you considered using spot instances to save on AWS costs? It may pay to investigate the details of your operating environment first!
-
-    Andy and I took journey down a pricing rabbit hole...
+    It may pay to investigate the details of your operating environment first! Andy and I took journey down a pricing rabbit hole...
 url: aws/2017/02/23/a-spot-of-aws.html
 ---
 
