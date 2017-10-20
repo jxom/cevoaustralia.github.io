@@ -22,5 +22,5 @@ Cevo worked with this client to significantly enhance the events system with a f
 # Benefits
 
 The execution of this value add project surfaced several interesting learnings for the start-up:
-* The flexibility of their technology stack was improved in terms of what could be achieved from a user experience view as well the amount of time it took to make changes.
-* Spending the time on polishing features was worth the effort, as the new events system helped seal a contract with a new client.
+1. The flexibility of their technology stack was improved in terms of what could be achieved from a user experience view as well the amount of time it took to make changes.
+2. Spending the time on polishing features was worth the effort, as the new events system helped seal a contract with a new client.
