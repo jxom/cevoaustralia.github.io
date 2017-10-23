@@ -3,7 +3,7 @@ title: Watchman - Collaborating with Security and APRA to migrate applications t
 client: IAG
 clientLink: "#"
 cases: cloud
-img: IAG.png
+img: iag.png
 ---
 # Industry
 
