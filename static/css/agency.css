@@ -500,6 +500,7 @@ section h3.section-subheading {
     padding: 25px;
     text-align: center;
     background-color: #fff;
+    min-height: 140px;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
