@@ -1,10 +1,10 @@
 ---
-title: Amazon Web Services Review
-subtitle: Amazon Web Services usage review, validation & adaptation
+title: "CloudFormation and CloudWatch and CloudTrail: building skills in AWS"
+subtitle: Fully utilising the functionality of Amazon Web Services
 client: Financial Technology
-clientLink: #
+clientLink: https://www.bluechain.com
 cases: engineering
-img: aws.png
+img: bluechain.png
 ---
 
 # Industry
