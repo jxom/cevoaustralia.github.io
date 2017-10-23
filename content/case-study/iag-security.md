@@ -1,23 +1,28 @@
 ---
-title: Cloud Security & Compliance
+title: Watchman - Collaborating with Security and APRA to migrate applications to AWS
 client: IAG
 clientLink: "#"
 cases: cloud
-img: iag.png
+img: IAG.png
 ---
+# Industry
+
+Insurance services
 
 # Customer Overview
 
-IAG's businesses underwrite over $11.4 billion of premium per annum, selling insurance under many leading brands including NRMA Insurance, CGU, SGIO, SGIC, Swann Insurance and WFI (Australia); NZI, State, AMI and Lumley Insurance (New Zealand); Safety and NZI (Thailand); AAA Assurance (Vietnam); and Asuransi Parolamas (Indonesia). IAG also has interests in general insurance joint ventures in Malaysia and India. Standard & Poor’s has assigned a ‘Very Strong’ Insurer Financial Strength Rating of ‘AA-’ to the Group’s core operating subsidiaries.
+IAG sell insurance under many leading brands including NRMA Insurance, CGU, SGIO, SGIC, Swann Insurance and WFI (Australia); NZI, State, AMI and Lumley Insurance (New Zealand); Safety and NZI (Thailand); AAA Assurance (Vietnam); and Asuransi Parolamas (Indonesia).
 
 # Business Challenge
 
-IAG had approximately 100 applications sitting on physical servers with a strategic direction to migrate to AWS. Prior to this they needed to ensure that all environments met APRA regulations.
+IAG had approximately 100 applications sitting on physical servers with a strategic direction to migrate to AWS. Before this could begin, we needed to ensure that all environments met APRA regulations.
 
 # Solution
 
-IAG worked alongside APRA to document a list of compliance requirements. Two consultants were engaged to assist in writing 40 unique security policies which could run automatically across each environment and report on whether they were or were not compliant and specifically where. The successful result of this tool would then allow the business to confidently approve the migration of applications to pre-authorised environments.
+IAG and Cevo worked with APRA to clarify and document a list of compliance requirements. The team then wrote a tool called "Watchmen" that was governed by 40 unique security policies that would scan each environment and report on compliance with these policies. Where an environment did not conform to the security policies, the tool would report this exception and where the exception occurred.
 
 # Benefits
 
-The cloud migration had not yet commenced as it would previously take the security team weeks to manually check the compliance of any given AWS account with the environment changing by the time they had finished causing a need to re-check it. The policies built now automatically checks the environment daily removing the manual overhead and allowing the business to commence their migration to AWS.
+The migration had been delayed because of the time it would have taken for the security team weeks to manually check the compliance of any given AWS account. "Watchman" has allowed IAG to confidently approve the migration of applications to pre-authorised environments. Now IAG can move forward with their AWS migration knowing that "Watchman" automatically checks the environments daily ensuring continual compliance with security procedures and APRA.
+
+Both IAG and Cevo hope to open-source Watchman over the coming weeks and are working towards that end.
