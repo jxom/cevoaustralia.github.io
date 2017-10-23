@@ -4,6 +4,7 @@ subtitle: Customer-focused changes to the digital platform
 client: Start-up
 cases: engineering
 clientLink: "#"
+img: gold_book.png
 ---
 
 

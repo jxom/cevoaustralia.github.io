@@ -3,7 +3,7 @@ title: Cloud Security & Compliance
 client: IAG
 clientLink: "#"
 cases: cloud
-img: iag.png
+img: IAG.png
 ---
 
 # Customer Overview
