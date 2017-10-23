@@ -3,6 +3,7 @@ title: 20% Decrease in Load Time
 client: Online Employment Services
 clientLink: #
 cases: engineering
+img: hourglass.png
 ---
 
 # Industry
@@ -21,7 +22,7 @@ Jobs listed on our clients website contain links to the company profiles. Recent
 
 # Solution
 
-A replica of the production Content Delivery Network settings was built in a development account and investigated to steadily narrow down the root cause. Once identified a fix was trialed and tested with the positive response allowing a deployment to production.
+A replica of the production Content Delivery Network settings was built in a development account and investigated to steadily narrow down the root cause. Once identified a fix was trialled and tested with the positive response allowing a deployment to production.
 
 # Benefits
 
