@@ -26,4 +26,4 @@ A replica of the production Content Delivery Network settings was built in a dev
 
 # Benefits
 
-The improved responses from the Content Delivery Network reduced the average page load time of job postings by 20% within hours giving our clients customers a better front end User Experience. The findings were also documented and shared with the other clients delivery teams to ensure an improvement in future deployments.
+The improved responses from the Content Delivery Network reduced the average page load time of job postings by 20% within hours giving customers a better front end User Experience. The findings were also documented and shared with the all other delivery teams to ensure an improvement in future deployments.

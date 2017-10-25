@@ -1,9 +1,8 @@
 ---
 title: Data driven decision making - Investigating the benefits of AWS spot instances
 client: Insurance Company
-clientLink: "#"
 cases: devops
-img: aws.png
+img: piggy_bank.png
 ---
 # Industry
 

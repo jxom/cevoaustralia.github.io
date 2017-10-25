@@ -1,17 +1,20 @@
 ---
 title: Infrastructure Automation
-subtitle: Upgrade of infrastructure handling capability and understanding of cloud
-Tertiary Education Institution
-clientLink: "#"
+subtitle: Upgrade of infrastructure handling capability and understanding of cloud Tertiary Education Institution
+client: Tertiary Education Institution
 cases: devops
-img: aws.png
+img: cloud_servers.png
 ---
+
+# Industry
+
+Education
 
 # Customer Overview
 
-One of Australia’s largest and most international university offering undergraduate, postgraduate and research courses. It is also a research-intensive university, known for some significant and lasting discoveries that have delivered impact beyond the academic community.
+A large Australian University known for some significant and lasting discoveries that have delivered impact beyond the academic community.
 
-As a truly global institution, with five Australian campuses, a campus in Malaysia, a joint graduate school in China, a learning centre in Italy, and a research centre in India. University courses are also delivered at other locations, including at South Africa. At the university, cultural experiences are lived, not described.
+They are a global institution with several Australian campuses, and several other campuses in multiple continents.
 
 # Business Challenge
 

@@ -1,10 +1,9 @@
 ---
-title: ADFS Automation
-subtitle: Active Direction Federation Services automation with EC2 and CloudFormation
+title: ADFS Automation in AWS
+subtitle: Active Direction Federation Services automation in AWS
 client: A major gaming company
-clientLink: "#"
 cases: cloud
-img: aws.png
+img: aws_cloud.png
 ---
 # Customer Overview
 An ASX100 company and one of the largest publicly listed gambling companies in the world.
